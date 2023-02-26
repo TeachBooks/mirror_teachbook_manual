@@ -8,6 +8,9 @@ on:
       - "book/**"
       - ".github/workflows/**"
 
+permissions:
+  contents: write
+
 defaults:
   run:
     shell: bash
