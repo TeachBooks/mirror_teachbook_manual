@@ -1,7 +1,6 @@
 # Git
 
 
-
 ## Installation
 
 First, we need to install Git itself. 
@@ -35,7 +34,8 @@ When we want to visit the MUDE repositories on GitLab, we need to log in. The sa
 
     Press enter to use the default path. Keep note of this path, as we will need to visit it later on.
 
-3. You will now be asked to enter a passphrase, which is recommended but not required. After the command is done executing, it will generate two files: `id_ed25519` and `id_ed25519.pub`. The `.pub` file is the public part of the SSH-Key which we need.
+3. You will now be asked to enter a passphrase. You can give one, but you will be asked for it everytime you make a commit, so it's better to leave this field emtpy and use this key only for GitLab. After the command is done executing, it will generate two files: `id_ed25519` and `id_ed25519.pub`. The `.pub` file is the public part of the SSH-Key which we need.
+
 
 4. Go to [GitLab](https://gitlab.tudelft.nl) and log in. Click on your profile icon on the top-right of the page, then go to Preferences. In the menu on the left, go to SSH-Keys. You are now greeted with a screen that looks like this:
 
@@ -44,6 +44,10 @@ When we want to visit the MUDE repositories on GitLab, we need to log in. The sa
 
 5. Open the `id_ed25519.pub` file that we generated in step 2. Copy its contents and paste it in the 'Key' field of SSH-Keys menu. Give the key a Title and click 'Add key'. 
 
+    ```{note}
+    On MacOS, the `.ssh/` folder is hidden by default, so you won't be able to find it in finder. To show hidden files and folders, press **Command + Shift + .**
+    ```
+
 6. Now test the connection. Go to the terminal (Git Bash on windows) and type:
 
         ssh -vT git@gitlab.tudelft.nl
@@ -51,4 +55,6 @@ When we want to visit the MUDE repositories on GitLab, we need to log in. The sa
     You should get a huge output, but somewhere in that output it should say something like:
 
         Welcome to GitLab, <netid>!
+
+    
 
