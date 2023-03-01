@@ -56,5 +56,12 @@ When we want to visit the MUDE repositories on GitLab, we need to log in. The sa
 
         Welcome to GitLab, <netid>!
 
-    
+## Updating the local Git environment
 
+The final step is to provide a username and email address to Git, so our commits can be identified. To do this, type in the following command for the username:
+
+    git config --global user.name "<first name> <last name>"
+
+And type the following command to set the email address:
+
+    git config --global user.email "<your TU Delft email>"
