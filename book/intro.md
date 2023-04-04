@@ -9,6 +9,7 @@ Robert created this list to keep track of things that should be in our manual. E
 - use the right HTML tags for images (described {ref}`here <image-tag-example>`)
 - watch out for `png` versus `PNG`
 - trick for creating download link for PDFs (see Archive weekly summary pages); requires an `eval-rst` admonition, which can't be placed inside some objects (maybe someone can test this, and see if an inline option is available)
+- 2 interesting comments from Quinten about MyST extensions in [this GL Issue](https://gitlab.tudelft.nl/mude/archive-2022/-/issues/25#note_163123)
 
 (image-tag-example)=
 ### Example of image tag
