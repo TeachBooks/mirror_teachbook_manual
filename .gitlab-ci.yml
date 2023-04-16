@@ -2,6 +2,7 @@ image: python:3.10-slim
 
 stages:
   - build
+  - deploy
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
@@ -25,3 +26,10 @@ jupyter-build:
   script:
     - pip install -r requirements.txt
     - jupyter-book build book/
+
+push-html:
+  stage: deploy
+  only:
+    - main
+  script:
+    - git clone "https://RobOt:$ACCESS_TOKEN@gitlab.tudelft.nl/$CI_PROJECT_PATH.git"
