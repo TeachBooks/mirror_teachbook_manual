@@ -6,6 +6,3 @@ parts:
     chapters:
     - file: git-setup
     - file: vscode-setup
-  - caption: Jupyter Book
-    chapters:
-    - file: jupyter-book
