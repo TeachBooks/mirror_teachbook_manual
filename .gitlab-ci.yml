@@ -35,6 +35,8 @@ push-html:
   only:
     - main
   before_script:
+    - apt-get update -y
+    - apt-get install rsync -y
     - git fetch origin publish-html
     - git checkout publish-html
   script:
