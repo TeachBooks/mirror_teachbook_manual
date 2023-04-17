@@ -37,10 +37,11 @@ push-html:
   before_script:
     - apt-get update -y
     - apt-get install rsync -y
+    - git remote add origin https://gitlab-ci-token:$ACCESS_TOKEN@gitlab.tudelft.nl/$CI_PROJECT_PATH.git
     - git fetch origin publish-html
     - git checkout publish-html
   script:
     - rsync -av --delete book/_build/html/* ./.
     - git add --all -- ':!book/*' ':!.cache/*'
     - git commit -m "$CI_COMMIT_MESSAGE"
-    - git push https://gitlab-ci-token:$ACCESS_TOKEN@gitlab.tudelft.nl/$CI_PROJECT_PATH.git origin publish-html
+    - git push origin publish-html
