@@ -38,4 +38,4 @@ push-html:
     - git fetch origin publish-html
     - git checkout publish-html
   script:
-    - git status
+    - rsync -av --delete book/_build/html/* ./.
