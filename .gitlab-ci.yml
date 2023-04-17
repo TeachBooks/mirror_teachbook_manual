@@ -31,5 +31,8 @@ push-html:
   stage: deploy
   only:
     - main
-  script:
+  before_script:
+    - git fetch origin publish-html
     - git checkout publish-html
+  script:
+    - git status
