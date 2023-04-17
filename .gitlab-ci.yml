@@ -26,6 +26,9 @@ jupyter-build:
   script:
     - pip install -r requirements.txt
     - jupyter-book build book/
+  artifacts:
+    paths:
+      - book/_build/html/
 
 push-html:
   stage: deploy
