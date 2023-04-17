@@ -32,4 +32,4 @@ push-html:
   only:
     - main
   script:
-    - git clone "https://RobOt:$ACCESS_TOKEN@gitlab.tudelft.nl/$CI_PROJECT_PATH.git"
+    - git checkout publish-html
