@@ -43,7 +43,7 @@ push-html:
     - git fetch origin publish-html
     - git checkout publish-html
   script:
-    - rsync -av --delete book/_build/html/* ./.
-    - git add --all -- ':!book/*' ':!.cache/*'
-    - git commit -m "$CI_COMMIT_MESSAGE"
+    - rsync -av --delete-after --exclude=".git/" --exclude=".cache/" ./book/_build/html/ .
+    - git add --all -- ':!.cache/*'
+    - git commit --allow-empty -m "$CI_COMMIT_MESSAGE"
     - git push https://gitlab-ci-token:$ACCESS_TOKEN@gitlab.tudelft.nl/$CI_PROJECT_PATH.git publish-html
