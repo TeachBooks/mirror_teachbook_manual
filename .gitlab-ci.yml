@@ -19,7 +19,7 @@ before_script:
   - virtualenv venv
   - source venv/bin/activate
 
-jupyter-build:
+build-book:
   stage: build
   only:
     - main
