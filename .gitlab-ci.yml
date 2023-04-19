@@ -1,6 +1,7 @@
 image: python:3.10-bullseye
 
 stages:
+  - test
   - build
   - deploy
 
@@ -12,16 +13,28 @@ cache:
     - .cache/pip
     - venv/
 
+# Before running other jobs, setup Python
 before_script:
   - python -V
   - pip install virtualenv
   - virtualenv venv
   - source venv/bin/activate
 
+# This job tests if the book compiles gracefully after a new addition
+test-build:
+  stage: test
+  only:
+    - main
+  script:
+    - pip install -r requirements.txt
+    - jupyter-book clean book/
+    - jupyter-book build book/
+
+# This job builds the HTML when it gets pushed to the publish branch
 build-book:
   stage: build
   only:
-    - main
+    - publish
   script:
     - pip install -r requirements.txt
     - jupyter-book clean book/
@@ -30,10 +43,11 @@ build-book:
     paths:
       - book/_build/html/
 
+# This job commits the built HTML to the publish-html branch
 push-html:
   stage: deploy
   only:
-    - main
+    - publish
   before_script:
     - apt-get update -y
     - apt-get install rsync -y
