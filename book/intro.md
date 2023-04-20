@@ -1,6 +1,6 @@
 # Home
 
-This is an introduction to Git, VS Code and Jupyter Books for teachers of MUDE. Topics that are covered include: installing Git and VS Code, setting up SSH-keys for GitLab, the basic structure of Jupyter Books and basic Git workflows. 
+This is an introduction to Git, VS Code and Jupyter Books for teachers and teaching assistants involved in the CiTG Jupyter Book project. Topics that are covered include: installing Git and VS Code, setting up SSH-keys for GitLab, the basic structure of Jupyter Books and basic Git workflows. 
 
 ## List of things to add
 
@@ -27,3 +27,6 @@ is not supported. but the `img` tag is:
 <img src="...">
 ```
 see examples [here](https://jupyterbook.org/en/stable/content/figures.html) (no `figure` tag mentioned for HTML, only Markdown) 
+
+## Contact
+If you encouter any issues, please contact Caspar Jungbacker (c.a.a.jungbacker@tudelft.nl).
