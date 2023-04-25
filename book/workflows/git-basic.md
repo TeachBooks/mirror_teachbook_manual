@@ -6,10 +6,10 @@ In this section you will learn how to perform basic Git actions in VS Code. Cour
 Git is a version control system (VCS). In short, a VCS is a tool that helps you keep track of changes to you codebase (e.g., a Jupyter Book project!) over time. It allows you to keep track of the history of changes made to your code, work collaboratively with others, and revert to a previous version of the code if needed. 
 
 ## What is GitLab?
-GitLab is platform that hosts Git repositories, which can also be accessed through a web interface. Essentially, GitLab hosts the main repository that the members of a project interact with. Additionally, GitLab has plenty of other useful features such as issue tracking and code review. A selection of these features that are particularly useful for us as Jupyter Book developers will be highlighted in a [later section](gitlab).
+GitLab is platform that hosts Git repositories, which can also be accessed through a web interface. Essentially, GitLab hosts the main repository that the members of a project interact with. Additionally, GitLab has plenty of other useful features such as issue tracking and code review. A selection of these features that are particularly useful for us as Jupyter Book developers will be highlighted in a {ref}`later section <gitlab>.
 
 ## Terminology
-This is a (non-exhaustive) list of Git-related terminology that will be used throughout this section:
+This is a (non-exhaustive) list of terminology that will be used throughout this section:
 
 - Repository: a collection of files and folders, along with a history of their changes and who made them. 
 - Commit: a snapshot of the current state of the repository.

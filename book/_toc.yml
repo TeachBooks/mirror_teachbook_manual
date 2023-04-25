@@ -11,3 +11,4 @@ parts:
     - file: workflows/git-basic
       sections:
       - file: workflows/stage-commit-push
+    - file: workflows/gitlab
