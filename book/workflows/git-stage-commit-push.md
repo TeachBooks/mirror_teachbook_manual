@@ -1,3 +1,4 @@
+(stage-commit-push)=
 # Staging, committing and pushing
 
 Suppose we are writing a new chapter, or are updating an existing chapter for our Jupyter Book. We've created a new branch on which we are going to make the changes, and we've checked out this branch (make sure this is really the case by checking the name of the current branch in the bottom-left corner of your VS Code window!).
