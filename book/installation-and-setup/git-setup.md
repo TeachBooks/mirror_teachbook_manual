@@ -13,7 +13,7 @@ First, we need to install Git itself.
 ````{tab} MacOS
 Open up a terminal window. Then, type the command `git`. If Git has been installed already, it will output some help. If Git has not been installed, you will get a pop-up that looks something like this:
 
-```{figure} images/install-Xcode-CLT.png
+```{figure} ../images/install-Xcode-CLT.png
 ```
 
 Click on `install`. The installation may take a couple of minutes. Once it's finished, check if everything has been installed correctly by exectuting `git` again.
@@ -39,7 +39,7 @@ When we want to visit the MUDE repositories on GitLab, we need to log in. The sa
 
 4. Go to [GitLab](https://gitlab.tudelft.nl) and log in. Click on your profile icon on the top-right of the page, then go to Preferences. In the menu on the left, go to SSH-Keys. You are now greeted with a screen that looks like this:
 
-```{figure} images/gitlab-ssh-screen.png
+```{figure} ../images/gitlab-ssh-screen.png
 ```
 
 5. Open the `id_ed25519.pub` file that we generated in step 2. Copy its contents and paste it in the 'Key' field of SSH-Keys menu. Give the key a Title and click 'Add key'. 
