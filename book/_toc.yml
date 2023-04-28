@@ -6,3 +6,6 @@ parts:
     chapters:
     - file: installation-and-setup/git-setup
     - file: installation-and-setup/vscode-setup
+  - caption: Cookbook
+    chapters:
+    - file: cookbook/recipes.md
