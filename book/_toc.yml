@@ -10,6 +10,7 @@ parts:
     chapters:
     - file: workflows/git-basic
       sections:
+      - file: workflows/git-clone
       - file: workflows/git-branch
       - file: workflows/git-stage-commit-push
     - file: workflows/gitlab
