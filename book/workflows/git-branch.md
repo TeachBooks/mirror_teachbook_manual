@@ -1,3 +1,4 @@
+(git-branch)=
 # Branches
 
 Branches are a very useful feature of Git. Branches allow you to work on multiple versions of your codebase simultaneously; you create a copy of your codebase, on which you can work independently of the main codebase. Some advantages of working with branches are:
