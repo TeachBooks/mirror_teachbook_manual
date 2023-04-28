@@ -13,4 +13,8 @@ parts:
       - file: workflows/git-clone
       - file: workflows/git-branch
       - file: workflows/git-stage-commit-push
+      - file: workflows/git-merge
+      - file: workflows/git-advanced
+        sections: 
+        - file: workflows/git-merge-conflict
     - file: workflows/gitlab
