@@ -10,5 +10,6 @@ parts:
     chapters:
     - file: workflows/git-basic
       sections:
-      - file: workflows/stage-commit-push
+      - file: workflows/git-branch
+      - file: workflows/git-stage-commit-push
     - file: workflows/gitlab
