@@ -1,0 +1,8 @@
+{
+    "LiteBuildConfig": {
+        "federated_extensions": [
+            "https://github.com/jupyterlite/pyodide-kernel/releases/download/v0.0.5/jupyterlite_pyodide_kernel-0.0.5-py3-none-any.whl"
+        ],
+        "ignore_sys_prefix": true
+    }
+}
