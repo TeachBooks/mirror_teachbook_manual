@@ -1,2 +1,4 @@
 jupyter-book
 sphinx-inline-tabs
+jupyterlite-xeus-python
+jupyterlite-sphinx
