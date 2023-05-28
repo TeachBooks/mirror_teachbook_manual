@@ -3,7 +3,8 @@
         "packages": [
             "numpy",
             "matplotlib",
-            "ipywidgets"
+            "ipywidgets",
+            "scipy"
         ]
     }
 }
