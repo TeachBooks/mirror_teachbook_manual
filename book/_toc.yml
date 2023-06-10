@@ -14,5 +14,4 @@ parts:
       sections:
       - file: cookbook/jupyterlite/configuration
       - file: cookbook/jupyterlite/including-jupyterlite
-      - file: cookbook/jupyterlite/jupyterlite-gallery
 
