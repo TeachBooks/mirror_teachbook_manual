@@ -65,3 +65,7 @@ The final step is to provide a username and email address to Git, so our commits
 And type the following command to set the email address:
 
     git config --global user.email "<your TU Delft email>"
+
+## Configuring Git Bash
+
+Git Bash is a shell (also referred to as "the terminal") that is automatically installed with git. It provides Unix-like commands on a Windows OS, and is recommended for working with open source projects like Jupyter (for example `pip install`, building Jupyter books, using Git Bash in VS Code, etc). To do this, `conda` needs to be setup properly; this is described in the {ref}`instructions for setting up VS Code <vscode-setup-bash>`.

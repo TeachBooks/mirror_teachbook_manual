@@ -7,6 +7,18 @@ parts:
     - file: installation-and-setup/git-setup
     - file: installation-and-setup/vscode-setup
     - file: installation-and-setup/jupyter-book-setup
+  - caption: Workflows
+    chapters:
+    - file: workflows/git-basic
+      sections:
+      - file: workflows/git-clone
+      - file: workflows/git-branch
+      - file: workflows/git-stage-commit-push
+      - file: workflows/git-merge
+      - file: workflows/git-advanced
+        sections: 
+        - file: workflows/git-merge-conflict
+    - file: workflows/gitlab
   - caption: Cookbook
     chapters:
     - file: cookbook/recipes.md
