@@ -4,7 +4,7 @@ There are three different `JupyterLite` directives that you can include in your 
 
 1. `retrolite`: this embeds the old Jupyter Notebook environment in your page. This is a good one if you want students to program things on you page, since it allows students to edit and execute cells.
 2. `jupyterlite`: this embeds a JupyterLab environment in your page. 
-3. `replite`: this variant provides an environment similar to the regular `IPython` kernel. This is probably the best solution if you want to include small, interactive pieces of content, like a plot with sliders. 
+3. `replite`: this variant provides an environment similar to the regular `IPython` kernel. 
 
 Below are examples demonstrating how to include each variant. Note that the `jupyterlite-sphinx extension` is designed for use with `.rst` files (Restructured Text). Luckily, `MyST` provides a convenient directive that allows us to include Restructured Text content in a regular `.md` file. 
 
@@ -68,7 +68,7 @@ Here is the final result:
 
 ## `replite`
 
-This is probably the cleanest solution when you want to do something simple, like a `matplotlib` plot with some `ipywidgets` sliders. The `replite` directive provides a REPL environment (Read-Evaluate-Print-Loop) that is very similar to `IPython` in the terminal. Here's how you can include it:
+The `replite` directive provides a REPL environment (Read-Evaluate-Print-Loop) that is very similar to `IPython` in the terminal. Here's how you can include it:
 
     ```{eval-rst}
     .. replite::
