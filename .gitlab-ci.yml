@@ -52,7 +52,7 @@ push-html:
     - publish
   before_script:
     - apt-get update -y
-    - apt-get install rsync -y
+    - apt-get install rsync git -y
     - git config --global user.name "$GITLAB_USER_NAME"
     - git config --global user.email "$GITLAB_USER_EMAIL"
     - git fetch origin publish-html
