@@ -1,4 +1,4 @@
-image: python:3.10-bullseye
+image: continuumio/miniconda:latest
 
 stages:
   - test
@@ -11,14 +11,14 @@ variables:
 cache:
   paths:
     - .cache/pip
-    - venv/
 
-# Before running other jobs, setup Python
+# Before running other jobs, setup the Anaconda environment
 before_script:
   - python -V
-  - pip install virtualenv
-  - virtualenv venv
-  - source venv/bin/activate
+  - conda env create -f environment.yml
+  - conda init bash
+  - source ~/.bashrc
+  - conda activate jupyter-book-env
 
 # This job tests if the book compiles gracefully after a new addition
 test-build:

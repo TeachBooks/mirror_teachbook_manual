@@ -8,3 +8,6 @@ execute:
 sphinx:
   extra_extensions:
   - sphinx_inline_tabs
+  - jupyterlite_sphinx
+  config:
+    jupyterlite_config:  jupyterlite-config.json

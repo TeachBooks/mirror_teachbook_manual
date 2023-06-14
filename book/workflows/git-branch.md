@@ -54,6 +54,6 @@ The branch selection menu, where our new branch has shown up.
 
 If your repository is located in the [Interactive Textbooks CiTG](https://gitlab.tudelft.nl/interactivetextbooks-citg) group on GitLab, it is likely that it already has some predefined branches in addition to `main`, namely `publish` and `publish-html`. These branches serve the following purposes:
 
-- `main`: this is the main development branch on which new changes are collected. If you're working on 
+- `main`: this is the main development branch on which new changes are collected. When the work on your own branch is done, you make a merge request to add your changes to `main`. This branch is protected, meaning that all changes to this branch have to be done via merge requests and you cannot push to it directly.
 - `publish`: this is the version of the book that is visible to the public (i.e., the version that the students will see). Again, you cannot push directly to this branch. 
 - `publish-html`: this branch contains the HTML of the version of the book that lives on the `publish` branch. When a new version of the book is merged in the `publish` branch, the new book is built using the `jupyter book build` command and the HTML is uploaded to `publish-html`. The webserver is constantly fetching this branch and pulling any incoming changes.
