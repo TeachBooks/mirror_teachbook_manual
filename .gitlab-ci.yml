@@ -46,6 +46,7 @@ build-book:
 
 # This job commits the built HTML to the publish-html branch
 push-html:
+  image: ubuntu:20.04
   stage: deploy
   only:
     - publish
