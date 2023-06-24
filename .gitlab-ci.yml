@@ -7,7 +7,10 @@ stages:
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
-
+  REGISTRY_HOST: localhost:5000
+  TAG_LATEST: $REGISTRY_HOST/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME:latest
+  TAG_COMMIT: $REGISTRY_HOST/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME:$CI_COMMIT_SHORT_SHA
+  
 cache:
   paths:
     - .cache/pip
@@ -31,33 +34,28 @@ test-build:
     - jupyter-book clean book/
     - jupyter-book build book/
 
-# This job builds the HTML when it gets pushed to the publish branch
 build-book:
   stage: build
-  only:
-    - publish
+  rules:
+    - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
   script:
-    - pip install -r requirements.txt
     - jupyter-book clean book/
     - jupyter-book build book/
   artifacts:
+    expire_in: 30 days
     paths:
       - book/_build/html/
 
-# This job commits the built HTML to the publish-html branch
-push-html:
-  stage: deploy
-  only:
-    - publish
+build-container:
+  image: docker
+  stage: build
+  rules:
+    - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
+  needs:
+    - build-book
   before_script:
-    - apt-get update -y
-    - apt-get install rsync -y
-    - git config --global user.name "$GITLAB_USER_NAME"
-    - git config --global user.email "$GITLAB_USER_EMAIL"
-    - git fetch origin publish-html
-    - git checkout publish-html
+    - docker info
   script:
-    - rsync -av --delete-after --exclude=".git/" --exclude=".cache/" --exclude="venv/" ./book/_build/html/ .
-    - git add --all -- ':!.cache/*'
-    - git commit --allow-empty -m "$CI_COMMIT_MESSAGE"
-    - git push https://gitlab-ci-token:$ACCESS_TOKEN@gitlab.tudelft.nl/$CI_PROJECT_PATH.git publish-html
+    - docker build -t $TAG_COMMIT -t $TAG_LATEST
+    - docker push $TAG_COMMIT
+    - docker push $TAG_LATEST
