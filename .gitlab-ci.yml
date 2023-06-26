@@ -69,8 +69,8 @@ update-website:
   rules:
     - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
   script:
-    - docker-compose pull -f /etc/web_server/docker-compose.yml $CI_PROJECT_NAME
-    - docker-compose up -f /etc/web_server/docker-compose.yml -d
+    - docker compose pull -f /etc/web_server/docker-compose.yml $CI_PROJECT_NAME
+    - docker compose up -f /etc/web_server/docker-compose.yml -d
   environment:
     name: production
     url: https://interactivetextbooks.citg.tudelft.nl/
