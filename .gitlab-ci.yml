@@ -56,6 +56,6 @@ build-container:
   before_script:
     - docker info
   script:
-    - docker build -t $TAG_COMMIT -t $TAG_LATEST
+    - docker build -t $TAG_COMMIT -t $TAG_LATEST .
     - docker push $TAG_COMMIT
     - docker push $TAG_LATEST
