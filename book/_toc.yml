@@ -26,4 +26,4 @@ parts:
       sections:
       - file: cookbook/jupyterlite/configuration
       - file: cookbook/jupyterlite/including-jupyterlite
-
+    - file: cookbook/h5p.md
