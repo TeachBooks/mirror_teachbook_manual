@@ -3,7 +3,6 @@ image: continuumio/miniconda:latest
 stages:
   - test
   - build
-  - deploy
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
@@ -62,14 +61,6 @@ build-container:
     - docker build -t $TAG_COMMIT -t $TAG_LATEST .
     - docker push $TAG_COMMIT
     - docker push $TAG_LATEST
-
-update-website:
-  image: docker
-  stage: deploy
-  rules:
-    - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
-  script:
-    - docker compose up -d
   environment:
     name: production
     url: https://interactivetextbooks.citg.tudelft.nl/
