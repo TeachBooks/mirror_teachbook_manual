@@ -9,6 +9,11 @@ There are three different `JupyterLite` directives that you can include in your 
 Below are examples demonstrating how to include each variant. Note that the `jupyterlite-sphinx extension` is designed for use with `.rst` files (Restructured Text). Luckily, `MyST` provides a convenient directive that allows us to include Restructured Text content in a regular `.md` file. 
 
 
+```{admonition} Note
+:class: tip
+This feature doesn't display in a book that is viewed locally via your browser, unless you set up a local webserver (instructions [here](setup-local-server)).
+```
+
 ## `retrolite`
 
 To embed a Jupyter Notebook environment in your book, include the following directive:

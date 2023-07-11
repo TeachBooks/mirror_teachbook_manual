@@ -7,7 +7,13 @@
 
 The embed link is created for an exercise under 'More'- 'Embed Exercise'
 
-This iframe can be embedded into your Jupyter book. Remark: it doesn't display locally in VScode or in the build file, only on the hosted version. The code shown above gives:
+This iframe can be embedded into your Jupyter book. 
+
+```{admonition} Note
+:class: tip
+This feature doesn't display in a book that is viewed locally via your browser, unless you set up a local webserver (instructions [here](setup-local-server)).
+```
+The code shown above gives:
 <iframe height="560" src="https://embed.grasple.com/exercises/767782d5-023a-4b49-a1f3-874fca626c8e?id=79907" title="Grasple Exercise 79907" width="100%" allow="clipboard-read; clipboard-write"></iframe>
 
 More information on Grasple and the support of TU Delft can be found on: [Teaching Support - Educational Tools - Grasple](https://www.tudelft.nl/en/teaching-support/educational-tools/grasple)
