@@ -36,26 +36,20 @@ test-build:
 
 build-book:
   stage: build
-  rules:
-    - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
-  script:
-    - jupyter-book clean book/
-    - jupyter-book build book/
-  artifacts:
-    expire_in: 30 days
-    paths:
-      - book/_build/html/
-
-build-container:
   image: docker
-  stage: build
   rules:
     - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
-  needs:
-    - build-book
   before_script:
     - docker info
   script:
-    - docker build -t $TAG_COMMIT -t $TAG_LATEST
-    - docker push $TAG_COMMIT
+    - docker build -t $TAG_LATEST
     - docker push $TAG_LATEST
+
+deploy-book:
+  stage: deploy
+  image: docker
+  rules:
+    - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
+  script:
+    - docker compose -f /etc/web_server/docker-compose.yml pull
+    - docker compose -f /etc/web_server/docker-compose.yml up -d --no-deps manual
