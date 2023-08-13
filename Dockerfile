@@ -1,3 +1,8 @@
-FROM httpd:latest
-
-COPY ./book/_build/html /usr/local/apache2/htdocs
+FROM continuumio/miniconda3
+WORKDIR /book
+COPY book/ .
+RUN apt-get update && apt-get -y install git gcc
+COPY requirements.txt requirements.txt
+RUN pip install -r requirements.txt
+RUN jupyter book build .
+ENTRYPOINT [ "python", "-m", "http.server", "8000", "--directory", "_build/html" ]
