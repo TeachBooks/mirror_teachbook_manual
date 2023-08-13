@@ -22,8 +22,9 @@ parts:
   - caption: Cookbook
     chapters:
     - file: cookbook/recipes.md
+    - file: cookbook/grasple.md
     - file: cookbook/jupyterlite/jupyterlite
       sections:
       - file: cookbook/jupyterlite/configuration
       - file: cookbook/jupyterlite/including-jupyterlite
-
+    - file: cookbook/h5p.md
