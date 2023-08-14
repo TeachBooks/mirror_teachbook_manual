@@ -51,3 +51,6 @@ deploy-book:
     - docker stop $CI_PROJECT_NAME
     - docker rm $CI_PROJECT_NAME
     - docker run -d -p 8000:8000 --name $CI_PROJECT_NAME $TAG_LATEST
+  environment:
+    name: production
+    url: https://interactivetextbooks.citg.tudelft.nl/$CI_PROJECT_NAME
