@@ -39,7 +39,7 @@ build-book:
   before_script:
     - docker info
   script:
-    - docker build -t $TAG_LATEST
+    - docker build -t $TAG_LATEST .
     - docker push $TAG_LATEST
 
 deploy-book:
