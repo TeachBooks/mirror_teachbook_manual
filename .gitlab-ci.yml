@@ -48,5 +48,6 @@ deploy-book:
   rules:
     - if: $CI_COMMIT_BRANCH == "publish" && $CI_PIPELINE_SOURCE == "push"
   script:
-    - docker compose -f /etc/web_server/docker-compose.yml pull
-    - docker compose -f /etc/web_server/docker-compose.yml up -d --no-deps manual
+    - docker stop $CI_PROJECT_NAME
+    - docker rm $CI_PROJECT_NAME
+    - docker run -d -p 8000:8000 --name $CI_PROJECT_NAME $TAG_LATEST
