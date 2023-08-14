@@ -3,7 +3,6 @@ image: continuumio/miniconda:latest
 stages:
   - test
   - build
-  - deploy
 
 variables:
   PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
