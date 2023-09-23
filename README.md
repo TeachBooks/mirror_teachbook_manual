@@ -5,4 +5,3 @@ A short introduction to Git, VSCode and Jupyter Books for teachers and TA's. Cur
 ## Contributing
 
 Feedback is always welcome. If something doesn't work, or if you have suggestions, you can always make an issue on the Issue Board or make a Merge Request. 
-
