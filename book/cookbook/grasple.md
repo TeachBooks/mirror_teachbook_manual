@@ -21,6 +21,10 @@ More information on Grasple and the support of TU Delft can be found on: [Teachi
 ## Replace iframe by QR code for printed version
 Dani Balague Guardia created an [extension](https://github.com/dbalague/sphinx-grasple) which allows you to easily add Grasple question with some formatting and, more importantly, the creation of QR codes in the PDF version of the page. This leads to the source link of the iframe.
 
+This extension can be installed by running
+
+`pip install git+https://github.com/dbalague/sphinx-grasple`
+
 The grasple exercise as shown above can now be added as follows in your markdown file:
 ```markdown
 ::::{grasple}
