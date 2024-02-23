@@ -9,7 +9,7 @@ parts:
     - file: installation-and-setup/jupyter-book-setup
   - caption: Features
     chapters:
-    - file: features
+    - file: features/overview
       sections:
       - file: features/hypothesis
       - file: features/remove_from_publish
