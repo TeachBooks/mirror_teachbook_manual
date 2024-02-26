@@ -23,6 +23,7 @@ parts:
       - file: workflows/gitlab
   - caption: Features
     chapters:
+    - file: basic-features/overview
     - file: features/overview
       sections:
       - file: features/hypothesis
@@ -34,7 +35,6 @@ parts:
         - file: features/jupyterlite/configuration
         - file: features/jupyterlite/including-jupyterlite
       - file: features/h5p.md
-    - file: basic-features/overview
   - caption: Examples
     chapters:
     - file: examples/overview
