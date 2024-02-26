@@ -9,4 +9,4 @@ Robert created this list to keep track of things that should be in our manual. E
 
 
 ## Contact
-If you encouter any issues, please contact Tom van Woudenberg, Robert Lanzafame or one of our TAs Caspar Jungbacker or Julie Kirsch at books-CEG@tudelt.nl.
+If you encouter any issues, please contact Tom van Woudenberg, Robert Lanzafame or one of our TAs Caspar Jungbacker or Julie Kirsch at books-CEG@tudelft.nl.
