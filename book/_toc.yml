@@ -34,6 +34,7 @@ parts:
         - file: features/jupyterlite/configuration
         - file: features/jupyterlite/including-jupyterlite
       - file: features/h5p.md
+    - file: basic-features/overview
   - caption: Examples
     chapters:
     - file: examples/overview
