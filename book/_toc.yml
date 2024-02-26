@@ -2,35 +2,38 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Installation and Setup
+  - caption: How to (start to) work and collaborate on your book
     chapters:
-    - file: installation-and-setup/git-setup
-    - file: installation-and-setup/vscode-setup
-    - file: installation-and-setup/jupyter-book-setup
+    - file: installation-and-setup/overview
+      sections:
+      - file: installation-and-setup/git-setup
+      - file: installation-and-setup/vscode-setup
+      - file: installation-and-setup/jupyter-book-setup
+    - file: workflows/overview
+      sections:
+      - file: workflows/git-basic
+        sections:
+        - file: workflows/git-clone
+        - file: workflows/git-branch
+        - file: workflows/git-stage-commit-push
+        - file: workflows/git-merge
+        - file: workflows/git-advanced
+          sections: 
+          - file: workflows/git-merge-conflict
+      - file: workflows/gitlab
   - caption: Features
     chapters:
     - file: features/overview
       sections:
       - file: features/hypothesis
       - file: features/remove_from_publish
-  - caption: Workflows
+      - file: features/recipes.md
+      - file: features/grasple.md
+      - file: features/jupyterlite/jupyterlite
+        sections:
+        - file: features/jupyterlite/configuration
+        - file: features/jupyterlite/including-jupyterlite
+      - file: features/h5p.md
+  - caption: Examples
     chapters:
-    - file: workflows/git-basic
-      sections:
-      - file: workflows/git-clone
-      - file: workflows/git-branch
-      - file: workflows/git-stage-commit-push
-      - file: workflows/git-merge
-      - file: workflows/git-advanced
-        sections: 
-        - file: workflows/git-merge-conflict
-    - file: workflows/gitlab
-  - caption: Cookbook
-    chapters:
-    - file: cookbook/recipes.md
-    - file: cookbook/grasple.md
-    - file: cookbook/jupyterlite/jupyterlite
-      sections:
-      - file: cookbook/jupyterlite/configuration
-      - file: cookbook/jupyterlite/including-jupyterlite
-    - file: cookbook/h5p.md
+    - file: examples/overview
