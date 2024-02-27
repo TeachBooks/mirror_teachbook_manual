@@ -24,11 +24,12 @@ parts:
   - caption: Features
     chapters:
     - file: basic-features/overview
+      sections:
+      - file: basic-features/recipes.md
     - file: features/overview
       sections:
       - file: features/hypothesis
       - file: features/remove_from_publish
-      - file: features/recipes.md
       - file: features/grasple.md
       - file: features/jupyterlite/jupyterlite
         sections:
