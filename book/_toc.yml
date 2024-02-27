@@ -37,8 +37,6 @@ parts:
         - file: features/jupyterlite/including-jupyterlite
       - file: features/custom_toc.md
       - file: features/custom_download.md
-      - file: features/h5p_examples.md
-      - file: features/theory_questions.md
       - file: features/h5p.md
       - file: features/live_code.md
         sections:
@@ -49,8 +47,11 @@ parts:
   - caption: Examples
     chapters:
     - file: examples/overview
+    - file: examples/h5p_examples.md
+    - file: examples/theory_questions.md
     - file: examples/interactive_templates.md
       sections:
       - file: examples/example_gumbel.ipynb
       - file: examples/example_quiz_interactive.ipynb
+      - file: examples/coding_theory_widgets.ipynb
       - file: examples/parametric_questions.ipynb
