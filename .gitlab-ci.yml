@@ -16,7 +16,7 @@ cache:
 # This job tests if the book compiles gracefully after a new addition
 test-build:
   stage: test
-  image: python:3.11-bullseye
+  image: continuumio/miniconda3
   rules:
     - if: $CI_PIPELINE_SOURCE == "merge_request_event"
   script:
