@@ -18,11 +18,11 @@ This type of user requires only very basic knowledge in GitLab in order to make 
 
 ### 4. Colleague making adjustments to non-interactive content locally
 
-This user has more knowledge in GitLab than the previous user and can basically take care of branching and merging by themselves. They know how to work with software for editing .md and .ipynb files. The trickty part however is implementing interactive features in the book as they definetly require more knowledge on implementation and testing using a local python server or in the draft version online. 
+This user has more knowledge in GitLab than the previous user and can basically take care of branching and merging by themselves. They know how to work with software for editing .md and .ipynb files. They can use the draft book online to view their changed in the book, or build the book locally. The tricky part however is implementing interactive features in the book as they definitely require more knowledge on implementation and testing using a local python server or in the draft version online. 
 
 ### 5. Colleague making adjustments to all content locally
 
-This user has an understanding of GitLab and can independetly make changes on the website built through Jupyter Books. Moreove they have an understanding of various extensions that allows them to make the pages interactive for the student.
+This user has an understanding of GitLab and can independently make changes on the website built through Jupyter Books. Moreover they have an understanding of various extensions that allows them to make the pages interactive for the student.
 
 ### Summary 
 
@@ -34,5 +34,5 @@ The following table will link the relevant installation and setup steps for you.
 | Type 1<br>Type 2 | No software needed!<br>Just open your interactive book and navigate to the extension | [Extension Tutorial](comments-extension.md) |
 | Type 3 | Git & GitLab | [Git](git-setup.md) |
 | Type 4 | GitLab<br>GitHub Desktop / VS Code<br>Plus maybe Anaconda, Python, knowledge on how to make environments?<br>Jupyter book | [Git](git-setup.md)<br>[GitHub Desktop](git-setup.md)<br>[VS Code](vscode-setup.md)         |
-| Type 5 | GitLab<br>GitHub Desktop / VS Code<br>Jupyter Book<br> Extensions | [Git](git-setup.md)<br>[GitHub Desktop](git-setup.md)<br>[VS Code](vscode-setup.md) <br>[Jupter Book]()<br>[Extensions](/book/features/overview.md) |
+| Type 5 | GitLab<br>GitHub Desktop / VS Code<br>Jupyter Book<br> Extensions | [Git](git-setup.md)<br>[GitHub Desktop](git-setup.md)<br>[VS Code](vscode-setup.md) <br>[Jupyter Book](jupyter-book-setup)<br>[Extensions](../features/overview.md) |
 
