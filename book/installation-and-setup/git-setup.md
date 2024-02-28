@@ -1,4 +1,4 @@
-# Git
+# What is Git and how do I set it up
 
 
 ## Installation
