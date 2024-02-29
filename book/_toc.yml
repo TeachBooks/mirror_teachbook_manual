@@ -21,6 +21,7 @@ parts:
           sections: 
           - file: workflows/git-merge-conflict
       - file: workflows/gitlab
+      - file: workflows/github
   - caption: Features
     chapters:
     - file: basic-features/overview
