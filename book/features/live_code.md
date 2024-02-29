@@ -6,7 +6,6 @@ Our book has been enable to run Python code live in the browser (thanks Max!). T
 To set up the Python live coding you need to add our [own sphinx-thebe extension](https://gitlab.tudelft.nl/interactivetextbooks-citg/extensions/sphinx-thebe) to your book. The original sphinx thebe extension doesn't run smoothly and reliable. Therefore, you need to add some lines to `requirements.txt` and `_config.yml`
 
 For `requirements.txt` add the following lines:
-https://gitlab.tudelft.nl/interactivetextbooks-citg/extensions/sphinx-thebe
 ```
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
 sphinx-thebe == 0.2.1000
