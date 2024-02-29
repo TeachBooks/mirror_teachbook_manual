@@ -2,7 +2,7 @@
 
 To get started making your Jupyter Book with our functionalities, fork our template book https://github.com/PSOR-Books/template :
 
-![alt text](../images/image-1.png)
+![alt text](../images/image.png)
 
 Fill in a repository name, this name will be used in the future url of your book:
 
