@@ -1,7 +1,14 @@
 # What is Git and how do I set it up
 
+## What is Git?
 
-## Installation
+Git is a version control system (VCS), used by a wide variety of engineers and software developers to work on projects in parallel together. It provides multiple benefits such as tracking changes to files, working side by side with other people, and the ability to rollback to previous versions of files without losing track of newer changes. It is a free and open sources software.
+
+## What is GitLab?
+
+GitLab is a cloud-based version control system built around git. It provides a lot more features such as Issues, Merge Requests, CI/CD pipelines, etc. TU Delft has a license to use GitLab on our own local webservers—this means that all of the files are stored digitally on the TU Delft campus, rather than some unkown webserver that could be physically located in an unsafe location. This is also why we have our “own” GitLab located at gitlab.tudelft.nl, rather than the “normal” GitLab at gitlab.com.
+
+## Installing Git
 
 First, we need to install Git itself. 
 
@@ -69,3 +76,7 @@ And type the following command to set the email address:
 ## Configuring Git Bash
 
 Git Bash is a shell (also referred to as "the terminal") that is automatically installed with git. It provides Unix-like commands on a Windows OS, and is recommended for working with open source projects like Jupyter (for example `pip install`, building Jupyter books, using Git Bash in VS Code, etc). To do this, `conda` needs to be setup properly; this is described in the {ref}`instructions for setting up VS Code <vscode-setup-bash>`.
+
+## More on GitLab
+
+To get to know more about working in GitLab and getting familiar with its features, click [here](/jupyter-book-manual/book/workflows/overview.md) or watch this [video](https://www.youtube.com/watch?v=1SBtM3znviU&t=1s)!

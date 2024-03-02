@@ -8,8 +8,8 @@ parts:
       sections:
       - file: installation-and-setup/user-types
       - file: installation-and-setup/git-setup
-      - file: installation-and-setup/git-lab
-      - file: installation-and-setup/comments-extension
+      - file: installation-and-setup/extension
+      - file: installation-and-setup/git-hub-desktop
       - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/jupyter-book-setup
     - file: workflows/overview
