@@ -1,4 +1,4 @@
-# Examples H5p
+# H5p
 
 This page shows some examples of H5p questions.
 
