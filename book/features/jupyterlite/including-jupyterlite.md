@@ -1,4 +1,4 @@
-# Adding `JupyterLite` to a page
+# How to add `JupyterLite` to a page
 
 There are three different `JupyterLite` directives that you can include in your web page:
 

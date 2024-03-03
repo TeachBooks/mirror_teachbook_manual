@@ -1,4 +1,4 @@
-# Embedding Grasple question
+# Grasple questions
 
 [Grasple](https://app.grasple.com/) gives you an embed code for each exercise which looks like this, which can be added cirectly to your markdown-file.
 ```html
