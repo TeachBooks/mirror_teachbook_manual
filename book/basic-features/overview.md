@@ -1,11 +1,16 @@
 # Basic Features
 
-```{warning} Under Construction!
+A short description on basic features is given here. An overview of the basic features is given here:
+- Figures
+- Videos
+- Equations
+- Code blocks to produce figures
+- References
+- Code
+- Notebooks
 
-This page will provide a list of some commonly used book features which are all available in the original jupyter book package. However, this page includes best-practises on how to use them.
-```
 
-Things to include somewhere:
+Things to be aware of:
 - use the right HTML tags for images (described {ref}`here <image-tag-example>`)
 - watch out for `png` versus `PNG`
 - 2 interesting comments from Quinten about MyST extensions in [this GL Issue](https://gitlab.tudelft.nl/mude/archive-2022/-/issues/25#note_163123)
