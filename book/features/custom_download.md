@@ -16,9 +16,7 @@ The download link {fa}`download` -->  {fa}`file`{guilabel}`.ipynb` can be replac
 ```
 ````
 
-An explanation of the options of this command is given on https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer. This extension can be downloaded by running
-
-`pip install git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer`
+An explanation of the options of this command is given on https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer.
 
 A potential application of this functionality is when creating a page in which students have to do some coding. Downloading the page allows the student to save their work and work with their local environment. However, the original source file might include code (jupyterbook formatting, widgets, answers) which is not necessary for students. You can make a copy of the notebook file without these elements and replace the {fa}`file`{guilabel}`.ipynb` link to this custom notebook file. Furthermore, you can add any additional data as an additional {fa}`file`{guilabel}`.zip` file. 
 
@@ -26,7 +24,7 @@ A potential application of this functionality is when creating a page in which s
 ### Installation instructions
 To make use of this functionality, you have to install the `download_link_replace` package by running the following line in your command line:
 ```
-git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
+pip install git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
 ```
 
 Furthermore, you should add the following line to `requirements.txt`
