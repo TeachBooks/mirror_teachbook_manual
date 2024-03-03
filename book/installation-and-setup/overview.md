@@ -21,4 +21,4 @@ The following table will link the relevant installation and setup steps for you.
 | Type 1<br>Type 2 | No software needed!<br>Just open your interactive book and navigate to the extension | [Extension Tutorial](extension.md) |
 | Type 3 | Git & GitLab | [Git](git-setup.md) |
 | Type 4 | Git & GitLab<br>GitHub Desktop<br>VS Code<br>Python Environments<br>Jupyter book | [Git](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Jupyter Book](jupyter-book-setup)         |
-| Type 5 | Git & GitLab<br>GitHub Desktop<br>VS Code<br>Jupyter Book<br> Extensions | [Git](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Jupyter Book](jupyter-book-setup)<br>[Extensions](../features/overview.md) |
+| Type 5 | Git & GitLab<br>GitHub Desktop<br>VS Code<br>Python Environments<br>Jupyter Book<br> Extensions | [Git](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Jupyter Book](jupyter-book-setup)<br>[Extensions](../features/overview.md) |
