@@ -1,6 +1,6 @@
 # Basic Features
 
-A short description on basic features is given here. An overview of the basic features is given here:
+A short description on basic features is given here:
 - Figures
 - Videos
 - Equations
