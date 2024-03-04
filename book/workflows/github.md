@@ -29,6 +29,17 @@ Wait a few minutes for the website to be deployed, if you're curious, have a loo
 
 ![alt text](../images/image-8.png)
 
-When the workflow has finished, visit your build book at https://<username>.github.io/<repository_name> (case sensitive). For our example it is: https://dummystudent-Tom.github.io/My_own_book:
+When the workflow has finished, visit your build book at `https://<username>.github.io/<repository_name>` (case sensitive). For our example it is: [https://dummystudent-Tom.github.io/My_own_book](https://dummystudent-Tom.github.io/My_own_book) :
 
 ![alt text](../images/image-9.png)
+
+---
+
+It is possible to have multiple versions of a book published at once, by creating another Git branch (e.g. `draft` or `dev`).
+For each branch, the respective book is published at `https://<username>.github.io/<bookname>/<branchname>`.
+Technical note: for convenience, just `.../<bookname>/` redirects to `.../<bookname>/book/`, which is itself an alias (a symlink) for 
+`.../<bookname>/main/`.
+
+To learn more about how we do this, please see the [GitHub Actions documentation](https://docs.github.com/en/actions) and our deployment pipeline configuration file `.github/workflows/deploy-book-ghpages.yml` [here](https://github.com/TeachBooks/template/blob/main/.github/workflows/deploy-book-ghpages.yml).
+
+

@@ -134,3 +134,4 @@ _contents/
 
 # Jupyterlite
 _output/
+book/.jupyterlite.doit.db
