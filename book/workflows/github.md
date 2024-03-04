@@ -29,7 +29,7 @@ Wait a few minutes for the website to be deployed, if you're curious, have a loo
 
 ![alt text](../images/image-8.png)
 
-When the workflow has finished, visit your build book at `https://<username>.github.io/<repository_name>` (case sensitive). For our example it is: https://dummystudent-Tom.github.io/My_own_book:
+When the workflow has finished, visit your build book at `https://<username>.github.io/<repository_name>` (case sensitive). For our example it is: https://dummystudent-Tom.github.io/My_own_book :
 
 ![alt text](../images/image-9.png)
 
