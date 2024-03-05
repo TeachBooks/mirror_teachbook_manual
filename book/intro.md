@@ -4,4 +4,4 @@ This is an introduction to Git, VS Code and Jupyter Books for teachers and teach
 
 
 ## Contact
-If you encouter any issues, please contact Tom van Woudenberg, Robert Lanzafame or one of our TAs Caspar Jungbacker or Julie Kirsch at books-CEG@tudelft.nl.
+If you encouter any issues, please contact Tom van Woudenberg, Robert Lanzafame or one of our TAs Caspar Jungbacker or Julie Kirsch at TeachBooks@tudelft.nl.
