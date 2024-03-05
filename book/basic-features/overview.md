@@ -1,4 +1,4 @@
-# Basic Features
+# Basic Jupyter Book Features
 
 ```{warning} Under Construction!
 
