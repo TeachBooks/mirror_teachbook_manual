@@ -42,7 +42,7 @@ If you push to main, you can test the interactivity on the book-draft website as
 With the extended functionality of live code, additional cell tags have been developed to be added to cells in any .ipynb file, next to the [existing tags] of the jupyter book (https://jupyterbook.org/en/stable/content/metadata.html):
 - `disable-execution-cell` disables the ability to execute the cell when thebe is activated. This might be useful if you notebook file includes interactivity for only a part of the coding cells
 - `disable-execution-page` disables the ability to execute the entire page. This might be useful if you use python code for creating a page, but the code is not part of the actual content of the book.
-- `auto-execute-page` automatically starts the thebe live coding functionality whenever the page is opened. This is particularly useful if you're using widgets on a page. At this moment, this tags doesn't work in combination with `thebe-remove-input-init`
+- `auto-execute-page` automatically starts the thebe live coding functionality whenever the page is opened. This is particularly useful if you're using widgets on a page.
 - `thebe-init` directly starts running this cell as soon as the thebe live coding functionality starts.
 - `thebe-remove-input-init`, as `thebe-init`, starts the cell directly as soon as the thebe live coding functionality starts. However, the input is not shown to the students (in static and interactive mode). The original `remove-input` tag will not work as it deletes the entire cell, so it can never be executed.
 
