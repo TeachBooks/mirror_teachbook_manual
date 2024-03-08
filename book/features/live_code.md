@@ -8,7 +8,7 @@ To set up the Python live coding you need to add our [own sphinx-thebe extension
 For `requirements.txt` add the following lines:
 ```
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-sphinx-thebe == 0.2.1000
+sphinx-thebe ~= 0.9.9
 ```
 This will download the correct version of the sphinx extension when the book is build on the server (which loads the required packages from `requirements.txt`)
 
