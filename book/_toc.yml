@@ -8,20 +8,20 @@ parts:
       sections:
       - file: installation-and-setup/extension
       - file: installation-and-setup/git-setup
-      - file: installation-and-setup/git-hub-desktop
+      - file: installation-and-setup/git-setup_local
+        sections:
+        - file: installation-and-setup/git-clone
+        - file: installation-and-setup/git-branch
+        - file: installation-and-setup/git-stage-commit-push
+        - file: installation-and-setup/git-merge
       - file: installation-and-setup/vscode-setup
+      - file: installation-and-setup/anaconda
+      - file: installation-and-setup/add_conda_to_path
+      - file: installation-and-setup/working-directory
+      - file: installation-and-setup/environments
       - file: installation-and-setup/jupyter-book-setup
     - file: workflows/overview
-      sections:
-      - file: workflows/git-basic
-        sections:
-        - file: workflows/git-clone
-        - file: workflows/git-branch
-        - file: workflows/git-stage-commit-push
-        - file: workflows/git-merge
-        - file: workflows/git-advanced
-          sections: 
-          - file: workflows/git-merge-conflict
+      sections:    
       - file: workflows/gitlab
       - file: workflows/github
   - caption: Features
