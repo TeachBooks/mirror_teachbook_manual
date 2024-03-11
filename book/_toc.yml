@@ -14,11 +14,11 @@ parts:
         - file: installation-and-setup/git-branch
         - file: installation-and-setup/git-stage-commit-push
         - file: installation-and-setup/git-merge
+      - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/anaconda
       - file: installation-and-setup/add_conda_to_path
       - file: installation-and-setup/working-directory
       - file: installation-and-setup/environments
-      - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/jupyter-book-setup
     - file: workflows/overview
       sections:    
