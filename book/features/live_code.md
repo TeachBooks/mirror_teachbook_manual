@@ -15,7 +15,11 @@ This will download the correct version of the sphinx extension when the book is 
 Afterwards, this sphinx extension needs to be enabled in your book. This can be done by adding the following lines to `_config.yml`:
 
 ```
+launch_buttons:
+  thebe: true
+
 sphinx:
+  config:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     thebe_config:
@@ -23,10 +27,27 @@ sphinx:
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
       launch_buttons:
-          thebe: true
+        thebe: true
 ```
 
-The `html_js_files` link calls for some required javascript files. `use_thebe_lite` makes sure you initiate our adapted sphinx thebe extensions. The `exclude_patterns` makes sure you import all files so that they can be accessed from your code, except for the files matching the patterns shown. By `launch_buttons` you initiate the {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of every page generated from a `.ipynb` file. As opposed to the jupyter book documentation, this button has to be specified from within `sphinx: html_theme_options` where you might also specify other buttons as well (ie. the [code repository button](https://jupyterbook.org/en/stable/basics/repository.html)).
+The `html_js_files` link calls for some required javascript files. `use_thebe_lite` makes sure you initiate our adapted sphinx thebe extensions. The `exclude_patterns` makes sure you import all files so that they can be accessed from your code, except for the files matching the patterns shown. By `launch_buttons` you initiate the {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of every page generated from a `.ipynb` file. 
+
+Note, if you're messing around with `html_theme_options` (for example when adding more buttons), all button behaviour is affected. In that case, as opposed to the jupyter book documentation, all buttons have to be specified from within `sphinx: html_theme_options` where you might also specify other buttons as well (ie. the [code repository button](https://jupyterbook.org/en/stable/basics/repository.html)).
+
+```
+sphinx:
+  config:
+    html_js_files:
+    - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
+    thebe_config:
+      use_thebe_lite: true
+      exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+    html_theme_options:
+      repository_url: "hello!"
+      use_repository_button: true
+      launch_buttons:
+        thebe: true
+```
 
 ## Instructions: local build
 
