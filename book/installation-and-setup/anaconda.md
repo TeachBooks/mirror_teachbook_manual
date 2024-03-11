@@ -1,6 +1,6 @@
 # Anaconda
 
-However, before you can create an evironment you first need to install Anaconda. 'Anaconda's conda tool simplifies package and environment management across operating systems' (Anaconda.com), such as windows or MacOS. It makes getting started with python a lot easier because it already has a lot of useful python packages pre-installed. You can download the installation files [here](https://www.anaconda.com/download).
+Before you can start using python in your book, you need Anaconda. 'Anaconda's conda tool simplifies package and environment management across operating systems' (Anaconda.com), such as windows or MacOS. It makes getting started with python a lot easier because it already has a lot of useful python packages pre-installed. You can download the installation files [here](https://www.anaconda.com/download).
 
 When installing Anaconda, keep in mind the following:
 
