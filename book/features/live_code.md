@@ -25,9 +25,6 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
-    html_theme_options:
-      launch_buttons:
-        thebe: true
 ```
 
 The `html_js_files` link calls for some required javascript files. `use_thebe_lite` makes sure you initiate our adapted sphinx thebe extensions. The `exclude_patterns` makes sure you import all files so that they can be accessed from your code, except for the files matching the patterns shown. By `launch_buttons` you initiate the {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of every page generated from a `.ipynb` file. 
