@@ -23,4 +23,3 @@ The following table will link the relevant installation and setup steps for you.
 | | Type 4 | Understanding Git & GitLab<br>Local and remote repositeries with GitHub Desktop<br>Edit using VS Code<br>Anaconda<br>Working with directories<br>Python Environments<br>Python package: Jupyter book | [Git & GitLab](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Anaconda](anaconda.md)<br>[Working directories](working-directory.md)<br>[Environments](environments.md)<br>[Jupyter Book](jupyter-book-setup)         |
 |<img src="figures/type 5.jpg" alt="Example Image" width="150"/>| Type 5 | All sections of user type 4 are also relevant for user type 5.<br>With the addition of using extensions to create interactive features! |[Features](../features/overview.md) |
 
-
