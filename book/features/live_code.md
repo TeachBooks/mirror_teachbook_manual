@@ -8,25 +8,25 @@ To set up the Python live coding you need to add our [own sphinx-thebe extension
 For `requirements.txt` add the following lines:
 ```
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-sphinx-thebe == 0.2.1000
+sphinx-thebe ~= 0.9.9
 ```
 This will download the correct version of the sphinx extension when the book is build on the server (which loads the required packages from `requirements.txt`)
 
 Afterwards, this sphinx extension needs to be enabled in your book. This can be done by adding the following lines to `_config.yml`:
 
 ```
-launch_buttons:
-  thebe: true
-
 sphinx:
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+    html_theme_options:
+      launch_buttons:
+          thebe: true
 ```
 
-By `launch_buttons` you initiate the {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of every page generated from a `.ipynb` file. The `html_js_files` link calls for some required javascript files. `use_thebe_lite` makes sure you initiate our adapted sphinx thebe extensions. The `exclude_patterns` makes sure you import all files so that they can be accessed from your code, except for the files matching the patterns shown.
+The `html_js_files` link calls for some required javascript files. `use_thebe_lite` makes sure you initiate our adapted sphinx thebe extensions. The `exclude_patterns` makes sure you import all files so that they can be accessed from your code, except for the files matching the patterns shown. By `launch_buttons` you initiate the {fa}`rocket` --> {guilabel}`Live Code` on the top right corner of every page generated from a `.ipynb` file. As opposed to the jupyter book documentation, this button has to be specified from within `sphinx: html_theme_options` where you might also specify other buttons as well (ie. the [code repository button](https://jupyterbook.org/en/stable/basics/repository.html)).
 
 ## Instructions: local build
 
