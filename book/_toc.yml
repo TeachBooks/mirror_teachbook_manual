@@ -9,6 +9,8 @@ parts:
       - file: installation-and-setup/extension
       - file: installation-and-setup/git-setup
       - file: installation-and-setup/git-hub-desktop
+      - file: installation-and-setup/anaconda
+      - file: installation-and-setup/working-directory
       - file: installation-and-setup/environments
       - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/jupyter-book-setup

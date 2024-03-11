@@ -16,9 +16,11 @@ Different types of users will interact with the website or the Jupyter Books dif
 Now that the types of users have been explained, you might have an idea which type corresponds to you! <br>
 The following table will link the relevant installation and setup steps for you.
 
-|<div style="width:120px">User Types</div>|<div style="width:400px">Needed Software</div>|<div style="width:150px">Installation</div>|
-|:---:|:---|:---|
-| Type 1<br>Type 2 | No software needed!<br>Just open your interactive book and navigate to the extension | [Extension Tutorial](extension.md) |
-| Type 3 | Git & GitLab | [Git](git-setup.md) |
-| Type 4 | Git & GitLab<br>GitHub Desktop<br>VS Code<br>Python Environments<br>Jupyter book | [Git](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Jupyter Book](jupyter-book-setup)         |
-| Type 5 | Git & GitLab<br>GitHub Desktop<br>VS Code<br>Python Environments<br>Jupyter Book<br> Extensions | [Git](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Jupyter Book](jupyter-book-setup)<br>[Extensions](../features/overview.md) |
+||<div style="width:120px">User Types</div>|<div style="width:400px">Relevant Sections</div>|<div style="width:150px">Installation</div>|
+|:---:|:---:|:---|:---|
+|<img src="figures/type 1.jpg" alt="Example Image" width="150"/>| Type 1<br>Type 2 | No software needed!<br>Just open your interactive book and navigate to the extension | [Extension Tutorial](extension.md) |
+| | Type 3 | Understanding Git & GitLab | [Git & GitLab](git-setup.md) |
+| | Type 4 | Understanding Git & GitLab<br>Local and remote repositeries with GitHub Desktop<br>Edit using VS Code<br>Anaconda<br>Working with directories<br>Python Environments<br>Python package: Jupyter book | [Git & GitLab](git-setup.md)<br>[GitHub Desktop](git-hub-desktop.md)<br>[VS Code](vscode-setup.md)<br>[Anaconda](anaconda.md)<br>[Working directories](working-directory.md)<br>[Environments](environments.md)<br>[Jupyter Book](jupyter-book-setup)         |
+|<img src="figures/type 5.jpg" alt="Example Image" width="150"/>| Type 5 | All sections of user type 4 are also relevant for user type 5.<br>With the addition of using extensions to create interactive features! |[Features](../features/overview.md) |
+
+
