@@ -42,7 +42,7 @@ sphinx-thebe ~= 0.9.9
 # lastly any packages you wish to download directly from a Git repository
 download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
 ```
-This file needs to be manually updated by the team everytime a new package is required. It will be useful to routinely update the packages in your environment by downloading the required packages again. 
+This file needs to be manually updated by the team everytime a new package is required. It will be useful to routinely update the packages in your environment by downloading the required packages again. The packages used by sphinx-thebe or JupyterLite-Sphinx are not influenced by `requirements.txt`.
 
 This can be done by typing the following in your terminal (in the right environment): `pip install -r requirements.txt`.
 
