@@ -28,16 +28,19 @@ Moreover, if you are joining a team that is working on complex projects, it can 
 Here's an example of what a `requirements.txt` file might look like.
 
 ```
-jupyter-book
-sphinx-inline-tabs
-jupyterlite-xeus-python
-jupyterlite-sphinx
+# first list the packages you wish to download from PyPI
+sympy
 
---extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
-sphinx-thebe == 0.2.1000
+# now list the packages (and the respective url) you wish to download from the GitLab package registry
+--index-url https://__token__:glpat-JduurUdhDczFJzvzZN4G@gitlab.tudelft.nl/api/v4/projects/13957/packages/pypi/simple
+teachbooks
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/17983/packages/pypi/simple
-jupyterbook_patches == 0.1.2
-download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer@dlr-0.1.2
+jupyterbook_patches ~= 0.1.4
+--extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
+sphinx-thebe ~= 0.9.9
+
+# lastly any packages you wish to download directly from a Git repository
+download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
 ```
 This file needs to be manually updated by the team everytime a new package is required. It will be useful to routinely update the packages in your environment by downloading the required packages again. 
 
