@@ -8,13 +8,13 @@ parts:
       sections:
       - file: installation-and-setup/extension
       - file: installation-and-setup/git-setup
+      - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/git-setup_local
         sections:
         - file: installation-and-setup/git-clone
         - file: installation-and-setup/git-branch
         - file: installation-and-setup/git-stage-commit-push
         - file: installation-and-setup/git-merge
-      - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/anaconda
       - file: installation-and-setup/add_conda_to_path
       - file: installation-and-setup/working-directory
