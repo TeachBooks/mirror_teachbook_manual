@@ -1,4 +1,4 @@
-# CEG-book Features
+#TeachBooks Features
 
 We collect a suite of existing open-source software and keep our books up-to-date so you don't have to! Some of the software is developed with our TA's to improve the learning experience of our students and ease the book-development process for our teachers. By deploying these tools from a central location we can prevent common problems before they arise, and fix them quickly when they do occur. As the open-source software landscape changes rapidly, it is esential to keep in contact and share resources amongst ourselves to minimize maintenance and downtime for our book websites and focus on what really matters: teaching!
 
@@ -22,14 +22,4 @@ Overview of features covered:
     - How to add `JupyterLite` to a page
 
 To see examples for these features, go to the Example chapter.
-
-The {guilabel}`books-CEG` label indicates a feature developed by us.
-
-List:
-- sphinx-thebe int {guilabel}`books-CEG`
-- figure inverter
-- one
-- two 
-- free
-- look at me!
 
