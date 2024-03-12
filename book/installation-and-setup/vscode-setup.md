@@ -16,7 +16,7 @@ When working with Jupyter Book (or Notebooks in general), these extensions are h
 
 ## Using the Terminal in VS Code (Windows only)
 
-By default, Powershell is the default terminal used in VS Code. However, Git Bash is recommended because it provides Unix-like commands, making it much easier to find help on sites like Stack Exchange. It also works better with open source projects like Jupyter. Git Bash installs automatically with git; to set as default:
+By default, Powershell is the default terminal used in VS Code. However, Git Bash is recommended because it provides Unix-like commands, making it much easier to find help on sites like Stack Exchange. It also works better with open source projects like Jupyter. Git Bash installs automatically with git which you'll learn in the next chapter; to set as default:
 * Type `Ctrk+Shift+P` to open the command palette (it's also the top item in the "View" menu list)
 * Start type "terminal default" and you will soon see and be able to select the setting "Terminal: Select Default Profile" (hit `Enter`)
 * select Git Bash and hit "Enter" again to set as default
