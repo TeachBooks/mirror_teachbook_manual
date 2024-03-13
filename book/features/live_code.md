@@ -75,13 +75,16 @@ The python kernel doesn't have all packages standard included. Some of the most 
 - `ipywidgets`
 
 If you'd like to install more package, you can do so by added a codecell (preferably hidden using `thebe-remove-input-init`) with the following command:
-```{python}
+
+```python
 import micropip
 await micropip.install("package_name")
 ```
+
 This will install the packages: Micropip will look at the Pyodide package index, but also at the general PyPi index. If a package is pure python (i.e. no C extensions), then it can also be used by Pyodide.
 
 If the packages are not included in Pyodide, you can use `pip:
-```{python}
+
+```python
 %pip install package_name
 ```
