@@ -63,3 +63,25 @@ With the extended functionality of live code, additional cell tags have been dev
 - `auto-execute-page` automatically starts the thebe live coding functionality whenever the page is opened. This is particularly useful if you're using widgets on a page.
 - `thebe-init` directly starts running this cell as soon as the thebe live coding functionality starts.
 - `thebe-remove-input-init`, as `thebe-init`, starts the cell directly as soon as the thebe live coding functionality starts. However, the input is not shown to the students (in static and interactive mode). The original `remove-input` tag will not work as it deletes the entire cell, so it can never be executed.
+
+## Additional packages
+
+The python kernel doesn't have all packages standard included. Some of the most used packages which are included are:
+- `python`
+- `numpy`
+- `scipy`
+- `sympy`
+- `matplotlib`
+- `ipywidgets`
+
+If you'd like to install more package, you can do so by added a codecell (preferably hidden using `thebe-remove-input-init`) with the following command:
+```{python}
+import micropip
+await micropip.install("package_name")
+```
+This will install the packages: Micropip will look at the Pyodide package index, but also at the general PyPi index. If a package is pure python (i.e. no C extensions), then it can also be used by Pyodide.
+
+If the packages are not included in Pyodide, you can use `pip:
+```{python}
+%pip install package_name
+```
