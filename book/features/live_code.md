@@ -69,6 +69,8 @@ With the extended functionality of live code, additional cell tags have been dev
 The python kernel doesn't have all packages standard included. Some of the most used packages which are included are:
 - `python`
 - `numpy`
+- `scipy`
+- `sympy`
 - `matplotlib`
 - `ipywidgets`
 
@@ -77,7 +79,7 @@ If you'd like to install more package, you can do so by added a codecell (prefer
 import micropip
 await micropip.install("package_name")
 ```
-This will install the packages from Pyodide.
+This will install the packages: Micropip will look at the Pyodide package index, but also at the general PyPi index. If a package is pure python (i.e. no C extensions), then it can also be used by Pyodide.
 
 If the packages are not included in Pyodide, you can use `pip:
 ```{python}
