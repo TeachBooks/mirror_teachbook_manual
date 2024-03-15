@@ -39,7 +39,7 @@ parts:
         sections:
         - file: features/grasple.md
         - file: features/h5p.md
-      - file: features/live_code.ipynb
+      - file: features/live_code.md
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
