@@ -31,12 +31,15 @@ parts:
       - file: basic-features/recipes.md
     - file: features/overview
       sections:
-      - file: features/hypothesis
       - file: features/remove_from_publish
-      - file: features/grasple.md
       - file: features/custom_toc.md
       - file: features/custom_download.md
-      - file: features/h5p.md
+      - file: features/hypothesis
+      - file: features/interactive_element.ipynb
+        sections:
+        - file: features/grasple.md
+        - file: features/h5p.md
+        - file: features/adding_basic_HTML_elements.md
       - file: features/live_code.md
         sections:
         - file: features/widgets.ipynb
