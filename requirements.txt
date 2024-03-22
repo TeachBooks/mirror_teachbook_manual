@@ -8,3 +8,4 @@ sphinx-thebe ~= 0.9.9
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/17983/packages/pypi/simple
 jupyterbook_patches ~= 0.1.4
 download_link_replacer @ git+https://gitlab.tudelft.nl/mude/sphinx-download-link-replacer
+custom_launch_buttons @ git+https://github.com/luukfroling/custom_launch_buttons_v1.git
