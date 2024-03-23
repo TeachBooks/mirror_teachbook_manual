@@ -22,8 +22,8 @@ parts:
       - file: installation-and-setup/jupyter-book-setup
     - file: workflows/overview
       sections:    
-      - file: workflows/gitlab
-      - file: workflows/github
+      - file: workflows/collaboration
+      - file: workflows/githubtemplate
   - caption: Features
     chapters:
     - file: basic-features/overview

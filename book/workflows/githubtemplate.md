@@ -1,4 +1,4 @@
-# GitHub template
+# Get started using our GitHub template!
 
 To get started making your Jupyter Book with our functionalities, fork our template book https://github.com/TeachBooks/template :
 
