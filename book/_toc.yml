@@ -23,6 +23,7 @@ parts:
     - file: workflows/overview
       sections:    
       - file: workflows/collaboration
+      - file: workflows/publish
       - file: workflows/githubtemplate
   - caption: Features
     chapters:

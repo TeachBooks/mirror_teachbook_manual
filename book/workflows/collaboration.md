@@ -2,17 +2,15 @@
 
 As previosuly mentioned there are multiple platforms that can host Git repositeries. Here we will elaborate on two: GitLab and GitHub.
 
-````{tab} GitLab
-
 ## Staging, committing and pushing
 
 A jupyter book is composed out of many markdown files which contain the educational content produced by you. Through the use of branches it is possible to work on the book at the same time as your tem-members. Working on content for the book is mainly individual work, the beauty of git comes in when everybodys changes are merged into the main branch. Find out for about staging comitting and pushing [here](/book/installation-and-setup/git-stage-commit-push.md).
 
 ## Repositeries, Branching and Merging
 
-We have previously introduced the notions of local and remote repositeries, branching and finally merging branches. You can find it [here](/book/installation-and-setup/git-branch.md). 
+We have previously introduced the notions of local and remote repositeries, [branching](/book/installation-and-setup/git-branch.md). and finally [merging branches](/book/installation-and-setup/git-merge.md).
 
-All the (markdown) files that make up the book are contained on the remote repositery on GitLab or Github. This could be on an open repositery on `gitlab.com`. In the context of creating educational books for students at TU Delft, the repositery will most likely be located on `gitlab.tudelft.com`.
+All the (markdown) files that make up the book are contained on the remote repositery on GitLab or Github. This could be on an open repositery on `gitlab.com` or `github.com`. In the context of creating educational books for students at TU Delft, the repositery will most likely be located on `gitlab.tudelft.nl`.
 
 The main branch is the default branch. The content on this branch will be the most up to date version of the book. Therefore, new branches, which are made to add or fix some content in the book, are usually cloned from the main branch. This has many advantages compared to making the edits immediately in the main branch. 
 - The different branches help to keep an overview of the changes made to the book. 
@@ -22,6 +20,11 @@ The main branch is the default branch. The content on this branch will be the mo
 This systematic workflow guarantees that editing the book goes smoothely. 
 
 Merging a branch into the main branch is a also good moment to let a team-member review the content. This is done in the merge-request. By assigning a colleague to review your branch you can check the quality of your new content. 
+
+```{note}
+There is a slight difference in terminology between GitLab and GitHub. GitLab uses the term *Merge* Request while GitHub uses the term *Pull* Request. Both actions refer to the merging of a branch into the main branch.
+```
+## Access Control / Permissions
 
 ## Milestones & Issues
 
@@ -46,12 +49,6 @@ When the task is completed, the issue can be closed and you can move on to the n
 
 Once the book is ready to be published, a static website can be created through GitLab pages. (Need more info on that/Are we using gitlab pages?)
 
-````
-````{tab} GitHub
+## GitHub
 
-
-````
-
-
-
-(An alternative is to use Github and Github pages to publish your book.?)#
+The workflow described above is largely the same on both platforms since both platforms stick to the names of the git functionalities. So alternatively to GitLab and GitLab pages Github and Github pages ca also be used to publish your book.
