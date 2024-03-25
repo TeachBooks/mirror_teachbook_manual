@@ -4,6 +4,19 @@ A jupyter book is composed out of many markdown files which contain the educatio
 
 Suppose we are writing a new chapter, or are updating an existing chapter for our Jupyter Book. We've created a new branch on which we are going to make the changes, and we've checked out this branch (make sure this is really the case by checking the name of the current branch in the bottom-left corner of your VS Code window!).
 
+## Pulling
+
+If you're working on your local version of the repository, you've to make sure you're working on the most up-to-date version of your branch, pull changes from the remote repository on GitHub / GitLab into your local folder.
+
+`````{tab-set}
+````{tab-item} Pulling changes using Git in VS Code
+...
+````
+````{tab-item}  Pulling changes using GitHub Desktop
+...
+````
+`````
+
 ## Staging
 
 `````{tab-set}
