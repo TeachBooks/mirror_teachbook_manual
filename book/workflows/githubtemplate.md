@@ -1,4 +1,6 @@
-# Get started using our GitHub template!
+# Example using our GitHub template
+
+This page shows you how as an example how to create your own Jupyter Book. It including making an edit to a predefined book and hosting that book online. It doesn't elaborate on the collaborative functionalities of Git.
 
 To get started making your Jupyter Book with our functionalities, fork our template book https://github.com/TeachBooks/template :
 
