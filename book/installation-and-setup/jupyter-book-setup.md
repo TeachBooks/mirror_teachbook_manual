@@ -2,9 +2,19 @@
 
 Jupyter Book is just a regular Python package, so it can be installed by using `pip` or `conda`: 
 
-    pip install jupyter-book
+```
+pip install jupyter-book
+```
 
 Nevertheless, it's always a good idea make a fresh `conda` environment when starting a new project.
+
+## Build a book
+
+As soon as you've installed jupyter-book you can build your book locally. The official [jupyter-book](https://jupyterbook.org/en/stable/basics/build.html) documentation is quite extensive. Only one note, it's advised to use `--all` whenever building a book to make sure the table of contents fully updates:
+
+```
+jupyter-book build <path-to-book> --all
+```
 
 ## View the book locally
 
