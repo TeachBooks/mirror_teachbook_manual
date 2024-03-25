@@ -1,4 +1,4 @@
-# Working in Git
+# Workflows
 
 - what does the publish branch do?
 - what is a pipeline

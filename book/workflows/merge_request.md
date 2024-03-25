@@ -1,7 +1,15 @@
-(git-merge)=
-# Merging
+# Reviewing and merging changes
+
+Merging a branch into the main branch is also good moment to let a team-member review the content. This is done in the merge-request. By assigning a colleague to review your branch you can check the quality of your new content. 
+
+```{note}
+There is a slight difference in terminology between GitLab and GitHub. GitLab uses the term *Merge* Request while GitHub uses the term *Pull* Request. Both actions refer to the merging of a branch into the main branch.
+```
 
 We're finished with our chapter, and now it's time to include all of our commits in the `main` branch.
+
+`````{tab-set}
+````{tab-item} Committing using GitLab
 
 1. Make sure that you've committed all your new sections and changes, and that they're pushed to the remote repository.
 
@@ -31,3 +39,9 @@ Example of a filled-in merge request.
 
 The finished merge request.
 ```
+
+````
+````{tab-item} Committing using GitHub
+...
+````
+`````
