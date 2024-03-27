@@ -1,4 +1,4 @@
-# Adding basic interactive HTML/JavaScript elements
+# Creating basic interactive HTML/JavaScript elements
 
 ## Embedding HTML files
 A straightforward way to create interactive web-based elements is to code them directly using HTML with JavaScript. This allows us to build elements such as the one below, which shows the connection between a probability density function (pdf) and the associated cumulative density function (cdf):
