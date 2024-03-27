@@ -39,8 +39,10 @@ parts:
         sections:
         - file: features/grasple.md
         - file: features/h5p.md
-        - file: features/adding_HTML_elements.md
-        - file: features/creating_basic_HTML_elements.md
+        - file: features/HTML_javascript.md
+          sections:
+          - file: features/adding_HTML_elements.md
+          - file: features/creating_basic_HTML_elements.md
       - file: features/python_interactivity.md
         sections:
         - file: features/live_code.md
