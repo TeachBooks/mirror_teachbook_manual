@@ -1,5 +1,6 @@
 # Adding interactive HTML/JavaScript elements
 
+In this section, we will discuss how to embed interactive elements created in HTML/JavaScript in a TeachBook. If you are interested in learning how to create these elements yourself, we will discuss an example in the [next article](creating_basic_HTML_elements.md). As an example, let us discuss how to embed an interactive 3D model of a subsurface environment I created:
 
 <iframe src="../_static/element_render_box.html" width="600" height="400" frameborder="0"></iframe> 
 
@@ -30,6 +31,7 @@ Let's take a closer look at the source. Since this project uses a local file str
 
 ## HTML code for the 3D render element
 
+To conclude, I provide the HTML/JavaScript code for the 3D render element above. To understand what the code below does in more detail, please refer to the [next article](creating_basic_HTML_elements.md). One thing I want to direct your attention to are the paths specified in the first few lines of the `<script>` environment. Here, we do not have to navigate to a different local folder because we initially stored our `.obj` and `.mtl` files in the same folder as the `element_render_box.html` file. If they would be stored in a different folder, we have to specify either an absolute path (e.g., via a URL) or a relative path, as explained above.
 
 ```html
 <!DOCTYPE html>
