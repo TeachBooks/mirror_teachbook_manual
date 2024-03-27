@@ -31,5 +31,5 @@ Some features like JupyterLite and Grasple only work when a webserver serves the
 1. Start a server from the command line with: `python -m http.server -b 127.0.0.1` (add ` &` if you want to keep using the terminal for other tasks).
 2. Port 8000 is usually used by default, but depending on your OS it will tell you in the output.
 3. To visit your site, just enter the address in your web browser, followed by a colon, and then the port number. By default, that would be: `127.0.0.1:8000`.
-4. You will get a website that looks like a file browser, to visit your site just navigate to `book/_build/html/`.
-5. The JupyterLite consoles or Grasple iframe exercises should now work as well.
+4. You will get a website that looks like a file browser, to visit your site just navigate to `book/_build/html/` (if you've started this command from this folder you see the book immediately
+5. All interactive features like the JupyterLite consoles, Grasple/H5p iframe exercises, Sphinx-thebe python interactivity and HTML/Javascript elements should now work as well.
