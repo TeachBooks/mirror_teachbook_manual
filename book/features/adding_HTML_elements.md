@@ -29,6 +29,9 @@ Let's take a closer look at the source. Since this project uses a local file str
  - The following string `"_static/"` tells the iframe to navigate into the `_static` folder. We are now in `book/_static/`.
  - Finally, the string `"element_render_box.html"` selects the HTML file we want to embed. We are now in `book/_static/element_render_box.html`.
 
+## Viewing result at local build
+To view the final result locally, it's required to setup a [local python webserver](setup-local-server).
+
 ## HTML code for the 3D render element
 
 To conclude, I provide the HTML/JavaScript code for the 3D render element above. To understand what the code below does in more detail, please refer to the [next article](creating_basic_HTML_elements.md). One thing I want to direct your attention to are the paths specified in the first few lines of the `<script>` environment. Here, we do not have to navigate to a different local folder because we initially stored our `.obj` and `.mtl` files in the same folder as the `element_render_box.html` file. If they would be stored in a different folder, we have to specify either an absolute path (e.g., via a URL) or a relative path, as explained above.
