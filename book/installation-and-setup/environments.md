@@ -9,7 +9,7 @@ Now we will set up your first environment. The following steps will create an An
 For simplicity we will call this environment `my_new_book`, but you can give it any name you like.
 
 1. Open the commmand line interface (see above) or continue in the same session if it is still active
-2. Execute: `conda create --n my_new_book pip` (this may take several minutes)
+2. Execute: `conda create --name my_new_book pip` (this may take several minutes)
 3. Activate: `conda activate my_new_book`
 <br> Check: you should now see your new environment displayed somewhere in the prompt between parenthesis, like this: `(my_new_book)`
 
