@@ -23,6 +23,7 @@ parts:
         - file: workflows/repositories
         - file: workflows/branches
         - file: workflows/edit_book
+        - file: workflows/merge_request
         - file: workflows/publish
       - file: workflows/githubtemplate
   - caption: Features
