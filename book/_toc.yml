@@ -4,9 +4,9 @@ root: intro
 parts:
   - caption: Getting started!
     chapters:
+    - file: installation-and-setup/user_types
     - file: installation-and-setup/overview
       sections:
-      - file: installation-and-setup/extension
       - file: installation-and-setup/git-setup
       - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/git-setup_local
@@ -29,6 +29,7 @@ parts:
     - file: basic-features/overview
       sections:
       - file: basic-features/recipes.md
+      - file: installation-and-setup/extension
     - file: features/overview
       sections:
       - file: features/remove_from_publish
