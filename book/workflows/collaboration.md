@@ -1,4 +1,4 @@
-# Collaborative book-editing using Git
+# Collaborative book-editing
 
 As previously mentioned there are multiple platforms that can host Git repositories which are extremely useful for collaboration on text-based files. Here we will elaborate on two: GitLab and GitHub both in the online environment and locally.
 

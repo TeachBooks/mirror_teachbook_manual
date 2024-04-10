@@ -15,17 +15,15 @@ parts:
       - file: installation-and-setup/working-directory
       - file: installation-and-setup/environments
       - file: installation-and-setup/jupyter-book-setup
-    - file: workflows/overview
-      sections:    
-      - file: workflows/collaboration
-        sections:
-        - file: workflows/milestones_issues
-        - file: workflows/repositories
-        - file: workflows/branches
-        - file: workflows/edit_book
-        - file: workflows/merge_request
-        - file: workflows/publish
-      - file: workflows/githubtemplate
+    - file: workflows/collaboration
+      sections:
+      - file: workflows/milestones_issues
+      - file: workflows/repositories
+      - file: workflows/branches
+      - file: workflows/edit_book
+      - file: workflows/merge_request
+      - file: workflows/publish
+    - file: workflows/githubtemplate
   - caption: Features
     chapters:
     - file: basic-features/overview
