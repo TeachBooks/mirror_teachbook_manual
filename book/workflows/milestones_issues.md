@@ -1,4 +1,4 @@
-# Milestones & Issues
+# Assign task to yourself
 
 In a repository, team members can define Milestones and Issues. Milestones are used to track the overall progress of the project to make sure that deadlines are met. A milestone can group many issues, which are individual tasks that need to be finished in order to reach the milestone.
 
@@ -12,19 +12,22 @@ An issue is built up of the following attributes:
 Every team member can create issues when they think of a task that would improve the book.
 
 `````{tab-set}
-````{tab-item} Issues in GitLab
+````{tab-item} In GitLab
 
 The issues in GitLab can be found on this page:
 
-<img src="figures/Issues.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+![issues](figures/issues.png)
 
 You can create an issue by clicking on the blue `New Issue` button in the top right corner.
 
-<img src="figures/New_Issue_GitLab.png" alt="New Issue" width="600" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+![new issue](figures/New_Issue_GitLab.png)
+
 ````
 
-````{tab-item} Issues in GitHub
-...
+````{tab-item} In GitHub
+
+```{error} To be written
+```
 
 ````
 `````
