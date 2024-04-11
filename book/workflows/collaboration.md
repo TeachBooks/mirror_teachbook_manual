@@ -22,16 +22,16 @@ The steps involved are as follows:
 - Eventually solve issues with combining versions
 - Add or make changes to a file(s)
 - Select files ready to be added to Git-timeline
-- Add changes to Git-timeline
-- Pushing your changes
+- Add changes to Git-timeline locally
+- Add changes to GitHub/GitLab
 ````
 ````{tab-item} User type 5
 - Eventually solve issues with combining versions
 - Add or make changes to a file(s)
 - Select files ready to be added to Git-timeline
 - Check changes in book locally
-- Add changes to Git-timeline
-- If working on a repository locally: pushing your changes
+- Add changes to Git-timeline locally
+- Add changes to GitHub/GitLab
 ````
 `````
  4. Check changes online
