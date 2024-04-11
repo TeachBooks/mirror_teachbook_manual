@@ -4,6 +4,7 @@ root: intro
 parts:
   - caption: Getting started!
     chapters:
+    - file: workflows/github
     - file: installation-and-setup/overview
       sections:
       - file: installation-and-setup/extension
@@ -20,10 +21,7 @@ parts:
       - file: installation-and-setup/working-directory
       - file: installation-and-setup/environments
       - file: installation-and-setup/jupyter-book-setup
-    - file: workflows/overview
-      sections:    
-      - file: workflows/gitlab
-      - file: workflows/github
+      
   - caption: Features
     chapters:
     - file: basic-features/overview
