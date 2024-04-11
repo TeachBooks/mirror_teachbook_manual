@@ -1,4 +1,10 @@
 # Getting Anaconda to work in terminal
+
+```{admonition} User types
+:class: tip
+This page is useful for user type 5-6.
+```
+
 (vscode-setup-bash)=
 ````{tab} Windows - Git Bash (preferred)
 

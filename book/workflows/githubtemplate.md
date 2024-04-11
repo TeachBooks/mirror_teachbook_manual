@@ -1,5 +1,10 @@
 # Your first TeachBook using template
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 3-6.
+```
+
 This page shows you how as an example how to start your own Jupyter Book and hosting that book online. It doesn't elaborate on the collaborative functionalities of Git or how to edit the book.
 
 `````{tab-set}

@@ -1,5 +1,10 @@
 # Collaborative book-editing
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 3-6.
+```
+
 As previously mentioned there are multiple platforms that can host Git repositories which are extremely useful for collaboration on text-based files. Here we will elaborate on two: GitLab and GitHub both in the online environment and locally.
 
 Globally, the steps involved are as follows:

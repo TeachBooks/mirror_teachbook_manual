@@ -1,4 +1,10 @@
 # Navigate to your working directory
+
+```{admonition} User types
+:class: tip
+This page is useful for user type 5-6.
+```
+
 You will need to know this to set up environments from a text-based file.
 
 The essential command is `cd FILE_PATH`, which will navigate the terminal window to the directory at `FILE_PATH`. Note that although `cd` works on both Windows and Mac, many command line commands are different between the two.

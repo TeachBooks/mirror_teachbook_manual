@@ -1,5 +1,10 @@
 # Jupyter Book
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 5-6.
+```
+
 Jupyter Book is just a regular Python package, so it can be installed by using `pip` or `conda`: 
 
 ```
