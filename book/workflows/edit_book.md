@@ -16,7 +16,7 @@ or add new file by text or upload
 ``````{tab-item} User type 4 and 5
 
 ### Eventually solve issues with combining versions
-First make sure you update your branch so that you've the most up-to-date version. If you collaborate on this branch, you get the updates from your colleagues as well. This might lead into a merge conflict. How to solve that?
+If you collaborate with colleagues on this branch, you get the updates from your colleagues as well by pulling from GitLab/GitHub. Now your branch is up-to-date. However, this might lead into a merge conflict if you and colleagues have made incompatible changes. How to solve that?
 
 `````{tab-set}
 ````{tab-item} With Git in VS Code
@@ -39,7 +39,7 @@ First make sure you update your branch so that you've the most up-to-date versio
 ```
 Make some changes in for example VS Code and save them.
 
-### Select files ready to be added to Git-Timeline
+### Select files ready to be added to Git-timeline
 
 `````{tab-set}
 ````{tab-item} With Git in VS Code
@@ -76,7 +76,7 @@ build book locally and eventually startup python server...
 ``````
 ```````
 
-## Share changes with others in Git-timeline
+## Add changes to Git-timeline
 ```````{tab-set}
 ``````{tab-item} User type 3
 

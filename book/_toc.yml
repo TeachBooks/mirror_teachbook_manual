@@ -17,7 +17,6 @@ parts:
     - file: workflows/collaboration
       sections:
       - file: workflows/milestones_issues
-      - file: workflows/repositories
       - file: workflows/branches
       - file: workflows/edit_book
       - file: workflows/check_changes_online
