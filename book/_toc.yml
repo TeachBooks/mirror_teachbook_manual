@@ -5,7 +5,6 @@ parts:
   - caption: Getting started!
     chapters:
     - file: installation-and-setup/user_types
-    - file: workflows/githubtemplate
     - file: installation-and-setup/overview
       sections:
       - file: installation-and-setup/git-setup
@@ -16,6 +15,7 @@ parts:
       - file: installation-and-setup/working-directory
       - file: installation-and-setup/environments
       - file: installation-and-setup/jupyter-book-setup
+    - file: workflows/githubtemplate
     - file: workflows/collaboration
       sections:
       - file: workflows/milestones_issues
