@@ -25,7 +25,7 @@ html:
 
 In this case it is easier to learn by doing! Hypothesis has been enabled for this book: click the small arrow at the top right of the page to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
 
-You can also see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
+Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
 
 % THIS IS ADDED TO PAGE AS ANNOTATION:
 % This is an example Annotation. Note that annotations are publicly visible, but you must create an account and be logged in to reply or make your own. You can make highlights, but they are only visible to you, not everyone. You can also see all the Annotations on a website by opening the "Public" menu at the top of this dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
