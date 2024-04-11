@@ -5,6 +5,7 @@ parts:
   - caption: Getting started!
     chapters:
     - file: installation-and-setup/user_types
+    - file: workflows/github
     - file: installation-and-setup/overview
       sections:
       - file: installation-and-setup/git-setup
@@ -23,7 +24,6 @@ parts:
       - file: workflows/edit_book
       - file: workflows/merge_request
       - file: workflows/publish
-    - file: workflows/githubtemplate
   - caption: Features
     chapters:
     - file: basic-features/overview
@@ -39,7 +39,10 @@ parts:
         sections:
         - file: features/grasple.md
         - file: features/h5p.md
-        - file: features/adding_basic_HTML_elements.md
+        - file: features/HTML_javascript.md
+          sections:
+          - file: features/adding_HTML_elements.md
+          - file: features/creating_basic_HTML_elements.md
       - file: features/python_interactivity.md
         sections:
         - file: features/live_code.md
