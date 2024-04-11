@@ -16,7 +16,7 @@ Every team member can create issues when they think of a task that would improve
 
 The issues in GitLab can be found on this page:
 
-![issues](figures/Issues.png)
+![issues](figures/issues.png)
 
 You can create an issue by clicking on the blue `New Issue` button in the top right corner.
 
