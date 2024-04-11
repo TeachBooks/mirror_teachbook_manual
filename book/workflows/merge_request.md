@@ -6,7 +6,7 @@ Merging a branch into the main branch is also good moment to let a team-member r
 There is a slight difference in terminology between GitLab and GitHub. GitLab uses the term *Merge* Request while GitHub uses the term *Pull* Request. Both actions refer to the merging of a branch into the main branch.
 ```
 
-We're finished with our chapter, and now it's time to include all of our commits in the `main` branch. However, it's good practise to first merge `main` into our branch, so that we can see if there are any merge conflicts. Assuming that those merge conflicts aren't there, we'll now continue this example with the following merge of our branch into `main`.
+We're finished with our chapter, and now it's time to include all of our commits in the `main` branch. However, it's good practise to first merge `main` into our branch, so that we can see if there are any merge conflicts. Assuming that those merge conflicts are solved before, we'll now continue this example with the following merge of our branch into `main`.
 
 `````{tab-set}
 ````{tab-item} In GitLab

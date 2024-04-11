@@ -12,6 +12,8 @@ The act of making a new branch from an existing one is called *branching*. Usual
 `````````{tab-set}
 ````````{tab-item} User type 3
 
+**Directly create your own version (branching) or select existing version**
+
 `````{tab-set}
 ````{tab-item} In GitLab
 1. On GitLab, navigate to the repository of your project. Under the project description, you should see a menu button with a "+" in it (see {numref}`new-branch-button`). Click this button, then click on "New branch".
@@ -30,13 +32,14 @@ Click the highlighted button to make a new branch.
 We're making a new branch called `chapter-2` from the `main` branch.
 ```
 
-3. You should be sent back to an overview page of your repository. In the branch selection menu (see {numref}`new-branch-repo`), it should now say `chapter-2` instead of `main`. 
+3. You should be sent back to an overview page of your repository. In the branch selection menu (see {numref}`new-branch-repo`), it should now say `chapter-2` instead of `main`. Here you can also select another existing branch.
 
 ```{figure} ../images/gitlab-new-branch-repo.png
 :name: new-branch-repo
 
 The circled menu is the branch selection menu. 
 ```
+
 ````
 ````{tab-item} In GitHub
 
@@ -49,10 +52,9 @@ The circled menu is the branch selection menu.
 ````````{tab-item} User type 4 and 5
 
 ```````{tab-set}
-``````{tab-item} First time opening repository
+``````{tab-item} First time opening (cloning) repository
 
-(cloning)=
-## Find source in online repository
+**Find source link online repository**
 
 `````{tab-set}
 ````{tab-item} From GitLab
@@ -81,7 +83,7 @@ The cloning menu.
 ````
 `````
 
-## Open repository locally
+**Open repository locally (cloning)**
 
 `````{tab-set}
 ````{tab-item} With Git in VS Code
@@ -107,10 +109,9 @@ The VS Code welcome screen.
 
 ``````
 
-``````{tab-item} Using previously opened repository
+``````{tab-item} Using previously opened (cloned) repository
 
-(pulling)=
-### Obtain newest version from online repository
+**Obtain newest version from online repository (pulling)**
 
 If you're working on your local version of the repository, you've to make sure you're working on the most up-to-date version of your branch. you can do so by `pull` changes from the remote repository on GitHub / GitLab into your local folder.
 `````{tab-set}
@@ -130,7 +131,7 @@ If you're working on your local version of the repository, you've to make sure y
 ``````
 
 ```````
-### Create your own version
+**Create your own version (branching)**
 
 `````{tab-set}
 ````{tab-item} With Git in VS Code
@@ -148,7 +149,7 @@ Location of the branch menu.
 ```{figure} ../images/git-branch-selection-menu.png
 :name: git-branch-selection-menu
 
-The branch selection menu, where our new branch has shown up.
+The branch selection menu, where our new branch has shown up. From this menu you can also select (checkout in git terms) another existing branch.
 ```
 ````
 ````{tab-item} With GitHub Desktop
