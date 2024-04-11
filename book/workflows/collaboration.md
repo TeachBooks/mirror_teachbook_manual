@@ -11,31 +11,68 @@ We have previously introduced the notions of using Git in the online environment
 
 The steps involved are as follows:
  1. Assign task to yourself
- 2. Open the files of the repository online or locally
- 3. Create your own version of the book
- 4. Edit the book by:
+ 2. Create your own version (branching) of the book by:
+```````{tab-set}
+``````{tab-item} User type 3
+- directly create your own version (branching) or select existing version 
+``````
+``````{tab-item} User type 4 and 5
 `````{tab-set}
-````{tab-item} User type 3
+````{tab-item} First time opening (cloning) repository
+- Find source link online repository
+- Open repository locally (cloning)
+- Create your own version (branching) or select existing version (checkout branch)
+````
+````{tab-item} Using previously opened (cloned) repository
+- Obtain newest version from online repository (pulling)
+- Create your own version (branching) or select existing version (checkout branch)
+`````
+``````
+```````
+ 3. Edit the book by:
+```````{tab-set}
+``````{tab-item} User type 3
 - Add or make changes to a file
-- Share changes with others in Git-timeline
+- Add changes to Git-timeline (committing)
+``````
+``````{tab-item} User type 4
+`````{tab-set}
+````{tab-item} Brand new version (branch)
+- Add or make changes to file(s)
+- Select files ready to be added to Git-timeline (staging)
+- Add changes to Git-timeline locally (committing)
+- Add changes to GitHub/GitLab (pushing)
 ````
-````{tab-item} User type 4
-- Eventually solve issues with combining versions
-- Add or make changes to a file(s)
-- Select files ready to be added to Git-Timeline
-- Share changes with others in Git-timeline
-- Pushing your changes
-````
-````{tab-item} User type 5
-- Eventually solve issues with combining versions
-- Add or make changes to a file(s)
-- Select files ready to be added to Git-Timeline
-- Check changes in book locally
-- Share changes with others in Git-timeline
-- If working on a repository locally: pushing your changes
+````{tab-item} Brand new version (branch)
+- Eventually solve conflicts with combining versions (merge conflicts, emerges after pulling)
+- Add or make changes to file(s)
+- Select files ready to be added to Git-timeline (staging)
+- Add changes to Git-timeline locally (committing)
+- Add changes to GitHub/GitLab (pushing)
 ````
 `````
- 5. Check changes online
- 6. Repeat steps 4 and 5 until you're satisfied
- 7. Reviewing, (eventually repeat steps 4 and 5) and combine your version with main draft version of book
- 8. Publish changes to student version of the book
+``````
+``````{tab-item} User type 5
+`````{tab-set}
+````{tab-item} Brand new version (branch)
+- Add or make changes to file(s)
+- Check changes in book locally
+- Select files ready to be added to Git-timeline (staging)
+- Add changes to Git-timeline locally (committing)
+- Add changes to GitHub/GitLab (pushing)
+````
+````{tab-item} Brand new version (branch)
+- Eventually solve conflicts with combining versions (merge conflicts, emerges after pulling)
+- Add or make changes to file(s)
+- Check changes in book locally
+- Select files ready to be added to Git-timeline (staging)
+- Add changes to Git-timeline locally (committing)
+- Add changes to GitHub/GitLab (pushing)
+````
+`````
+``````
+```````
+ 4. Check changes online
+ 5. Repeat steps 3 and 4 until you're satisfied
+ 6. Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book
+ 7. Publish changes to student version of the book (merge request)
