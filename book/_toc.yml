@@ -5,7 +5,7 @@ parts:
   - caption: Getting started!
     chapters:
     - file: installation-and-setup/user_types
-    - file: workflows/github
+    - file: workflows/githubtemplate
     - file: installation-and-setup/overview
       sections:
       - file: installation-and-setup/git-setup
