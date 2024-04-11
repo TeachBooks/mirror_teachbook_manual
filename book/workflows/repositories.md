@@ -1,14 +1,19 @@
-# Open files online / clone files
-We have previously introduced the notions of using Git in the online environment (remote) or locally. All the (markdown) files that make up the book are contained on the remote repository on GitLab or GitHub. This could be on an open repository on `gitlab.com` or `github.com`. In the context of creating educational books for students at TU Delft, the repository will most likely be located on `gitlab.tudelft.nl`.
+# Open files
 
-If you'd like to work on your book locally, you need to clone your book.
+```````{tab-set}
+``````{tab-item} User type 3
+Find your file on GitLab/GitHub ...
+```{error} To be written
+```
 
-### Cloning a repository
+``````
+
+``````{tab-item} User type 4, 5 and 6
+
+## Find source in online repository
 
 `````{tab-set}
-````{tab-item} Cloning repository from GitLab
-
-Here's how you do it with VS Code:
+````{tab-item} From GitLab
 
 1. On GitLab, go to the repository of your book. Click on the blue button that says "Clone" ({numref}`gitlab-clone`), and copy the link under "Clone with SSH".
 
@@ -19,19 +24,23 @@ The cloning menu.
 ```
 ````
 
-````{tab-item} Cloning repository from GitHub
-...
+````{tab-item} From GitHub
+```{error} To be written
+```
+
 ````
 
-````{tab-item} Cloning repository from GitHub using GitHub Desktop
-...
+````{tab-item} From GitHub using GitHub Desktop
+```{error} To be written
+```
+
 ````
 `````
 
-Now that we've obtained the source, we can set up the files locally:
+## Open the files locally
 
 `````{tab-set}
-````{tab-item} Cloning repository with Git in VS Code
+````{tab-item} With Git in VS Code
 2. Open a new VS Code window. You should be greeted with a welcome page ({numref}`vscode-welcome`). On this page, click "Clone Git Repository". Alternatively, open the Source Control menu from the left side bar, and click on "Clone Repository".
 
 ```{figure} ../images/vscode-welcome.png
@@ -45,7 +54,12 @@ The VS Code welcome screen.
 4. You now have a local copy of the repository.
 ````
 
-````{tab-item} Cloning repository with GitHub Desktop
-....
+````{tab-item} With GitHub Desktop
+```{error} To be written
+```
+
 ````
 `````
+
+``````
+```````

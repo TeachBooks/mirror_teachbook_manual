@@ -1,5 +1,10 @@
 # Page download options
 
+```{admonition} User types
+:class: tip
+This section is useful for user type 4-6.
+```
+
 You can control the download option of the book in two ways:
  - Disabling downloading using cell tags `disable-download-page`
  - Add / replace download link with custom link using `spinhx-download-link-replacer`

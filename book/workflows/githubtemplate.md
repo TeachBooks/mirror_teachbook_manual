@@ -50,7 +50,8 @@ To learn more about how we do this, please see the [GitHub Actions documentation
 ````
 
 ````{tab-item} GitLab template
-Will follow
+```{error} To be written
+```
 ````
 `````
 
