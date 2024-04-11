@@ -1,14 +1,16 @@
-(git-branch)=
 # Branches
 
-Branches are a very useful feature of Git. Branches allow you to work on multiple versions of your codebase simultaneously; you create a copy of your codebase, on which you can work independently of the main codebase. Some advantages of working with branches are:
+Branches are a very useful feature of Git. Branches allow you to work on multiple versions of your codebase simultaneously; you create a copy of your codebase, on which you can work independently of the main codebase. The main branch is the default branch. The content on this branch will be the most up to date version of the book. Therefore, new branches, which are made to add or fix some content in the book, are usually cloned from the main branch. This has many advantages compared to making the edits immediately in the main branch.  Some advantages of working with branches are:
 
-- Isolation: when you work on your own branch, your changes are isolated from the main codebase. Unfinished or unreviewed parts of your book are "hidden". 
-- Collaboration: branches make it easier for multiple project members to work on the same codebase simultaneously. If every member works on their own branch, they can make their changes without having to worry about interfering with another members' changes.
+- Isolation: when you work on your own branch, your changes are isolated from the main codebase. Unfinished or unreviewed parts of your book are "hidden". Your own branch helps to keep an overview of the changes made to the book. 
+- Collaboration: branches make it easier for multiple project members to work on the same codebase simultaneously. If every member works on their own branch, they can make their changes without having to worry about interfering with another members' changes. In case those changes made in parallel lead to conflicts, they can be resolved during the merging of the branches. 
 
-## How to make a branch
+This systematic workflow guarantees that editing the book goes smoothly. 
 
 The act of making a new branch from an existing one is called *branching*. Usually, you want to branch from the `main` branch, but you can of course also choose to branch from another branch. The branch from which you create a new branch is called the *source* branch.
+
+`````{tab-set}
+````{tab-item} Branching in GitLab
 
 1. On GitLab, navigate to the repository of your project. Under the project description, you should see a menu button with a "+" in it (see {numref}`new-branch-button`). Click this button, then click on "New branch".
 
@@ -33,9 +35,12 @@ We're making a new branch called `chapter-2` from the `main` branch.
 
 The circled menu is the branch selection menu. 
 ```
-
+````
+````{tab-item} Branching in GitHub
+...
+````
+````{tab-item} Branching locally with Git in VS Code
 4. The final step is to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. In VS Code, open the branch menu from the bottom left (see {numref}`git-branch-menu-main`). You'll be be greeted with a menu that looks like the one in {numref}`git-branch-selection-menu`. In this menu, we get an overview of the branches of our repository. Notice that our new branch `chapter-2` appears as `origin/chapter-2`, and has a cloud icon in front of it. This means that the branch only exists on the remote repository. Check out the branch by simply clicking on it. Check that the branch is indeed checked out by looking at the branch menu button in the bottom left again; it should now say the name of your branch instead of `main` (in our case `chapter-2`). 
-
 ```{figure} ../images/git-branch-menu-main.png
 :name: git-branch-menu-main
 
@@ -47,9 +52,10 @@ Location of the branch menu.
 
 The branch selection menu, where our new branch has shown up.
 ```
+````
+````{tab-item} Branching locally with GitHub Desktop
+...
+````
+`````
 
-5. Now that we've created and checked out our new branch, we can start {ref}`making and committing changes <stage-commit-push>`.
-
-## The `publish` branch
-
-If your repository is located in the [Interactive Textbooks CiTG](https://gitlab.tudelft.nl/interactivetextbooks-citg) group on GitLab, you will see that it already has a branch called `publish`. This branch is where the student version of your book should go. The idea behind this is that the student version of your book should only change a few times per year at most (and certainly not right before an exam!) to prevent confusion. This way, you can still make frequent changes to the `main` branch.
+Now that we've created and checked out our new branch, we can start {ref}`making and committing changes <stage-commit-push>`.

@@ -1,5 +1,10 @@
 # What is Git and GitLab?
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 3-6.
+```
+
 In this section you will learn how to perform basic Git actions in the online interface of GitLab.
 
 ## What is Git?

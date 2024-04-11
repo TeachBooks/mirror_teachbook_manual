@@ -1,0 +1,4 @@
+# Publishing your book
+
+Once the book is ready to be published, a static website can be created through GitLab. (Need more info on that/Are we using gitlab pages?)
+If your repository is located in the [TeachBooks](https://gitlab.tudelft.nl/interactivetextbooks-citg) group on GitLab, you will see that it already has a branch called `publish`. This branch is where the student version of your book should go. The idea behind this is that the student version of your book should only change a few times per year at most (and certainly not right before an exam!) to prevent confusion. This way, you can still make frequent changes to the `main` branch.

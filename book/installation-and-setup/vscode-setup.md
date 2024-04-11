@@ -1,5 +1,10 @@
 # VS Code
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 4-6.
+```
+
 VS Code is a text editor with some extra features, such as integrated source control and a file browser. Moreover, extensions are available to add functionality to VS Code.
 
 ## Installation

@@ -1,5 +1,10 @@
 # Creating python environments
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 5-6.
+```
+
 A python virtual environment is, like the name might suggest, a reserved space within the computer that contains downloaded python packages. Each environment is like a clean slate and the packages and dependencies of one environment have no ifluence on other environments. In that sense, it makes sense to create a new (working) environment every time you start a new project. 
 
 ## Set-up environments

@@ -1,5 +1,10 @@
 # How do I use Git locally?
 
+```{admonition} User types
+:class: tip
+This page is useful for user type 4-6.
+```
+
 In this section you will learn how to perform basic Git actions in VS Code / GitHub Desktop. Courses on Git usually make use of the command line interface to do these actions, but this introduces a steep learning curve. Instead, using Git from VS Code / GitHub Desktop is much more visual (i.e., more "clicky"), and therefore easier to use for those inexperienced with the command line. 
 
 ## GitHub Desktop
