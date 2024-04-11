@@ -5,15 +5,13 @@ parts:
   - caption: Getting started!
     chapters:
     - file: installation-and-setup/user_types
+    - file: installation-and-setup/git
     - file: installation-and-setup/overview
       sections:
-      - file: installation-and-setup/git-setup
       - file: installation-and-setup/vscode-setup
       - file: installation-and-setup/git-setup_local
       - file: installation-and-setup/anaconda
-      - file: installation-and-setup/add_conda_to_path
-      - file: installation-and-setup/working-directory
-      - file: installation-and-setup/environments
+      - file: installation-and-setup/git_bash_conda_vs-code.md
       - file: installation-and-setup/jupyter-book-setup
     - file: workflows/githubtemplate
     - file: workflows/collaboration

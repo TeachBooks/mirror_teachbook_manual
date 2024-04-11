@@ -1,21 +1,15 @@
-# Jupyter Book
+# Build your book: JupyterBook
 
 ```{admonition} User types
 :class: tip
-This page is useful for user type 5-6.
+This page is useful for user type 5.
 ```
 
-Jupyter Book is just a regular Python package, so it can be installed by using `pip` or `conda`: 
-
-```
-pip install jupyter-book
-```
-
-Nevertheless, it's always a good idea make a fresh `conda` environment when starting a new project.
+Jupyter Book is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository.
 
 ## Build a book
 
-As soon as you've installed jupyter-book you can build your book locally. The official [jupyter-book](https://jupyterbook.org/en/stable/basics/build.html) documentation is quite extensive. Only one note, it's advised to use `--all` whenever building a book to make sure the table of contents fully updates:
+As soon as you've installed your book environment with jupyter-book you can build your book locally. The official [jupyter-book](https://jupyterbook.org/en/stable/basics/build.html) documentation is quite extensive. Only two notes: first navigate to the directory where your book is to leave out the `path-to-book` and use `--all` whenever building a book to make sure the table of contents fully updates:
 
 ```
 jupyter-book build <path-to-book> --all
@@ -29,6 +23,7 @@ Once the build process is completed successfully, you will see the file location
 :class: tip, dropdown
 Bookmark the (local) file location for easy access!
 ```
+
 (setup-local-server)=
 ## View the book using a local webserver
 

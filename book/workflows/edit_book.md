@@ -2,7 +2,7 @@
 
 Suppose we are writing a new chapter, or are updating an existing chapter for our Jupyter Book. We've created a new branch on which we are going to make the changes.
 
-## Make changes to your file
+## Add or make changes to a file(s)
 ```````{tab-set}
 ``````{tab-item} User type 3
 
@@ -13,7 +13,7 @@ or add new file by text or upload
 ```
 
 ``````
-``````{tab-item} User type 4, 5 and 6
+``````{tab-item} User type 4 and 5
 
 ### Eventually solve issues with combining versions
 First make sure you update your branch so that you've the most up-to-date version. If you collaborate on this branch, you get the updates from your colleagues as well. This might lead into a merge conflict. How to solve that?
@@ -64,18 +64,13 @@ The staging GitHub Desktop assumes you want to stage all files. You can unselect
 ``````
 ```````
 
-## Review changes in book locally
+## Check changes in book locally
 ```````{tab-set}
 ``````{tab-item} User type 3 and 4
 Not possible, unless you want to be a user type 5. Otherwise you'll see your changes later on online.
 ``````
 ``````{tab-item} User type 5
-build book locally ...
-```{error} To be written
-```
-``````
-``````{tab-item} User type 6
-build book locally and startup python server...
+build book locally and eventually startup python server...
 ```{error} To be written
 ```
 ``````
@@ -98,7 +93,9 @@ click commit in single text editor ...
 ````
 
 ``````
-``````{tab-item} User type 4, 5 and 6
+``````{tab-item} User type 4 and 5
+
+Now we're going the share our changes in the Git-timeline with a *commit* and to *push* our changes to the *remote* repository (the one that is on the TU Delft GitLab/GitHub), so that others can see our changes and interact with them.
 
 `````{tab-set}
 ````{tab-item} Using Git in VS Code
@@ -124,23 +121,5 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 
 ````
 `````
-Are we done now? Yes, if you've made all your changes on GitLab / GitHub. However, no! if you did that locally! Up to now, we have only made changes and committed to the *local* copy of the repository. We still need to *push* our changes to the *remote* repository (the one that is on the TU Delft GitLab), so that others can see our changes and interact with them.
-
-`````{tab-set}
-````{tab-item} Using Git in VS Code
-
-In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab.
-
-```{figure} ../images/git-push.png
-
-After committing, click the 🔄 button to push our changes to the remote repository.
-
-````
-````{tab-item} Using GitHub Desktop
-...
-
-````
-`````
-
 ``````
 ```````

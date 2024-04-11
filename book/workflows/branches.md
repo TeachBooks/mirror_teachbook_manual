@@ -46,7 +46,7 @@ The circled menu is the branch selection menu.
 `````
 ``````
 
-``````{tab-item} User type 4, 5 and 6
+``````{tab-item} User type 4 and 5
 
 ### Obtain newest version from online repository
 

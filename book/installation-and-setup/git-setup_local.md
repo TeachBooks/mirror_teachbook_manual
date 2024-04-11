@@ -1,25 +1,11 @@
-# How do I use Git locally?
+# Git: GitHub Desktop / Git in VS Code
 
 ```{admonition} User types
 :class: tip
-This page is useful for user type 4-6.
+This page is useful for user type 4 and 5.
 ```
 
-In this section you will learn how to perform basic Git actions in VS Code / GitHub Desktop. Courses on Git usually make use of the command line interface to do these actions, but this introduces a steep learning curve. Instead, using Git from VS Code / GitHub Desktop is much more visual (i.e., more "clicky"), and therefore easier to use for those inexperienced with the command line. 
-
-## Terminology
-This is a (non-exhaustive) list of terminology that will be used in Git for local use.
-
-- Repository: a collection of files and folders, along with a history of their changes and who made them. 
-- Commit: a snapshot of the current state of the repository.
-- Staging: preparation of files to be committed. During staging, we propose files to be committed.
-- Branch: a development line.
-- Local: on your own computer.
-- Remote: on someone elses computer.
-- Pushing: uploading new commits to the remote repository.
-- Pulling: downloading new commits from the remote repository to your local repository.
-- Tracked (files): files that Git knows about and keeps track of their history.
-- Untracked (files): files that Git does not yet know about.
+In this section you will learn how to install Git locally. Courses on Git usually make use of the command line interface to do run Git, but this introduces a steep learning curve. Instead, using Git from VS Code / GitHub Desktop is much more visual (i.e., more "clicky"), and therefore easier to use for those inexperienced with the command line.
 
 ## Installing Git
 
@@ -127,8 +113,19 @@ And type the following command to set the email address:
 
 GitHub is a competitor company to GitLab. It provides very similar services, but they are often called different names, or have slightly different features. GitHub provides a free software that is very useful: [GitHub Desktop](https://desktop.github.com/)! While GitLab is a cloud-based version control system built around git, GitHub Desktop makes it possible to manage our git repositories locally on our computers, even though they are stored on GitLab. This is very useful for working with the jupyter-book more extensively and work on interactive features. GitHub Desktop provides an alternative to Git in VS Code, and will be described on a later stage.
 
-## Configuring Git Bash
-Git Bash is a shell (also referred to as "the terminal") that is automatically installed with git. It provides Unix-like commands on a Windows OS, and is recommended for working with open source projects like Jupyter (for example `pip install`, building Jupyter books, using Git Bash in VS Code, etc). To do this, `conda` needs to be setup properly; this is described in the {ref}`Getting Anaconda to work in terminal <vscode-setup-bash>`.
+## Terminology
+This is a (non-exhaustive) list of terminology that will be used in Git for local use.
+
+- Repository: a collection of files and folders, along with a history of their changes and who made them. 
+- Commit: a snapshot of the current state of the repository.
+- Staging: preparation of files to be committed. During staging, we propose files to be committed.
+- Branch: a development line.
+- Local: on your own computer.
+- Remote: on someone elses computer.
+- Pushing: uploading new commits to the remote repository.
+- Pulling: downloading new commits from the remote repository to your local repository.
+- Tracked (files): files that Git knows about and keeps track of their history.
+- Untracked (files): files that Git does not yet know about.
 
 ## More on GitLab
 

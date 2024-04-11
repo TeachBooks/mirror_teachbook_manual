@@ -8,7 +8,7 @@ Find your file on GitLab/GitHub ...
 
 ``````
 
-``````{tab-item} User type 4, 5 and 6
+``````{tab-item} User type 4 and 5
 
 ## Find source in online repository
 
