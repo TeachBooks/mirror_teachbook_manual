@@ -1,6 +1,6 @@
 # Making comments on the website
 
-This section will explain how to use the extension hypothesis in order to make comments.
+This section will explain how to use the extension hypothesis in order to make comments, an alternative is Utterances but this is only available for GitHub-hosted books.
 
 Firstly, you will need to open your interactive text book in your browser. Take as example the [MUDE](https://mude.citg.tudelft.nl/book/intro.html) book.
 
