@@ -22,3 +22,7 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+
+html:
+  comments:
+    hypothesis: true
