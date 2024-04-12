@@ -10,69 +10,83 @@ A jupyter book is composed out of many files which contain the educational conte
 We have previously introduced the notions of using Git in the online environment (remote) or locally. All the (text, figures, etc.) files that make up the book are contained on the remote repository on GitLab or GitHub. This could be on an open repository on `gitlab.com` or `github.com`. In the context of creating educational books for students at TU Delft, the repository will most likely be located on `gitlab.tudelft.nl` or `github.com/teachbooks`.
 
 The steps involved are as follows:
- 1. Assign task to yourself
- 2. Create your own version (branching) of the book by:
+ 1. **Assign task to yourself (milestones, issues)**
+ 2. **Create your own version of the book by**
 ```````{tab-set}
-``````{tab-item} User type 3
-- directly create your own version (branching) or select existing version 
+``````{tab-item} ... user type 3
+**... by directly creating your own version (branching) or selecting existing version:**
+ - branching
 ``````
-``````{tab-item} User type 4 and 5
+``````{tab-item} ... user type 4 and 5
+**... for ...**
 `````{tab-set}
-````{tab-item} First time opening (cloning) repository
-- Find source link online repository
-- Open repository locally (cloning)
-- Create your own version (branching) or select existing version (checkout branch)
+````{tab-item} ... repository opened for first time
+**... by opening the repository locally (cloning) and creating your own version (branching) or select existing version (checkout branch):**
+ - cloning
+ - branching / checkout branch
 ````
-````{tab-item} Using previously opened (cloned) repository
-- Obtain newest version from online repository (pulling)
-- Create your own version (branching) or select existing version (checkout branch)
+````{tab-item} ... previously opened repository
+**... by updating your repository (pulling) and creating your own version (branching) or select existing version (checkout branch):**
+ - pulling
+ - branching / checkout branch
+````
+
 `````
 ``````
 ```````
- 3. Edit the book by:
+ 3. **Edit the book by ...**
 ```````{tab-set}
-``````{tab-item} User type 3
-- Add or make changes to a file
-- Add changes to Git-timeline (committing)
+``````{tab-item} ... user type 3
+**... by directly adding changes on a single file to Git-timeline (committing):**
+ - adding or making changes to single file
+ - committing
 ``````
-``````{tab-item} User type 4
+``````{tab-item} ... user type 4
+... on ...
 `````{tab-set}
-````{tab-item} Brand new version (branch)
-- Add or make changes to file(s)
-- Select files ready to be added to Git-timeline (staging)
-- Add changes to Git-timeline locally (committing)
-- Add changes to GitHub/GitLab (pushing)
+````{tab-item} ... brand new version (branch)
+**... by making changes on a single / multiple file(s), selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+- adding or making changes to file(s)
+- staging
+- committing
+- pushing
 ````
-````{tab-item} Brand new version (branch)
-- Eventually solve conflicts with combining versions (merge conflicts, emerges after pulling)
-- Add or make changes to file(s)
-- Select files ready to be added to Git-timeline (staging)
-- Add changes to Git-timeline locally (committing)
-- Add changes to GitHub/GitLab (pushing)
+````{tab-item} ... existing version (branch)
+**... by regularly obtaining updates from colleagues from GitLab/GitHub (pulling), solving potential incompatible changes (merge conflicts), making changes on a single / multiple file(s), selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+- pulling
+- solving merge conflicts
+- adding or making changes to file(s)
+- staging
+- committing
+- pushing
 ````
 `````
 ``````
-``````{tab-item} User type 5
+``````{tab-item} ... user type 5
+... on ...
 `````{tab-set}
-````{tab-item} Brand new version (branch)
-- Add or make changes to file(s)
-- Check changes in book locally
-- Select files ready to be added to Git-timeline (staging)
-- Add changes to Git-timeline locally (committing)
-- Add changes to GitHub/GitLab (pushing)
+````{tab-item} ... brand new version (branch)
+**... by making changes on a single / multiple file(s), checking changes locally, selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+- adding or making changes to file(s)
+- checking changes locally 
+- staging
+- committing
+- pushing
 ````
-````{tab-item} Brand new version (branch)
-- Eventually solve conflicts with combining versions (merge conflicts, emerges after pulling)
-- Add or make changes to file(s)
-- Check changes in book locally
-- Select files ready to be added to Git-timeline (staging)
-- Add changes to Git-timeline locally (committing)
-- Add changes to GitHub/GitLab (pushing)
+````{tab-item} ... existing version (branch)
+**... by regularly obtaining updates from colleagues from GitLab/GitHub (pulling), solving potential incompatible changes (merge conflicts), making changes on a single / multiple file(s), checking changes locally,  selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+- pulling
+- solving merge conflicts
+- adding or making changes to file(s)
+- checking changes locally 
+- staging
+- committing
+- pushing
 ````
-`````
+
 ``````
 ```````
- 4. Check changes online
- 5. Repeat steps 3 and 4 until you're satisfied
- 6. Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book
- 7. Publish changes to student version of the book (merge request)
+ 4. **Check changes online**
+ 5. **Repeat steps 3 and 4 until you're satisfied**
+ 6. **Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book**
+ 7. **Publish changes to student version of the book (merge request)**
