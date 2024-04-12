@@ -43,7 +43,7 @@ The steps involved are as follows:
 - Add changes to Git-timeline locally (committing)
 - Add changes to GitHub/GitLab (pushing)
 ````
-````{tab-item} Brand new version (branch)
+````{tab-item} Existing version (branch)
 - Eventually solve conflicts with combining versions (merge conflicts, emerges after pulling)
 - Add or make changes to file(s)
 - Select files ready to be added to Git-timeline (staging)
@@ -61,7 +61,7 @@ The steps involved are as follows:
 - Add changes to Git-timeline locally (committing)
 - Add changes to GitHub/GitLab (pushing)
 ````
-````{tab-item} Brand new version (branch)
+````{tab-item} Existing version (branch)
 - Eventually solve conflicts with combining versions (merge conflicts, emerges after pulling)
 - Add or make changes to file(s)
 - Check changes in book locally

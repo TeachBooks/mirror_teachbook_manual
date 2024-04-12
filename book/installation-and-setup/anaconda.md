@@ -49,11 +49,11 @@ Now everytime you want to work on your jupyter-book, you need to activate the en
 
 As mentioned before, python packages can be downloaded in the environments you create. Both NumPy and pandas are popular Python packages used for data manipulation and analysis. For the creation of Jupyter Books, we will use the package `jupyter-book`. More information about this package [here](jupyter-book-setup.md).
 
-### Text-based files
+### Import environments
 
 Working on larger projects (with many cool interactive features) may require you to install a lot of python packages. It can be useful to specify the required packages in a text-based file (for example `environment.yml`) and then telling `conda` to create the environment based on the contents of the file! 
 
-Moreover, if you are joining a team that is working on complex projects, it can be useful for you to create a new environment based on use such a text-based file in order to create an up-to-date environment that will give you a flying start. The team might also provide a `requirements.txt` file which specifies all the packages you need to download in order to work on the project. Now it should also become clear why its preferrable to create new environment for each project/book that you work on because they might require you to use different packages!
+Moreover, if you are joining a team that is working on complex projects, it can be useful for you to create a new environment based on use such a text-based file in order to create an up-to-date environment that will give you a flying start. The team might also provide a `requirements.txt` file which specifies all the packages you need to download in order to work on the project. Now it should also become clear why its preferable to create new environment for each project/book that you work on because they might require you to use different packages!
 
 Here's an example of what a `requirements.txt` file might look like.
 
@@ -95,7 +95,7 @@ You can do this by navigating your command line interface to the folder with `re
 
 Now you can install the required packages with: `pip install -r requirements.txt`. The TeachBooks team works with these `requirements.txt` files which makes this an essential step in the set-up of your environment!
 
-### Create an environment from text-based file
+### Export environment
 
 If you want to create a file listing the required packages yourself, you can do it by creating a file with the following file extension: the `*.yml` file (pronounced "yah-mul"). It is a text-readable file, that stands for "Yet another Markup Language." This is one of _many_ types of files that use a particular type of text formatting to give a computer specific instructions. It is very similar to the way Markdown formatting works.
 

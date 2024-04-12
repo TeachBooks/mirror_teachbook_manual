@@ -1,4 +1,4 @@
-# Assign task to yourself
+# Assign task to yourself (milestones, issues)
 
 In a repository, team members can define Milestones and Issues. Milestones are used to track the overall progress of the project to make sure that deadlines are met. A milestone can group many issues, which are individual tasks that need to be finished in order to reach the milestone.
 
@@ -16,7 +16,7 @@ Every team member can create issues when they think of a task that would improve
 
 The issues in GitLab can be found on this page:
 
-![issues](figures/issues.png)
+![issues](figures/issues_new.png)
 
 You can create an issue by clicking on the blue `New Issue` button in the top right corner.
 
