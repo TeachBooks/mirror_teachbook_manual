@@ -30,7 +30,7 @@ parts:
     - file: basic-features/overview
       sections:
       - file: basic-features/recipes.md
-      - file: installation-and-setup/extension
+      - file: basic-features/hypothesis
     - file: features/overview
       sections:
       - file: features/remove_from_publish
