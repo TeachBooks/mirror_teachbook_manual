@@ -11,8 +11,10 @@ An issue is built up of the following attributes:
 
 Every team member can create issues when they think of a task that would improve the book.
 
+**Make and assign task to yourself (issues) in ...**
+
 `````{tab-set}
-````{tab-item} In GitLab
+````{tab-item} ... GitLab
 
 The issues in GitLab can be found on this page:
 
@@ -24,7 +26,7 @@ You can create an issue by clicking on the blue `New Issue` button in the top ri
 
 ````
 
-````{tab-item} In GitHub
+````{tab-item} ... GitHub
 
 ```{error} To be written
 ```
