@@ -1,14 +1,16 @@
-# Getting Anaconda to work in terminal
+# Combining Git Bash, VS Code and Conda
 
 ```{admonition} User types
 :class: tip
-This page is useful for user type 5-6.
+This page is useful for user type 5.
 ```
+
+## Conda in Git Bash
+Git Bash is a shell (also referred to as "the terminal") that is automatically installed with git. It provides Unix-like commands on a Windows OS, and is recommended for working with open source projects like Jupyter (for example `pip install`, building Jupyter books, using Git Bash in VS Code, etc). To do this, `conda` needs to be setup properly; this is described here:
 
 (vscode-setup-bash)=
 ````{tab} Windows - Git Bash (preferred)
-
-There are two things to do before you can use conda in your Git Bash CLI (possibly in VS Code): 1) adding Anaconda to your PATH variables (as user, *not* as system/admin), and 2) setting up Anaconda to run on Git Bash.
+There are two things to do before you can use conda in your Git Bash CLI: 1) adding Anaconda to your PATH variables (as user, *not* as system/admin), and 2) setting up Anaconda to run on Git Bash.
 
 1. update the `PATH` variables: 
 * search for 'env' in the windows search to find the settings page. Anaconda doesn't recommend adding them to the system `PATH`, therefore when searching for the setting with the Windows search, so be careful to open **"edit environment variables for your account"**; do **not** "edit the system environment variables". 
@@ -55,3 +57,11 @@ then do the following:
 This is not the preferred installation method: Powershell has a different set of terminal commands that are not Unix-based, whereas Git Bash does. Since the vast majority of coding information and examples on the internet related to Jupyter and other open source projects uses Unix-based commands, we strongly recommend you always run Git Bash for your work in the terminal.
 ``` 
 ````
+
+## Using Git Bash in VS Code (Windows only)
+By default, Powershell is the default terminal used in VS Code. However, Git Bash is recommended because it provides Unix-like commands, making it much easier to find help on sites like Stack Exchange. It also works better with open source projects like Jupyter. Git Bash installs automatically with git which you'll learn in the next chapter; to set as default:
+* Type `Ctrk+Shift+P` to open the command palette (it's also the top item in the "View" menu list)
+* Start type "terminal default" and you will soon see and be able to select the setting "Terminal: Select Default Profile" (hit `Enter`)
+* select Git Bash and hit "Enter" again to set as default
+
+When creating a new terminal via the menu bar you should now automatically start with a Git Bash terminal. Note that if a Powershell terminal still opens by default, you can always create a new terminal and manually select Git Bash.

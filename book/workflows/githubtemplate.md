@@ -1,8 +1,8 @@
-# Your first TeachBook using template
+# Your first TeachBook using the template
 
 ```{admonition} User types
 :class: tip
-This page is useful for user type 3-6.
+This page is useful for user type 3, 4 and 5.
 ```
 
 This page shows you how as an example how to start your own Jupyter Book and hosting that book online. It doesn't elaborate on the collaborative functionalities of Git or how to edit the book.
@@ -50,7 +50,8 @@ To learn more about how we do this, please see the [GitHub Actions documentation
 ````
 
 ````{tab-item} GitLab template
-Will follow
+```{error} To be written
+```
 ````
 `````
 

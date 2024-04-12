@@ -1,4 +1,7 @@
-# Publishing your book
+# Publish to students
 
-Once the book is ready to be published, a static website can be created through GitLab. (Need more info on that/Are we using gitlab pages?)
-If your repository is located in the [TeachBooks](https://gitlab.tudelft.nl/interactivetextbooks-citg) group on GitLab, you will see that it already has a branch called `publish`. This branch is where the student version of your book should go. The idea behind this is that the student version of your book should only change a few times per year at most (and certainly not right before an exam!) to prevent confusion. This way, you can still make frequent changes to the `main` branch.
+For this step it is assumed you’re using TeachBook’s GitHub actions or TeachBook’s GitLab pipeline.
+
+Until now, you merged your changes to branch `main`, but you might see a branch called `publish` as well. This branch is where the student version of your book should go. The idea behind this is that the student version of your book should only change a few times per year at most to prevent confusion. This way, you can still make frequent changes to the `main` branch.
+
+To publish your changes to the student version, simply repeat the next step but now from `main` to `publish`
