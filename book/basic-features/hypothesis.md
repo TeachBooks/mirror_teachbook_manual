@@ -2,15 +2,6 @@
 
 Hypothesis is a third-party application that allows anyone to make publicly visible comments on a website (once you create a free account). This section explains how to use and install the extension; an alternative is Utterances, but this is only available for GitHub-hosted books.
 
-## Using Hypothesis
-
-In this case it is easier to learn by doing! Hypothesis has been enabled for this book: if you look at the top right of the page, you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
-
-Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
-
-% THIS IS ADDED TO PAGE AS ANNOTATION:
-% This is an example Annotation. Note that annotations are publicly visible, but you must create an account and be logged in to reply or make your own. You can make highlights, but they are only visible to you, not everyone. You can also see all the Annotations on a website by opening the "Public" menu at the top of this dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
-
 ```{admonition} Be careful of changing website URL's!
 :class: warning
 
@@ -27,9 +18,31 @@ html:
   comments:
     hypothesis: true
 ```
+## Using Hypothesis
+
+In this case it is easier to learn by doing! Hypothesis has been enabled for this book, but only in the _draft_ version. 
+
+````{admonition} How to View the Draft Site
+:class: tip, dropdown
+You can access the draft version by adding `draft/` at the end of the main book (but before the current page). For example:
+
+```
+https://teachbooks.tudelft.nl/jupyter-book-manual/**draft/**basic-features/hypothesis.html
+```
+
+You can find out more about the draft and publish feature on {ref}`this page <publish_students>`.
+````
+
+Once on the draft version of this page, look at the top right corner: you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
+
+Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
+
+% THIS IS ADDED TO PAGE AS ANNOTATION:
+% This is an example Annotation. Note that annotations are publicly visible, but you must create an account and be logged in to reply or make your own. You can make highlights, but they are only visible to you, not everyone. You can also see all the Annotations on a website by opening the "Public" menu at the top of this dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
+
 
 ```{admonition} Tips
 :class: tip
 
-- use {ref}`remove_from_publish` to enable in Draft book only
+- use the {ref}`remove_from_publish` feature to enable Hypothesis in the draft book only
 ```
