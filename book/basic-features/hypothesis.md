@@ -35,17 +35,16 @@ You can find out more about the draft and publish feature on {ref}`this page <pu
 
 Once on the draft version of this page, look at the top right corner: you will see three icons, an arrow, an eye and a note-pad. Clicking on the arrow will open the extension and allow you to view the annotations. Create an account and log in if you would like to reply or make your own annotations. You can also highlight text, but this is not publicly visible, it is only for your own reference.
 
-## Student-controller with browser extension
 Note that the annotations are only visible for the page that you are currently viewing. You can see all the Annotations on a website by opening the "Public" menu at the top of the dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
-
-As an alternative to activating this for everyone, you can also advise your students to use the [hypothesis browser extension](https://web.hypothes.is/start/). In this way, students are not distracted by potential unnecessary public annotation and comments by fellow students and teachers.
-
-% THIS IS ADDED TO PAGE AS ANNOTATION:
-% This is an example Annotation. Note that annotations are publicly visible, but you must create an account and be logged in to reply or make your own. You can make highlights, but they are only visible to you, not everyone. You can also see all the Annotations on a website by opening the "Public" menu at the top of this dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
-
 
 ```{admonition} Tips
 :class: tip
 
 - use the {ref}`remove_from_publish` feature to enable Hypothesis in the draft book only
 ```
+
+## Student-controller with browser extension
+As an alternative to activating this for everyone, you can also advise your students to use the [hypothesis browser extension](https://web.hypothes.is/start/). In this way, students are not distracted by potential unnecessary public annotation and comments by fellow students and teachers.
+
+% THIS IS ADDED TO PAGE AS ANNOTATION:
+% This is an example Annotation. Note that annotations are publicly visible, but you must create an account and be logged in to reply or make your own. You can make highlights, but they are only visible to you, not everyone. You can also see all the Annotations on a website by opening the "Public" menu at the top of this dialog pane, selecting "Public" again in the drop-down, then "View group activity." Make sure you type in the URL to search (e.g., `teachbooks.tudelft.nl/jupyter-book-manual`).
