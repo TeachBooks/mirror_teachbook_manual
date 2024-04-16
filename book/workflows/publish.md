@@ -1,3 +1,4 @@
+(publish_students)=
 # Publish to students
 
 For this step it is assumed you’re using TeachBook’s GitHub actions or TeachBook’s GitLab pipeline.
