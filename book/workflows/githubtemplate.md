@@ -43,9 +43,7 @@ This page shows you how as an example how to start your own Jupyter Book and hos
 ```{figure} figures/action.png
 :name: action
 ```
-5. When the workflow has finished, visit your build book at `https://<username>.github.io/<repository_name>` (case sensitive). For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the shown repository.
-
-To learn more about how we do this, please see the [GitHub Actions documentation](https://docs.github.com/en/actions) and our deployment pipeline configuration file `.github/workflows/deploy-book-ghpages.yml` [here](https://github.com/TeachBooks/template/blob/main/.github/workflows/deploy-book-ghpages.yml).
+5. When the workflow has finished, visit your build book at `https://<username or organiszation_name>.github.io/<repository_name>` (case sensitive). For our example it is [https://dummydocent.github.io/test_book_from_template/](https://dummydocent.github.io/test_book_from_template/) for the shown repository.
 
 ````
 
