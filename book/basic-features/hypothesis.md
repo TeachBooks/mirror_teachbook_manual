@@ -27,7 +27,7 @@ In this case it is easier to learn by doing! Hypothesis has been enabled for thi
 You can access the draft version by adding `draft/` at the end of the main book (but before the current page). For example:
 
 ```
-https://teachbooks.tudelft.nl/jupyter-book-manual/**draft/**basic-features/hypothesis.html
+https://teachbooks.tudelft.nl/jupyter-book-manual/draft/basic-features/hypothesis.html
 ```
 
 You can find out more about the draft and publish feature on {ref}`this page <publish_students>`.
