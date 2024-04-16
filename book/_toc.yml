@@ -28,6 +28,7 @@ parts:
       sections:
       - file: basic-features/recipes.md
       - file: basic-features/hypothesis
+      - file: basic-features/utterances
     - file: features/overview
       sections:
       - file: features/github_deploy.md
