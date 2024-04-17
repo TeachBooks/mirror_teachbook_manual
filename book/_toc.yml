@@ -35,6 +35,7 @@ parts:
       - file: features/remove_from_publish
       - file: features/custom_toc.md
       - file: features/custom_download.md
+      - file: external/Nested-Books/README.md
       - file: features/interactive_element.ipynb
         sections:
         - file: features/grasple.md
