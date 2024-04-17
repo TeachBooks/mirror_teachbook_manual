@@ -1,3 +1,6 @@
 [submodule "book/external/Nested-Books"]
 	path = book/external/Nested-Books
 	url = https://github.com/TeachBooks/Nested-Books.git
+[submodule "book/external/template"]
+	path = book/external/template
+	url = https://github.com/TeachBooks/template.git
