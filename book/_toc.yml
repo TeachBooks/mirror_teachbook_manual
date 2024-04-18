@@ -13,7 +13,7 @@ parts:
       - file: installation-and-setup/anaconda
       - file: installation-and-setup/git_bash_conda_vs-code.md
       - file: installation-and-setup/jupyter-book-setup
-    - file: workflows/githubtemplate
+    - file: external/template/README.md
     - file: workflows/collaboration
       sections:
       - file: workflows/milestones_issues
