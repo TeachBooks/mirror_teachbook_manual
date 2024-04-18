@@ -1,5 +1,10 @@
 # Grasple questions
 
+```{admonition} User types
+:class: tip
+This section is useful for user type 3-5.
+```
+
 [Grasple](https://app.grasple.com/) gives you an embed code for each exercise which looks like this, which can be added cirectly to your markdown-file.
 ```html
 <iframe height="560" src="https://embed.grasple.com/exercises/767782d5-023a-4b49-a1f3-874fca626c8e?id=79907" title="Grasple Exercise 79907" width="100%" allow="clipboard-read; clipboard-write"></iframe>

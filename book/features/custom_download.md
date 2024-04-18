@@ -2,7 +2,7 @@
 
 ```{admonition} User types
 :class: tip
-This section is useful for user type 4-6.
+This section is useful for user type 4-5.
 ```
 
 You can control the download option of the book in two ways:

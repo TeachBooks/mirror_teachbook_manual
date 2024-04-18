@@ -20,7 +20,7 @@ Different types of users will interact with the website or the Jupyter Books dif
 4. **Colleague making text adjustments to multiple files at the same time locally**. <br>
     User 4 is a hybrid between type 3 and 5. Basically this user is making changes by editing the .md files locally using, for example, VS Code. Therefore, this user requires a little bit more knowledge on git (think of pulling and pushing changes) but their main focus remains to make adjustments to the content of the book by editing .md files whereas user type 4 has more knowledge to make changes to python files the book as well. This user can build the book online.
 
-5. **Colleague making text and python adjustments to multiple files at the same time locally**. <br>
+5. **Colleague making text and code (especially Python) adjustments to multiple files at the same time locally**. <br>
 <img src="figures/type 5.jpg" alt="Example Image" align="left" width="120" style="margin: 10px;">
 
    This user has more knowledge in GitLab/GitHub than the previous user and can basically take care of branching and merging by themselves. They know how to work with software for editing .md and .ipynb files. They can use the draft book online to view their changed in the book, or build the book locally.
