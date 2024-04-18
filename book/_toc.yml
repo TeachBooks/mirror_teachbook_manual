@@ -31,7 +31,7 @@ parts:
       - file: basic-features/utterances
     - file: features/overview
       sections:
-      - file: features/github_deploy.md
+      - file: external/deploy-book-workflow/README.md
       - file: features/remove_from_publish
       - file: features/custom_toc.md
       - file: features/custom_download.md
