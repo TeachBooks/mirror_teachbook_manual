@@ -8,7 +8,8 @@ variables:
   REGISTRY_HOST: localhost:5000
   TAG_LATEST: $REGISTRY_HOST/$CI_PROJECT_NAME/$CI_COMMIT_REF_NAME:latest
   TAG_DRAFT: $REGISTRY_HOST/$CI_PROJECT_NAME-draft/$CI_COMMIT_REF_NAME:latest
-  GIT_SUBMODULE_STRATEGY: recursive # For submodules  
+  GIT_SUBMODULE_DEPTH: 1
+  #GIT_SUBMODULE_STRATEGY: recursive # For submodules  
 
 cache:
   paths:
