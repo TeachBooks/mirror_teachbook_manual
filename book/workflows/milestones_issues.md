@@ -11,20 +11,33 @@ An issue is built up of the following attributes:
 
 Every team member can create issues when they think of a task that would improve the book.
 
-`````{tab-set}
-````{tab-item} Issues in GitLab
+The following tabs explain where the Issues can be found in GitLab and GitHub.
 
-The issues in GitLab can be found on this page:
+`````{tab-set}
+````{tab-item} GitLab
+
+The issues in GitLab can be found in your repositery in the left bar. 
 
 <img src="figures/Issues.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
 
-You can create an issue by clicking on the blue `New Issue` button in the top right corner.
+You can create an issue by clicking on the blue `New Issue` button in the top right corner. This will lead you to this window where you can specify all attributes we mentioned before!
 
 <img src="figures/New_Issue_GitLab.png" alt="New Issue" width="600" style="display:block; margin-left:auto; margin-right:auto;"> <br>
 ````
 
-````{tab-item} Issues in GitHub
-...
+````{tab-item} GitHub
+
+The issues in GitHub can be found in your repositery in the top bar.
+
+<img src="figures/Issue_GitHub.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+
+Clicking on `Issues` will open up the page with all the issues on this repositery.
+
+<img src="figures/New_Issue_GitHub.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+
+Finally, by clicking the green `New Issue` button you can create a new issue and specify all the attributes we mentioned before!
+
+<img src="figures/New_Issue_GitHub2.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
 
 ````
 `````
