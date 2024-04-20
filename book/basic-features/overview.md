@@ -1,5 +1,10 @@
 # Basic Jupyter Book Features
 
+```{admonition} User types
+:class: tip
+This section is useful for user type 3-6.
+```
+
 ```{warning} Under Construction!
 
 This page will provide a list of some commonly used book features which are all available in the original jupyter book package. However, this page includes best-practises on how to use them.
