@@ -18,7 +18,7 @@ If you have doubt about this choice, we advise you to start on GitHub. Moving yo
 Here's a table summarizing the information:
 |  | GitHub                                                | GitLab                                                                                   |
 |------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------|
-| Website to view book online     | GitHub pages (<organization/username>.github.io/<book>) or custom URL 🌐         | TeachBooks (teachbooks.tudelft.nl/<book>) or TU Delft OIT (interactivetextbooks.tudelft.nl/<book>) 🎓 |
+| Website to view book online     | GitHub pages (`<organization/username>.github.io/<book>`) or custom URL 🌐         | TeachBooks (`teachbooks.tudelft.nl/<book>`) or TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
 | Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧                                             |
 | Book website updates | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀                           | Automated but simplistic (one or two versions, command-line interface)  🛵                                                                      |
 | SSO Login book website    | Not available  ❌                                      | Optional  ✅                                 |
