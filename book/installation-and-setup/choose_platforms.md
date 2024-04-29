@@ -13,14 +13,14 @@ Now that you can start, there's a first choice to be made, where to host your bo
 - Because we’re in control on the server connected to GitLab, we can set up SSO login for visitors of the website. This is not an option for GitHub because we don’t own the server.
 - The TU Delft GitLab requires SSO login for editing the book. Although this is useful for TU Delft employees, it limits the collaboration with people outside of TU Delft.
 
-If you have doubt about this choice, we advise you to start on GitHub. Moving your stuff to GitLab or hosting to a custom URL is always possible
+If you have doubt about this choice, we advise you to start on GitHub. Moving your stuff to GitLab or hosting to a custom URL is always possible at a later stage.
 
 Here's a table summarizing the information:
-|  | GitHub                                                | GitLab                                                                                   |
-|------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------|
+|  | GitHub   | GitLab      |
+|--|----------|-------------|
 | Website to view book online     | GitHub pages (`<organization/username>.github.io/<book>`) or custom URL 🌐         | TeachBooks (`teachbooks.tudelft.nl/<book>`) or TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
-| Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧                                             |
-| Book website updates | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀                           | Automated but simplistic (one or two versions, command-line interface)  🛵                                                                      |
-| SSO Login book website    | Not available  ❌                                      | Optional  ✅                                 |
-| Editing access Git repository   | Read only, custom roles or public for everyone  👀                                      | Private, read-only, custom roles or TU Delft internal which requires SSO login  👥   |
+| Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧    |
+| Book website updates | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀   | Automated but simplistic (one or two versions, command-line interface) 🛵    |
+| SSO Login book website    | Not available  ❌      | Optional  ✅          |
+| Editing access Git repository   | Read only, custom roles or public for everyone  👀   | Private, read-only, custom roles or TU Delft internal which requires SSO login  👥   |
 
