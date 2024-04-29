@@ -1,0 +1,25 @@
+# GitHub vs GitLab
+
+```{admonition} User types
+:class: tip
+This page is useful for user type 3-5.
+```
+
+Now that you can start, there's a first choice to be made, where to host your book:
+
+- Github allows you to host your book on the GitHub server using GitHub pages (to be recognized by the `organization.github.io/book` url, for example the [template book](https://teachbooks.github.io/template/)), which takes all the steps of hosting out of your hands. You can also use a custom owned URL, although this requires some additional skills. On TU Delft's GitLab you need a webserver, which is offered by TeachBooks (to be recognized by the url `teachbooks.tudelft.nl/book`, for example [this manual](https://teachbooks.tudelft.nl/jupyter-book-manual)) as the TU Delft OIT team (to be recognized by the url `interactivetextbooks.tudelft.nl/book`, for example [the TU Delft OIT demo book](https://interactivetextbooks.tudelft.nl/open-textbooks-demonstration/)). For the TU Delft OIT webserver you’re required to publish your book more officially, it cannot be used for viewing your book online in the editing-phase.
+- On GitHub you can start right away with a git environment and online book. On GitLab you can set up your own git environment, but you need to be given access by [TeachBooks](mailto:teachbooks@tudelft.nl) or [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
+- Because we’re in control on the server connected to GitLab, we can set up SSO login for visitors of the website. This is not an option for GitHub because we don’t own the server.
+- The TU Delft GitLab requires SSO login for editing the book. Although this is useful for TU Delft employees, it limits the collaboration with people outside of TU Delft.
+- On GitHub we developed a [automatic process which builds the book and publishes it online](../external/deploy-book-workflow/README.md) in a very flexible way (publication of multiple version of the book, insights in book building errors, parallel so fast build). On GitLab both we and other people at TU Delft have a more simplistic workflow which can be used when you're set up on those Git environments and webservers.
+
+If you have doubt about this choice, we advise you to start on GitHub. Moving your stuff to GitLab or hosting to a custom URL is always possible
+
+Here's a table summarizing the information:
+|  | GitHub                                                | GitLab                                                                                   |
+|------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------|
+| Website to view book online     | GitHub pages (organization.github.io/book) or custom URL 🌐         | TeachBooks (teachbooks.tudelft.nl/book) or TU Delft OIT (interactivetextbooks.tudelft.nl/book) 🎓 |
+| Setting up book website | Immediate and automated  ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧                                             |
+| SSO Login book website    | Not available  ❌                                      | Optionally  ✅                                 |
+| Editing Access   | Read-only or public for everyone  👀                                      | Private, read-only or TU Delft internal which requires SSO login  👥   |
+| Build and Publish Process | Flexible  🚀                           | Simplistic workflow  🛵                                                                      |
