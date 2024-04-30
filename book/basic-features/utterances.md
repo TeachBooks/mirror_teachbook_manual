@@ -11,6 +11,8 @@ The given script can be added anywhere in your book, just copy the html-script i
 
 Users need to have a GitHub-account to post a message. Although this might be a burden, it allows students to track their previous posts and set up notifications on follow-up posts.
 
+If you'd like notifications on new posts in your book, which end up as issues in your GitHub repository, you can configure the GitHub `watch` settings to do so as [explained here](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications#configuring-your-watch-settings-for-an-individual-repository).
+
 Below you see an example of this feature!
 
 ## Example discussion
