@@ -3,11 +3,14 @@
 Different types of users will interact with the website or the Jupyter Books differently and will therefore need to know more or less about the composition of the book. For now we will differentiate 6 types of users.
 
 1. **Students providing feedback on the published website**.  <br>
-<img src="figures/type 1.jpg" alt="Example Image" align="left" width="120" style="margin: 10px;">
 
-    There are multiple tools of providing feedback in the build book:
-    - Using the [hypothesis](https://jupyterbook.org/en/stable/interactive/comments/hypothesis.html)-extension which allows public/private highlighting and annotating parts of the book. An example can be seen on the [MUDE website](https://mude.citg.tudelft.nl/book/intro.html)
-    - Using the [Utterances](https://jupyterbook.org/en/stable/interactive/comments/utterances.html)-extension which allows commenting on pages for books which are hosted on GitHub. Those comments are converted to issues on GitHub for the editors to handle.
+<img src="figures/type 1.jpg" alt="Example Image" align="left" width="130" style="margin: 10px;">
+
+    There are multiple tools of providing feedback in the built book:
+        
+    1) Using the [hypothesis](https://jupyterbook.org/en/stable/interactive/comments/hypothesis.html)-extension which     allows public/private highlighting and annotating parts of the book. An example can be seen on the [MUDE website](https://mude.citg.tudelft.nl/book/intro.html).
+        
+    2) Using the [Utterances](https://jupyterbook.org/en/stable/interactive/comments/utterances.html)-extension which allows commenting on pages for books which are hosted on GitHub. Those comments are converted to issues on GitHub for the editors to handle.
 
 <br style="clear:both;">
 
