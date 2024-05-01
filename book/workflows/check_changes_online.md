@@ -8,7 +8,7 @@ Now that you've pushed your changes online, it's time to check the change in the
 At the moment this is not possible, but the workflow will soon be the same as for GitHub.
 ````
 ````{tab-item} In GitHub
-- Wait for the action to finish
+- Wait for the action to finish (GitHub Desktop shows progress if its part of a pull request, VS Code shows progress with the GitHub Actions addon)
 - Visit the website of your build book
 ```{error} To be written
 ```
