@@ -1,5 +1,5 @@
-title: Intro to Git, VS Code and Jupyter Books
-author: Caspar Jungbacker
+title: How to make a TeachBook
+author: Tom van Woudenberg, Robert Lanzafame, Max Ramgraber, Caspar Jungbacker, Julie Kirsch
 logo: images/TUDelft_logo_rgb.png
 
 execute:
@@ -7,6 +7,9 @@ execute:
 
 launch_buttons:
   thebe: true
+
+html:
+  favicon : "images/favicon.ico"
 
 sphinx:
   extra_extensions:
