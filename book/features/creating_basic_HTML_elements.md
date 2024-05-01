@@ -1,19 +1,6 @@
 # Creating basic interactive HTML/JavaScript elements
 
-## Embedding HTML files
-A straightforward way to create interactive web-based elements is to code them directly using HTML with JavaScript. This allows us to build elements such as the one below, which shows the connection between a probability density function (pdf) and the associated cumulative density function (cdf):
-
 <iframe src="../_static/element_pdf_and_cdf.html" width="600" height="300" frameborder="0"></iframe>
-
-If we want to embed such figures in the teachbook, you can do so via an iframe which references a html file in the _static folder:
-
-```html
-<iframe src="../_static/element_pdf_and_cdf.html" width="600" height="300" frameborder="0"></iframe>
-```
-
-Here, the src path moves up one subdirectory, then enters the `_static` folder, and loads the `element_pdf_and_cdf.html` file. So how do we create this figure?
-
-## Creating a basic interactive HTML/JavaScript element
 
 At the bottom of this page, I will provide the full code for the interactive element above. In this section, let us go through the code one piece at a time. Let us begin from the top.
 
