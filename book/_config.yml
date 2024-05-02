@@ -6,9 +6,6 @@ logo: images/Logo_without_background.png
 execute:
   execute_notebooks: 'off'
 
-launch_buttons:
-  thebe: true
-
 html:
   favicon : "images/favicon.ico"
   baseurl  : "https://teachbooks.tudelft.nl/jupyter-book-manual/"
@@ -31,4 +28,10 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+    html_theme_options:
+      repository_url: "https://gitlab.tudelft.nl/interactivetextbooks-citg/jupyter-book-manual"
+      use_repository_button: true
+      use_issues_button : true
+      launch_buttons:
+          thebe: true
     html_show_copyright: false
