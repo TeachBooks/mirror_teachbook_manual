@@ -1,7 +1,7 @@
 title: How to make a TeachBook
-author: Test
+author: <a href="https://teachbooks.tudelft.nl/">TeachBooks Team</a>, built with <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt="">
+
 logo: images/Logo_without_background.png
-copyright: Delft University of Technology, CC BY 4.0
 
 execute:
   execute_notebooks: 'off'
@@ -11,6 +11,11 @@ launch_buttons:
 
 html:
   favicon : "images/favicon.ico"
+  baseurl  : "https://teachbooks.tudelft.nl/jupyter-book-manual/"
+# START DRAFT
+  comments:
+    hypothesis: true
+# END DRAFT
 
 sphinx:
   extra_extensions:
@@ -26,9 +31,4 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
-
-# START DRAFT
-html:
-  comments:
-    hypothesis: true
-# END DRAFT
+    html_show_copyright: false
