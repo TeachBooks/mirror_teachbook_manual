@@ -7,7 +7,7 @@ This section is useful for user type 3-6.
 
 ```{warning} Under Construction!
 
-This page will provide a list of some commonly used book features which are all available in the original jupyter book package. However, this page includes best-practises on how to use them.
+This page will provide a list of some commonly used book features which are all available in the original <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:2em; width:auto" src="../images/logo-wide.svg" alt="Jupyter book"></a> package. However, this page includes best-practises on how to use them.
 ```
 
 Things to include somewhere:

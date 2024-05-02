@@ -1,6 +1,7 @@
 title: How to make a TeachBook
-author: Tom van Woudenberg, Robert Lanzafame, Max Ramgraber, Caspar Jungbacker, Julie Kirsch
-logo: images/TUDelft_logo_rgb.png
+author: TU Delft <a href="https://teachbooks.tudelft.nl/">TeachBooks Team</a>, built with <a href="https://jupyterbook.org/">Jupyter Book</a>
+logo: images/Logo_without_background.png
+copyright: Delft University of Technology, CC BY 4.0
 
 execute:
   execute_notebooks: 'off'
