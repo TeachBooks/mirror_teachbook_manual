@@ -15,7 +15,7 @@ Now that you can start, there's a first choice to be made, where to host your bo
 - GitHub has a nice integration with the [GitHub Desktop application](git-setup_local.md). For GitLab it works as well, but has less functionality.
 - [Utteranc.es](../basic-features/utterances.md) requires a GitHub repository to host the discussions. If you're using a GitLab repository, you need a separate GitHub repository and the discussions and book content is not at the same place.
 
-If you have doubt about this choice, we advise you to start on GitHub. Moving/dupblication your content to GitLab or hosting to a custom URL is always possible at a later stage.
+If you have doubt about this choice, we advise you to start on GitHub. Moving/duplicating your content to GitLab or hosting to a custom URL is always possible at a later stage.
 
 Here's a table summarizing the information:
 |  | GitHub   | GitLab      |
@@ -23,7 +23,7 @@ Here's a table summarizing the information:
 | Website to view book online     | GitHub pages (`<organization/username>.github.io/<book>`) or custom URL 🌐         | TeachBooks (`teachbooks.tudelft.nl/<book>`) or TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
 | Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧    |
 | Updating book website | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀   | Automated but simplistic (one or two versions, command-line interface) 🛵    |
-| Student book access with SSO    | Not available for GitHub pages  ❌, optional with custom URL  ✅ | Optional  ✅          |
+| Student book access with SSO    | Not available for GitHub pages ❌, optional with custom URL  ✅ | Optional  ✅          |
 | Teacher/TA access to Git repository   | Private (if part of organization linked to educational account) /public  👀   | Private / public / internally TU Delft, editing requires requires SSO login  👥   |
 | GitHub Desktop | Well integrated 😎 | Basic integration 🙂 |
 | Utteranc.es | Can be linked to same repository 🏷️ | Requires GitHub repository next to GitLab repository 🏷️🏷️|
