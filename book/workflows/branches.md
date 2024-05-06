@@ -160,7 +160,6 @@ The VS Code welcome screen.
 ```
 ````
 `````
-
 ``````
 
 ``````{tab-item} I have previously opened the repository (Branching)
@@ -196,15 +195,10 @@ Location of the branch menu.
 
 ```{error} To be written
 ```
-
 ````
 `````
 ``````
-
 ```````
-
-
-
 ````````
 `````````
 
