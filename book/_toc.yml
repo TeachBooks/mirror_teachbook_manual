@@ -6,6 +6,7 @@ parts:
     chapters:
     - file: installation-and-setup/user_types
     - file: installation-and-setup/git
+    - file: installation-and-setup/choose_platforms.md
     - file: installation-and-setup/overview
       sections:
       - file: installation-and-setup/vscode-setup
@@ -13,7 +14,7 @@ parts:
       - file: installation-and-setup/anaconda
       - file: installation-and-setup/git_bash_conda_vs-code.md
       - file: installation-and-setup/jupyter-book-setup
-    - file: workflows/githubtemplate
+    - file: external/template/README.md
     - file: workflows/collaboration
       sections:
       - file: workflows/milestones_issues
@@ -27,12 +28,15 @@ parts:
     - file: basic-features/overview
       sections:
       - file: basic-features/recipes.md
-      - file: installation-and-setup/extension
+      - file: basic-features/hypothesis
+      - file: basic-features/utterances
     - file: features/overview
       sections:
+      - file: external/deploy-book-workflow/README.md
       - file: features/remove_from_publish
       - file: features/custom_toc.md
       - file: features/custom_download.md
+      - file: external/Nested-Books/README.md
       - file: features/interactive_element.ipynb
         sections:
         - file: features/grasple.md

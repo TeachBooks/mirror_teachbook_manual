@@ -25,7 +25,7 @@ What does this code do? In HTML, certain active parts of the code are defined as
 
 Let's take a closer look at the source. Since this project uses a local file structure, we can make use of relative paths such as `../_static/element_render box.html`. What does this path do? In this project, the markdown file for this article is located in the directory `book/features/adding_HTML_elements.md`. The HTML element we want to embed is located in the directory `book/_static/element_render_box.html`. The relative path thus works as follows: 
  - We start in the markdown file's directory `book/features/adding_HTML_elements.md`
- - The string `"../"` tells the iframe to move up one folder to `book`
+ - The string `"../"` tells the iframe to move up one folder to `book`. If you need to move up more subdirectories, use it recursively, eg. `../../` moves up two directories.
  - The following string `"_static/"` tells the iframe to navigate into the `_static` folder. We are now in `book/_static/`.
  - Finally, the string `"element_render_box.html"` selects the HTML file we want to embed. We are now in `book/_static/element_render_box.html`.
 

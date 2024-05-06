@@ -5,11 +5,11 @@
 This page is useful for user type 5.
 ```
 
-Jupyter Book is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository.
+<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository.
 
 ## Build a book
 
-As soon as you've installed your book environment with jupyter-book you can build your book locally. The official [jupyter-book](https://jupyterbook.org/en/stable/basics/build.html) documentation is quite extensive. Only two notes: first navigate to the directory where your book is to leave out the `path-to-book` and use `--all` whenever building a book to make sure the table of contents fully updates:
+As soon as you've installed your book environment with jupyter-book you can build your book locally. The official <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> documentation is quite extensive. Only two notes: first navigate to the directory where your book is to leave out the `path-to-book` and use `--all` whenever building a book to make sure the table of contents fully updates:
 
 ```
 jupyter-book build <path-to-book> --all

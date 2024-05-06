@@ -2,7 +2,7 @@
 
 ```{admonition} User types
 :class: tip
-This section is useful for user type 3-6.
+This section is useful for user type 3-5.
 ```
 
 A new feature is added to enable testing of all interactive features on the web server (i.e., in the draft book) while preventing students from seeing it. Pages in the draft book (`main` branch) can be manually stripped out of the table of contents when a merge request from `main` to `publish` is made using a tag `REMOVE-FROM-PUBLISH`. Pages marked with this feature are still visible in the draft book and books build from source on personal computers. The tag is applied as follows:
