@@ -23,7 +23,7 @@ Here's a table summarizing the information:
 | Website to view book online     | GitHub pages (`<organization/username>.github.io/<book>`) or custom URL 🌐         | TeachBooks (`teachbooks.tudelft.nl/<book>`) or TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
 | Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧    |
 | Updating book website | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀   | Automated but simplistic (one or two versions, command-line interface) 🛵    |
-| Student book access with SSO    | Not available  ❌      | Optional  ✅          |
+| Student book access with SSO    | Not available for GitHub pages  ❌, optional with custom URL  ✅ | Optional  ✅          |
 | Teacher/TA access to Git repository   | Private (if part of organization linked to educational account) /public  👀   | Private / public / internally TU Delft, editing requires requires SSO login  👥   |
 | GitHub Desktop | Well integrated 😎 | Basic integration 🙂 |
 | Utteranc.es | Can be linked to same repository 🏷️ | Requires GitHub repository next to GitLab repository 🏷️🏷️|
