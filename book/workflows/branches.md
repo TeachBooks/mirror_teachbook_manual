@@ -125,7 +125,7 @@ The cloning menu.
 ````
 `````
 
-**... and I would like to view the local repositery in ...**
+**... and I would like to clone the local repositery with ...**
 
 `````{tab-set}
 ````{tab-item} ... VS Code
