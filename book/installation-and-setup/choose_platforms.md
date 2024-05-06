@@ -15,7 +15,7 @@ Now that you can start, there's a first choice to be made, where to host your bo
 - GitHub has a nice integration with the [GitHub Desktop application](git-setup_local.md). For GitLab it works as well, but has less functionality.
 - [Utteranc.es](../basic-features/utterances.md) requires a GitHub repository to host the discussions. If you're using a GitLab repository, you need a separate GitHub repository and the discussions and book content is not at the same place.
 
-If you have doubt about this choice, we advise you to start on GitHub. Moving your stuff to GitLab or hosting to a custom URL is always possible at a later stage.
+If you have doubt about this choice, we advise you to start on GitHub. Moving/dupblication your content to GitLab or hosting to a custom URL is always possible at a later stage.
 
 Here's a table summarizing the information:
 |  | GitHub   | GitLab      |
