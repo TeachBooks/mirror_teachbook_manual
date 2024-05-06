@@ -122,6 +122,8 @@ The cloning menu.
 <figure align="center">
     <img src="figures/CloneRepo_TroughGithubdesk.PNG" alt="Example Image" width="400">
 </figure>
+
+You've cloned the repository now directly, so you can skip the next step.
 ````
 `````
 
