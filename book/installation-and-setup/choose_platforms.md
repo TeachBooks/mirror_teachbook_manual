@@ -11,7 +11,7 @@ Now that you can start, there's a first choice to be made, where to host your bo
 - On GitHub you can start right away with a git environment and online book using our [template](../external/template/README.md). On GitLab you can set up your own git environment, but you need to be given access by [TeachBooks](mailto:teachbooks@tudelft.nl) or [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
 - On GitHub we developed a [automatic process which builds the book and publishes it online](../external/deploy-book-workflow/README.md) in a very flexible way (publication of multiple version of the book, insights in book building errors, parallel so fast build, custom urls in subdirectories). On GitLab both we and other people at TU Delft have a more simplistic workflow which can be used when you're set up on those Git environments and webservers.
 - Because we’re in control on the server connected to GitLab, we can set up SSO login for visitors of the website. This is not an option for GitHub because we don’t own the server.
-- The TU Delft GitLab requires SSO login for editing the book. Although this is useful for TU Delft employees, it limits the collaboration with people outside of TU Delft.
+- Both GitLab and GitHub allow for extensive options for visibility of the source code. If you're using GitHub pages, you need a free organization linked to a free eduational account. The TU Delft GitLab requires SSO login for editing the book. Although this is useful for TU Delft employees, it limits the collaboration with people outside of TU Delft.
 - GitHub has a nice integration with the [GitHub Desktop application](git-setup_local.md). For GitLab it works as well, but has less functionality.
 - [Utteranc.es](../basic-features/utterances.md) requires a GitHub repository to host the discussions. If you're using a GitLab repository, you need a separate GitHub repository and the discussions and book content is not at the same place.
 
@@ -24,6 +24,6 @@ Here's a table summarizing the information:
 | Setting up book website | Immediate and automated with [template](../external/template/README.md) ⚡️         | Access required by TeachBooks or TU Delft OIT  🚧    |
 | Updating book website | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀   | Automated but simplistic (one or two versions, command-line interface) 🛵    |
 | Student book access with SSO    | Not available  ❌      | Optional  ✅          |
-| Teacher/TA access to Git repository   | Read only, custom roles or public for everyone  👀   | Private, read-only, custom roles or TU Delft internal which requires SSO login  👥   |
+| Teacher/TA access to Git repository   | Private (if part of organization linked to educational account) /public  👀   | Private / public / internally TU Delft, editing requires requires SSO login  👥   |
 | GitHub Desktop | Well integrated 😎 | Basic integration 🙂 |
 | Utteranc.es | Can be linked to same repository 🏷️ | Requires GitHub repository next to GitLab repository 🏷️🏷️|
