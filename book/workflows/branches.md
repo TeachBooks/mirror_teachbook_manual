@@ -67,7 +67,7 @@ Tip: It makes sense to give the branch a name related to the content you will be
 
 ````````{tab-item} ... user type 4 and 5 ...
 
-**Please select the statement that applies to you**
+**Select the statement that applies to you.**
 
 ```````{tab-set}
 
@@ -148,30 +148,33 @@ The VS Code welcome screen.
 
 ````{tab-item} ... GitHub Desktop
 
-1. The sidebar on the left shows all the repositeries you have cloned. Navigate to the one you would like to work in.
+1. You have previously copied the link of the repositery you would like to clone from GitLab or GitHub. In GitHub Desktop, navigate to the top bar, click on `File` and then on `Clone repositery`.
 
-```{figure} ../figures/Branching_GitHub_Desktop.PNG
+```{figure} ../figures/CloneRepo_Githubdesk.PNG
 ```
-2. In the top bar click on `New Branch`.
+2. In the top bar click on `URL`.
 
-```{figure} ../figures/Branching_GitHub_Desktop2.PNG
+```{figure} ../figures/CloneRepo_TroughGithubdesk.PNG
 ```
-3. The following window will pop up in which you can specify the name of your branch and the source branch (the branch which you will copy). Tip: it is useful to name the branch according to the additions or changes you want to make.
+3. Simply paste the link, specify the working directory (location where you would like to save the folder locally) and click on 'Clone'.
 
-```{figure} ../figures/Branching_GitHub_Desktop3.PNG
-```
 ````
 `````
 ``````
 
 ``````{tab-item} I have previously opened the repository (Branching)
 
-**I want to update my repository (pulling) and create my own version (branching) or select an existing version (checkout branch) using ...**
+**I want to (1) update my repository (pulling) and <br>
+            (2) create my own version (branching) or select an existing version (checkout branch) using ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
 
-1. The next step is to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. In VS Code, open the branch menu from the bottom left (see {numref}`git-branch-menu-main`). You'll be be greeted with a menu that looks like the one in {numref}`git-branch-selection-menu`. In this menu, we get an overview of the branches of our repository. Notice that our new branch `chapter-2` appears as `origin/chapter-2`, and has a cloud icon in front of it. This means that the branch only exists on the remote repository. Check out the branch by simply clicking on it. Check that the branch is indeed checked out by looking at the branch menu button in the bottom left again; it should now say the name of your branch instead of `main` (in our case `chapter-2`). 
+1. The next step is to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
+
+In VS Code, open the branch menu from the bottom left (see {numref}`git-branch-menu-main`). You'll be be greeted with a menu that looks like the one in {numref}`git-branch-selection-menu`. In this menu, we get an overview of the branches of our repository. Notice that our new branch `chapter-2` appears as `origin/chapter-2`, and has a cloud icon in front of it. This means that the branch only exists on the remote repository. 
+
+Check out the branch by simply clicking on it. Check that the branch is indeed checked out by looking at the branch menu button in the bottom left again; it should now say the name of your branch instead of `main` (in our case `chapter-2`). 
 
 ```{figure} ../images/git-branch-menu-main.png
 :name: git-branch-menu-main
@@ -183,6 +186,7 @@ Location of the branch menu.
 :name: git-branch-selection-menu
 
 The branch selection menu, where our new branch has shown up. From this menu you can also select (checkout in git terms) another existing branch.
+```
 
 2. It can be that multiple people ar making changes to one branch. We have to make sure that we are using the most up to date version of the branch. Therefore, we need to pull all the changes from the remote repositery to our local repositery. Simply click the Icon with the two arrows.
 
@@ -195,8 +199,20 @@ Location of the branch menu.
 ````
 ````{tab-item} ... GitHub Desktop
 
-```{error} To be written
+1. The next step is to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
+
+In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking on it you can see all the branches you created on the remote repositery. 
+
+```{figure} ../figures/CheckOutBranch_GitHubDesktop.PNG
 ```
+2. Check out the branch by simply clicking on it. The following window will pop up.
+
+```{figure} ../figures/CheckOutBranch_GitHubDesktop2.PNG
+```
+Leave your changes (stashed) on your working branch, in this case I was working in the branch called `collaboration git`.
+
+3. Check that the branch is indeed checked out by looking at the branch menu at the the top left again; the current branch should say the name. 
+
 ````
 `````
 ``````
