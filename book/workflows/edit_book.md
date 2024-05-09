@@ -89,10 +89,8 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 ````````
 ````````{tab-item} ... user type 4 ...
 
-**... for ...**
-
 ```````{tab-set}
-``````{tab-item} ... a brand new version (branch)...
+``````{tab-item} ... for a brand new version (branch)...
 
 **... by (1) making changes on a single or multiple file(s) <br> 
          (2) selecting changes to be added to the Git-timeline (staging) <br>
@@ -159,7 +157,7 @@ Alternatively, you can also click on `Push origin` in the top bar.
 `````
 ``````
 
-``````{tab-item} ... an existing version (branch)...
+``````{tab-item} ... for an existing version (branch)...
 
 **... by (1) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
          (2) solving potential incompatible changes (merging conflicts), <br>
@@ -281,7 +279,7 @@ Alternatively, you can also click on `Push origin` in the top bar.
 ````````{tab-item} ... User type 5 ...
 
 ```````{tab-set}
-``````{tab-item} ... brand new version (branch)
+``````{tab-item} ... for brand new version (branch)
 
 **... by (1) making changes on a single or multiple file(s) <br> 
          (2) checking changes locally, <br>
@@ -393,7 +391,7 @@ Python stuff?
 `````
 ``````
 
-``````{tab-item} ... existing version (branch)
+``````{tab-item} ... for an existing version (branch)
 
 **... by (1) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
          (2) solving potential incompatible changes (merging conflicts), <br>
