@@ -5,7 +5,7 @@
 This page is useful for user type 3-5.
 ```
 
-You'll need to interact with Git to collaborate on TeachBooks, but what is that thing?
+You'll need to interact with Git to collaborate on TeachBooks, but what is this thing?
 
 ## What is Git?
 
@@ -13,11 +13,11 @@ Git is a version control system (VCS), used by a wide variety of engineers and s
 
 ### What is GitLab?
 
-GitLab is a cloud-based version control system built around git. It provides a lot more features such as Issues, Merge Requests, CI/CD pipelines, etc. TU Delft has a license to use GitLab on our own local webservers—this means that all of the files are stored digitally on the TU Delft campus, rather than some unkown webserver that could be physically located in an unsafe location. This is also why we have our “own” GitLab located at gitlab.tudelft.nl, rather than the “normal” GitLab at gitlab.com.
+GitLab is a cloud-based version control system built around Git. It provides a lot more features such as Issues, Merge Requests, CI/CD pipelines, etc. TU Delft has a license to use GitLab on our own local webservers—this means that all of the files are stored digitally on the TU Delft campus, rather than some unkown webserver that could be physically located in an unsafe location. This is also why we have our “own” GitLab located at gitlab.tudelft.nl, rather than the “normal” GitLab at gitlab.com.
 
 ### What is GitHub?
 
-GitHub is the same service as GitLab, but it's part of a commercial company (Microsoft). It's the most well-known cloud-based git provider and provides a lot of functionalities for free for education. It also allows you to host websites on `github.io` eliminating the need for your own / TU Delft webserver, although you don't have full servercontrol.
+GitHub is the same service as GitLab, but it's part of a commercial company (Microsoft). It's the most well-known cloud-based Git provider and provides a lot of functionalities for free for education. It also allows you to host websites on `github.io` eliminating the need for your own / TU Delft webserver, although you don't have full servercontrol.
 
 ### Additional lessons
 Software carpentry offers git-lessons if you'd like to learn more than just it's specific use for TeachBooks. The lessons are available [online](https://swcarpentry.github.io/git-novice/) and TU Delft offers these as part of a [Software Carpentry workshop](https://www.tudelft.nl/library/research-data-management/r/training-evenementen/training-voor-onderzoekers/software-carpentry-workshops)
