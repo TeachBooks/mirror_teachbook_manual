@@ -31,15 +31,15 @@ This will lead you to this window where you can specify all attributes we mentio
 
 The issues in GitHub can be found in your repositery in the top bar.
 
-<img src="figures/Issue_GitHub.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+<img src="figures/Issue_GitHub.PNG" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
 
 Clicking on `Issues` will open up the page with all the issues on this repositery.
 
-<img src="figures/New_Issue_GitHub.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+<img src="figures/New_Issue_GitHub.PNG" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
 
 Finally, by clicking the green `New Issue` button you can create a new issue and specify all the attributes we mentioned before!
 
-<img src="figures/New_Issue_GitHub2.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+<img src="figures/New_Issue_GitHub2.PNG" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
 ````
 `````
 

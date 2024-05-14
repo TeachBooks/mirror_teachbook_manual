@@ -15,7 +15,8 @@ The act of making a new branch from an existing one is called *branching*. Usual
 
 ````````{tab-item} ... user type 3 ...
 
-**... by directly creating your own version of the book (branching) or by selecting an existing version in ...**
+**... by (1) directly creating your own version of the book (branching) or <br> 
+      by (2) selecting an existing version in ...**
 
 `````{tab-set}
 
@@ -150,12 +151,16 @@ The VS Code welcome screen.
 
 1. You have previously copied the link of the repositery you would like to clone from GitLab or GitHub. In GitHub Desktop, navigate to the top bar, click on `File` and then on `Clone repositery`.
 
-```{figure} ../figures/CloneRepo_Githubdesk.PNG
-```
+<figure align="center">
+    <img src="figures/CloneRepo_Githubdesk.PNG" alt="Example Image" width="400">
+</figure>
+
 2. In the top bar click on `URL`.
 
-```{figure} ../figures/CloneRepo_TroughGithubdesk.PNG
-```
+<figure align="center">
+    <img src="figures/CloneRepo_TroughGithubdesk.PNG" alt="Example Image" width="400">
+</figure>
+
 3. Simply paste the link, specify the working directory (location where you would like to save the folder locally) and click on 'Clone'.
 
 ````
@@ -202,6 +207,7 @@ Location of the branch menu.
 1. The next step is to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
 
 In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking on it you can see all the branches you created on the remote repositery. 
+
 
 ```{figure} ../figures/CheckOutBranch_GitHubDesktop.PNG
 ```

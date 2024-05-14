@@ -39,14 +39,55 @@ Example of a filled-in merge request.
 
 The finished merge request.
 ```
-
 ````
 
 ````{tab-item} In GitHub
 
-```{error} To be written
-```
+1. Make sure that you've committed all your new sections and changes, and that they're pushed to the remote repository.
 
+2. In GitHub, navigate to the repositery you want to work in. In the top bar click `Pull Requests`. Then, in the new window click on `New Pull Request`. 
+
+<figure align="center">
+    <img src="figures/Pull_Request.PNG" alt="Example Image" width="650">
+</figure>
+
+3. You can now choose a base branch and a compare branch. 
+
+- Base Branch: The base branch is the branch into which you want to merge your changes.
+- Compare Branch: The compare branch, also known as the "head" branch, is the branch that contains the changes you want to merge into the base branch.
+
+<figure align="center">
+    <img src="figures/Pull_Request2.PNG" alt="Example Image" width="650">
+</figure>
+
+In the figure, you can see that we want to merge our changes from the branch `merge_conflict` *into* `main`, `merge_conflict` is the compare branch and `main` is the base branch. Note that in the figure it says that the branches cannot be automatically merged. The reason for this is that there are conflicts in the two branches, which you can see when scrollong down. 
+
+You can still create the pull request but you will have to manage the conflicts. Once you've selected the correct branches, click `View Pull Request`.
+
+4. As previously mentioned, before merging the two branches we have to resolve the conflicts. Click on 'Resolve conflicts`. Note that if your branches do not have conflicting changes you can merge directly and skip this step.
+
+<figure align="center">
+    <img src="figures/Pull_Request3.PNG" alt="Example Image" width="650">
+</figure>
+
+Clicking on 'Resolve conflicts`, will open the conflicted files in the text editor. There you can manually edit the files to the version you would like to retain. 
+
+<figure align="center">
+    <img src="figures/Pull_Request4.PNG" alt="Example Image" width="650">
+</figure>
+
+Once you are done, click on `mark as resolved` in the top right of the window. do this for all conflicted files. 
+
+5. Commit the changes by clicking on `Commit merge`. 
+
+<figure align="center">
+    <img src="figures/Pull_Request5.PNG" alt="Example Image" width="650">
+</figure>
+
+6. You can now complete the pull request by clicking `merge pull request`.
+
+<figure align="center">
+    <img src="figures/Pull_Request6.PNG" alt="Example Image" width="650">
+</figure>
 ````
-
 `````
