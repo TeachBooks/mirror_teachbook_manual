@@ -163,6 +163,10 @@ The VS Code welcome screen.
 
 3. Simply paste the link, specify the working directory (location where you would like to save the folder locally) and click on 'Clone'.
 
+4. You now have a local copy of the repository.
+
+5. Now you can start branching. Have a look at the other section!
+
 ````
 `````
 ``````
