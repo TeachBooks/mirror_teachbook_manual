@@ -208,7 +208,7 @@ Location of the branch menu.
 ````
 ````{tab-item} ... GitHub Desktop
 
-1. The next step is to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
+1. The next step is to *check out* our new branch. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
 
 In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking on it you can see all the branches you created on the remote repositery. 
 
