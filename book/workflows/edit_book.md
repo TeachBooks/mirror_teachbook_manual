@@ -341,39 +341,65 @@ The new file has been staged, and we've written a Commit Message.
 ```
 Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
 
-In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab.
+5. Adding changes to GitLab/GitHub (pushing)
+
+In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab/GitHub.
 
 ```{figure} ../images/git-push.png
 
 After committing, click the 🔄 button to push our changes to the remote repository.
 
-```{Error}
+```{Note}
 
 Missing from this chapter: startup python server.
+
+You can read more about it [here](/book/installation-and-setup/jupyter-book-setup.md)
 ```
 ````
 
 ````{tab-item} ... GitHub Desktop
 
-1. Obtain updates from colleagues from GitLab/GitHub (pulling). This synchronizes the remote repositery with your local repositery on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
+1.. Make some changes to a file in for example VS Code and save them.
 
-<figure align="center">
-    <img src="figures/Fetch.PNG" alt="Example Image" width="650">
-</figure>
+2. Once all the changes are made, it can be useful to check the changes locally on your device in order to see how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy! 
 
-2. When multiple people work on one chapter, it is possible that conflicts will arise. This means that two users might have cheanged the same sections. GitHub Desktop will recognize this Solve potential incompatible changes (merging conflicts)
+Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+You will firstly need to actiavte the right environment. Type the following command:
 
-3. Make some changes to a file in for example VS Code and save them.
+`conda activate jupyter-book-env`
 
-4. The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
+(or the environment in which you have installed the TeachBooks package)
+
+Then we can build the book locally. Make sure you are in the right repositery in VS code and type the folloing command:
+
+`jupyter-book build book` 
+
+Where book is the name of the folder containing all the files that make up your book. After `jupyter-book` is done running you will get the following:
+
+```{figure} ../figures/buildbook.PNG
+
+Output.
+```
+Paste the last line into your browser to see the updated changes. 
+
+```{Note} 
+
+Sometimes there are problems building the book. It could be that the building requires extensions that are not present in your environment. To prevent issues, make sure to update your environment by routinely updating your packages. You can do this by executing the following line in your environment in the command line.
+
+`pip install -r requirements.txt --upgrade`
+
+```
+3. If you are satisfied with your changes, you can select the files ready to be added to Git-timeline (staging) 
+
+The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
 
 <figure align="center">
     <img src="figures/Stage_GitHubDekstop.PNG" alt="Example Image" width="400">
 </figure>
 
-5. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to Repositery`.
+4. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to Repositery`.
 
-6. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repositery. After committing, the following screen will pop up. Click on `Push Origin`.
+5. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repositery. After committing, the following screen will pop up. Click on `Push Origin`.
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
@@ -385,11 +411,12 @@ Alternatively, you can also click on `Push origin` in the top bar.
     <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
 </figure>
 
-```{Error}
+```{Note}
 
 Missing from this chapter: startup python server.
-```
 
+You can read more about it [here](/book/installation-and-setup/jupyter-book-setup.html#view-the-book-using-a-local-webserver)
+```
 ````
 `````
 ``````
