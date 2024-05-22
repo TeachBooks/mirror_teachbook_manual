@@ -38,7 +38,7 @@ Click the highlighted button to make a new branch.
 We're making a new branch called `chapter-2` from the `main` branch.
 ```
 
-3. You should be sent back to an overview page of your repository. In the branch selection menu (see {numref}`new-branch-repo`), it should now say `chapter-2` instead of `main`. Here you can also select another existing branch.
+3. You should be sent back to an overview page of your repository. In the branch selection menu (see {numref}`new-branch-repo`), it should now say `chapter-2` instead of `main`. Here you can also select another existing branch which is what we previously called `selecting an existing version`.
 
 ```{figure} ../images/gitlab-new-branch-repo.png
 :name: new-branch-repo
@@ -62,23 +62,35 @@ Tip: It makes sense to give the branch a name related to the content you will be
 
 ```{figure} ../figures/NewBranch_GitHub3.PNG
 ```
+4. You will find your new branch in the drop down menu as seen on the figure below. You can then select your new branch and start working in it (new version) but you can also work in any other branch if you are helping out a colleague with their chapter for example (existing version).
+
+```{figure} ../figures/NewBranch_GitHub4.PNG
+```
 ````
 `````
 ````````
 
 ````````{tab-item} ... user type 4 and 5 ...
 
-**Select the statement that applies to you.**
+As user type 4 and 5, you make changes to the book locally on your computer rather than online on GitLab/GitHub. This allows you to create more complex and interactive sections to your book. Before you can start, there are a few preparatory steps you need to take. 
+
+**Cloning**
+
+In order to create your own version, you will first have to open the repositery. Then, you will need to clone the repositery to your computer. This procedure is called cloning.
+
+**Branching**
+
+If your repositery is already cloned on your computer, you are almost ready to start editing the book. However, remember that you are most likely not the only person making changes to the book. To keep an overview of the changes made by you and your colleages, it is important that changes are first made in a 'copy' of the book and are then merged into the final version. This is done through branching! You can create your version of the book by creating a new version (branch) or you can continue the work in an existing version (checkout branch). 
 
 ```````{tab-set}
 
-``````{tab-item} I am opening the repositery for the first time (Cloning)
+``````{tab-item} Cloning
 
-**I would like to open the repository locally (cloning) using ...**
+**1. Open the repository locally using ...**
 
 `````{tab-set}
 
-````{tab-item} ... GitLab ...
+````{tab-item} ... GitLab
 
 1. Navigate to the repository of your book. Click on the blue button that says "Clone" ({numref}`gitlab-clone`), and copy the link under "Clone with SSH".
 
@@ -89,7 +101,7 @@ The cloning menu.
 ```
 ````
 
-````{tab-item} ... GitHub ...
+````{tab-item} ... GitHub
 
 1. Open the repository that you would like to clone. In the top bar on the right, you will a green button called `<> Code`.
 
@@ -104,7 +116,7 @@ The cloning menu.
 </figure>
 ````
 
-````{tab-item} ... GitHub through GitHub Desktop ...
+````{tab-item} ... GitHub through GitHub Desktop
 
 1. Open the repository that you would like to clone. In the top bar on the right, you will a green button called `<> Code`.
 
@@ -124,11 +136,11 @@ The cloning menu.
     <img src="figures/CloneRepo_TroughGithubdesk.PNG" alt="Example Image" width="400">
 </figure>
 
-You've cloned the repository now directly, so you can skip the next step.
+You have now directly cloned the repository, so you can skip the next step!
 ````
 `````
 
-**... and I would like to clone the local repositery with ...**
+**2. Clone the local repositery with ...**
 
 `````{tab-set}
 ````{tab-item} ... VS Code
@@ -169,12 +181,15 @@ The VS Code welcome screen.
 
 ````
 `````
+**You have now cloned the repositery to your computer and you can start branching. <br> 
+Have a look at the other section!**
 ``````
 
-``````{tab-item} I have previously opened the repository (Branching)
+``````{tab-item} Branching
 
-**I want to (1) update my repository (pulling) and <br>
-            (2) create my own version (branching) or select an existing version (checkout branch) using ...**
+**I want to... <br>
+(1) update my repository (pulling) and <br>
+(2) create my own version (branching) or select an existing version (checkout branch) using ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
@@ -225,9 +240,8 @@ Leave your changes (stashed) on your working branch, in this case I was working 
 
 ````
 `````
+Now that we've created and checked out our new branch, we can start {ref}`making and committing changes <stage-commit-push>`.
 ``````
 ```````
 ````````
 `````````
-
-Now that we've created and checked out our new branch, we can start {ref}`making and committing changes <stage-commit-push>`.
