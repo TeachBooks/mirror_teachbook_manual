@@ -20,22 +20,22 @@ The steps involved are as follows:
 
  - branching
 ``````
-``````{tab-item} ... user type 4 and 5...
+``````{tab-item} ... user type 4 and 5
 
 `````{tab-set}
-````{tab-item} Open repository for first time
+````{tab-item} Open repository for first time...
 
-**... by
-(a) oopening the repository locally (cloning) and 
+**... by <br>
+(a) opening the repository locally (cloning) and <br>
 (b) creating your own version (branching) or selecting existing version (checkout branch):**
 
  - cloning
  - branching / checkout branch
 ````
-````{tab-item} Work in previously opened repository
+````{tab-item} Work in previously opened repository...
 
-**... by 
-(a) updating your repository (pulling) and 
+**... by <br>
+(a) updating your repository (pulling) and <br>
 (b) creating your own version (branching) or select existing version (checkout branch):**
 
  - pulling
@@ -57,12 +57,12 @@ The steps involved are as follows:
 ``````{tab-item} ... user type 4...
 
 `````{tab-set}
-````{tab-item} ... on a brand new version (branch)
+````{tab-item} ... on a brand new version (branch)...
 
-**... by 
-(a) making changes on a single / multiple file(s), 
-(b) selecting changes to be added to the Git-timeline (staging), 
-(c) adding those to the Git-timeline (committing) and 
+**... by <br>
+(a) making changes on a single / multiple file(s), <br>
+(b) selecting changes to be added to the Git-timeline (staging), <br>
+(c) adding those to the Git-timeline (committing) and <br>
 (d) adding those changes to GitLab/GitHub (pushing):**
 
 - adding or making changes to file(s)
@@ -70,13 +70,13 @@ The steps involved are as follows:
 - committing
 - pushing
 ````
-````{tab-item} ... on an existing version (branch)
+````{tab-item} ... on an existing version (branch)...
 
-**... by 
-(a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), 
-(b) solving potential incompatible changes (merge conflicts), 
-(c) making changes on a single / multiple file(s), 
-(d) selecting changes to be added to the Git-timeline (staging), 
+**... by <br>
+(a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+(b) solving potential incompatible changes (merge conflicts), <br>
+(c) making changes on a single / multiple file(s), <br>
+(d) selecting changes to be added to the Git-timeline (staging), <br>
 (e) adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
 
 - pulling
@@ -89,18 +89,33 @@ The steps involved are as follows:
 `````
 ``````
 ``````{tab-item} ... user type 5...
-... on ...
 `````{tab-set}
-````{tab-item} ... brand new version (branch)
-**... by making changes on a single / multiple file(s), checking changes locally, selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+````{tab-item} ... on a brand new version (branch)...
+
+**... by <br>
+(a) making changes on a single / multiple file(s), <br>
+(b) checking changes locally, <br>
+(c) selecting changes to be added to the Git-timeline (staging), <br>
+(d) adding those to the Git-timeline (committing) and <br>
+(e) adding those changes to GitLab/GitHub (pushing):**
+
 - adding or making changes to file(s)
 - checking changes locally 
 - staging
 - committing
 - pushing
 ````
-````{tab-item} ... existing version (branch)
-**... by regularly obtaining updates from colleagues from GitLab/GitHub (pulling), solving potential incompatible changes (merge conflicts), making changes on a single / multiple file(s), checking changes locally,  selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+````{tab-item} ... on an existing version (branch)...
+
+**... by <br>
+(a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+(b) solving potential incompatible changes (merge conflicts), <br>
+(c) making changes on a single / multiple file(s), <br>
+(d) checking changes locally,  <br>
+(e) selecting changes to be added to the Git-timeline (staging), <br>
+(f) adding those to the Git-timeline (committing) and <br>
+(g) adding those changes to GitLab/GitHub (pushing):**
+
 - pulling
 - solving merge conflicts
 - adding or making changes to file(s)
@@ -109,7 +124,6 @@ The steps involved are as follows:
 - committing
 - pushing
 ````
-
 ``````
 ```````
  4. **Check changes online**
