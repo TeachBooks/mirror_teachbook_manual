@@ -30,9 +30,26 @@ Creating a new merge request to merge `chapter-2` into `main`.
 
 Example of a filled-in merge request.
 ```
+5. After clicking `create merge request` you should land on the following page. Here, you can track the merge request. Right after your request, GitLab will do some checks to see if you've tried to merge conflicting files. As you can see in the figure below the merge is blocked due to the conflicts. Click on 'Resolve conflicts`. 
 
-5. On the page of our merge request ({numref}`gitlab-finished-merge-request`), we're greeted with some more information. On top, you can read the description we just provided when creating the merge request. We can also see an "Approve" button, which you may or may not see, depending on your repository rights. Next, we can see a green checkmark, with a "Merge" button. This is good news: our changes do not conflict with existing files on the `main` branch, and we can merge our changes directly by clicking the button (if applicable: only after somebody else approved the request). If this isn't the case, you'll see a red cross instead of the green checkmark, and GitLab will tell that you've run into a *merge conflict*. You'll need to figure out which file(s) are causing this, and fix it. You can read more on this in the {ref}`section on merge conflicts <merge-conflicts>`.
+```{figure} ../figures/Merge_Request_GitLab.PNG
+:name: gitlab-merge-request-conflict
 
+Example of a blocked merge.
+```
+
+Clicking on 'Resolve conflicts`, will open the conflicted files in the text editor. There you can manually edit the files to the version you would like to retain. By clicking on `use ours` or `use theirs` you can select which version you would like to keep.
+
+```{figure} ../figures/Solve_Conflict.PNG
+:name: gitlab-conflict
+
+Solving the conflict.
+```
+Once you are done, click on `Commit to source branch`. Do this for all conflicted files. Note that if your branches do not have conflicting changes you can merge directly and skip this step. In that case you can skip ahead to the next step.
+
+In case you have cloned the repositery you can also resolve the conflicts locally using VS Code for example. You can read more about it [here](edit_book.md#... GitHub Desktop)
+
+6. On the page of our merge request ({numref}`gitlab-finished-merge-request`), we're greeted with some more information. On top, you can read the description we just provided when creating the merge request. We can also see an "Approve" button, which you may or may not see, depending on your repository rights. Next, we can see a green checkmark, with a "Merge" button. This is good news: our changes do not conflict with existing files on the `main` branch, and we can merge our changes directly by clicking the button (if applicable: only after somebody else approved the request). 
 
 ```{figure} ../images/gitlab-finished-merge-request.png
 :name: gitlab-finished-merge-request
@@ -76,7 +93,8 @@ Clicking on 'Resolve conflicts`, will open the conflicted files in the text edit
     <img src="figures/Pull_Request4.PNG" alt="Example Image" width="650">
 </figure>
 
-Once you are done, click on `mark as resolved` in the top right of the window. do this for all conflicted files. 
+Once you are done, click on `mark as resolved` in the top right of the window. Do this for all conflicted files. 
+In case you have cloned the repositery you can also resolve the conflicts locally using VS Code for example. You can read more about it [here](edit_book.md#... GitHub Desktop)
 
 5. Commit the changes by clicking on `Commit merge`. 
 
@@ -89,5 +107,8 @@ Once you are done, click on `mark as resolved` in the top right of the window. d
 <figure align="center">
     <img src="figures/Pull_Request6.PNG" alt="Example Image" width="650">
 </figure>
+````
+````{tab-item} Locally with GitHub Desktop
+hi
 ````
 `````
