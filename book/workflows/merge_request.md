@@ -47,7 +47,7 @@ Solving the conflict.
 ```
 Once you are done, click on `Commit to source branch`. Do this for all conflicted files. Note that if your branches do not have conflicting changes you can merge directly and skip this step. In that case you can skip ahead to the next step.
 
-In case you have cloned the repositery you can also resolve the conflicts locally using VS Code for example. You can read more about it [here](edit_book.md#... GitHub Desktop)
+In case you have cloned the repositery you can also resolve the conflicts locally using VS Code for example. You can read more about for [GitHub Dekstop](edit_book.md#... GitHub Desktop) or [VS Code](edit_book.md#... VS Code)
 
 6. On the page of our merge request ({numref}`gitlab-finished-merge-request`), we're greeted with some more information. On top, you can read the description we just provided when creating the merge request. We can also see an "Approve" button, which you may or may not see, depending on your repository rights. Next, we can see a green checkmark, with a "Merge" button. This is good news: our changes do not conflict with existing files on the `main` branch, and we can merge our changes directly by clicking the button (if applicable: only after somebody else approved the request). 
 

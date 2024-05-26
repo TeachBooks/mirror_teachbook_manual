@@ -445,7 +445,7 @@ By clicking on the 🔄 button, you will pull your colleages' changes.
 2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repositery, Git in VS Code will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). Open the files that are marked as conflicitng. 
 
 <figure align="center">
-    <img src="figures/Conflicts2.PNG" alt="Example Image" width="650">
+    <img src="figures/Conflicts2.PNG" alt="Example Image" width="600">
 </figure>
 
 The figure above shows the conflicts. If you look closely you can see that the last couple of words of the paragraph are different in the main branch than in the branch we were working in. There are a couple of options in the top bar: 
@@ -523,20 +523,10 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repositery, GitHub Desktop will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). 
 
 <figure align="center">
-    <img src="figures/Conflicts1.PNG" alt="Example Image" width="650">
+    <img src="figures/Merge_Conflict_GitHubDesktop2.PNG" alt="Example Image" width="400">
 </figure>
 
-In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code. Click on `Open in Visual Studio Code`. 
-
-<figure align="center">
-    <img src="figures/Conflicts2.PNG" alt="Example Image" width="650">
-</figure>
-
-The figure above shows the conflicts. If you look closely you can see that the last couple of words of the paragraph are different in the main branch than in the branch we were working in. There are a couple of options in the top bar: 
-
-- `Accept Current Change` will keep the change in your branch
-- `Accept Incoming Change` will keep the change from the main branch (the branch you are merging into your branch)
-- `Accept Both Changes` will retain both paragraphs
+In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code (in that case have a look at the section treating VS Code). By clicking on the small downwards arrow you can also solve the conlict directly in GitHub Dekstop by choosing the branch of the file you want to keep.
 
 Choose one of the options to resolve the merge conflict. You now have updated your work with work from your colleagues and resolved potential conlicts. You are now ready to continue working on the content.
 
