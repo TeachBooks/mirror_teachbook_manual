@@ -16,11 +16,12 @@ Every team member can create issues when they think of a task that would improve
 `````{tab-set}
 ````{tab-item} ... GitLab
 
-The issues in GitLab can be found on this page:
+The issues in GitLab can be found in your repositery in the left bar. 
 
 ![issues](figures/issues_new.png)
 
-You can create an issue by clicking on the blue `New Issue` button in the top right corner.
+You can create an issue by clicking on the blue `New Issue` button in the top right corner. <br>
+This will lead you to this window where you can specify all attributes we mentioned before!
 
 ![new issue](figures/New_Issue_GitLab.png)
 
@@ -28,9 +29,40 @@ You can create an issue by clicking on the blue `New Issue` button in the top ri
 
 ````{tab-item} ... GitHub
 
-```{error} To be written
-```
+The issues in GitHub can be found in your repositery in the top bar.
 
+
+<figure align="center">
+    <img src="figures/Issue_GitHub.PNG" alt="Example Image" width="650">
+</figure>
+
+Clicking on `Issues` will open up the page with all the issues on this repositery.
+
+<figure align="center">
+    <img src="figures/New_Issue_GitHub.PNG" alt="Example Image" width="650">
+</figure>
+
+Finally, by clicking the green `New Issue` button you can create a new issue and specify all the attributes we mentioned before!
+
+<figure align="center">
+    <img src="figures/New_Issue_GitHub2.PNG" alt="Example Image" width="650">
+</figure>
+
+```{Note}
+
+The follwing steps explain how to create a branch from a new issue. By doing this you can create most of the steps described in the section called [branching](branches.md). However, if you are unfamiliar with the term make sure to still read the section to understand the function.
+```
+After creating the issue, the description of the issue will automatically open. On the bottom left there is an option `create a branch` (in yellow) from this issue. This will create a new branch in the repositery which you can use to solve the issue. 
+
+<figure align="center">
+    <img src="figures/New_Issue_GitHub3.PNG" alt="Example Image" width="650">
+</figure>
+
+Clicking on `create a branch` will open the following window in which you can specify the name and the repositery.
+
+<figure align="center">
+    <img src="figures/New_Issue_GitHub4.PNG" alt="Example Image" width="350">
+</figure>
 ````
 `````
 
