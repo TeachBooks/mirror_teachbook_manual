@@ -108,7 +108,7 @@ In case you have cloned the repositery you can also resolve the conflicts locall
     <img src="figures/Pull_Request6.PNG" alt="Example Image" width="650">
 </figure>
 ````
-````{tab-item} Locally with GitHub Desktop
+````{tab-item} Locally with GitHub Desktop for GitHub repositories
 hi
 ````
 `````
