@@ -12,11 +12,15 @@ Now that you've pushed your changes online, it's time to check the change in the
 `````{tab-set}
 ````{tab-item} In GitLab
 
-At the moment this is not possible, but the workflow will soon be the same as for GitHub.
+At the moment this is not possible.
+However, what you can do is 'mirror' your GitLab repository to GitHub. This will copy your content automatically (but maximum once every 5 minutes) to GitHub. This allows you to use the TeachBook's GitHub actions.
+
+Instructions on how to set up mirroring are provided here: https://gitlab.tudelft.nl/help/user/project/repository/mirror/index#update-a-mirror
+
 ````
 ````{tab-item} In GitHub
 
-1. Enable GitHub Pages on your repositery. Note that if you use the Teachbooks template this is probably already done!
+1. Enable GitHub Pages on your repository. Note that if you use the Teachbooks template this is probably already done!
 
 2. Once your book files are pushed to your GitHub repository you can view the book. Make sure you wait for the action to finish (GitHub Desktop shows progress if its part of a pull request, VS Code shows progress with the GitHub Actions addon).
 
