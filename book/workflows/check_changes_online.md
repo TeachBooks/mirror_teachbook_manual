@@ -15,26 +15,17 @@ Now that you've pushed your changes online, it's time to check the change in the
 At the moment this is not possible.
 However, what you can do is 'mirror' your GitLab repository to GitHub. This will copy your content automatically (but maximum once every 5 minutes) to GitHub. This allows you to use the TeachBook's GitHub actions.
 
-Instructions on how to set up mirroring are provided here: https://gitlab.tudelft.nl/help/user/project/repository/mirror/index#update-a-mirror
+Instructions on how to set up mirroring are provided here: https://docs.gitlab.com/ee/user/project/repository/mirror/push.html#set-up-a-push-mirror-from-gitlab-to-github
 
 ````
 ````{tab-item} In GitHub
 
-1. Enable GitHub Pages on your repository. Note that if you use the Teachbooks template this is probably already done!
+Once GitHub Pages is enabled and your book is published, you can view it by visiting the GitHub Pages URL for your repository. A summary can be seen under the <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline">    <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0ZM1.5 8a6.5 6.5 0 1 0 13 0 6.5 6.5 0 0 0-13 0Zm4.879-2.773 4.264 2.559a.25.25 0 0 1 0 .428l-4.264 2.559A.25.25 0 0 1 6 10.559V5.442a.25.25 0 0 1 .379-.215Z"></path></svg>`Actions`- `All workflows` -  `call-deploy-book` in GitHub. It shows you a descriptive summary.
+The summary also provides build error messages, which you might fix in a new commit.
 
-2. Once your book files are pushed to your GitHub repository you can view the book. Make sure you wait for the action to finish (GitHub Desktop shows progress if its part of a pull request, VS Code shows progress with the GitHub Actions addon).
+If this is not activated yet, you can do so as describe [here](../external/deploy-book-workflow/README). Here you can also find more information.
 
-3. Viewing the Book: Once GitHub Pages is enabled and your book is published, you can view it by visiting the GitHub Pages URL for your repository. The URL will typically be in the format https://<username>.github.io/<repository-name>.
-
-Alternatively you can find it in the settings
-
-- Go to your GitHub repository's settings.
-- Scroll down to the "GitHub Pages" section (left side-bar: pages)
-- Copy the link or click on `Visit site`
-
-<figure align="center">
-    <img src="figures/GitHubPages.PNG" alt="Example Image" width="650">
-</figure>
+````
 `````
 
 You can keep on [editing](edit_book) and checking your changes until you're satisfied and ready for a review by a colleague.
