@@ -57,7 +57,7 @@ The first few lines of our JavaScript code are simple. To scale our element with
 
 Next, we may want to define some functions for our element. The first function `linspace` is simply creates `resolution` points between a `start` and `end` value, similar to `numpy.linspace` in Python. The second and third functions evaluate the pdf and cdf of a standard Gaussian distribution for a given `x` value.
 
-```html
+```
          function linspace(start, end, resolution) {
              var spacing = [];
              // Go through a for-loop
@@ -189,7 +189,7 @@ Now, let us add actual content. We start by creating 201 equally-spaced points o
 
 Next, we concatenate our `x` and `pdf` vectors into a list of dictionaries, which we then convert into pixel coordinates with a `valueline_pdf` function we create. Finally, we add it to the subplot as a `path` via the `svg.append("path")` function. In addition, we want to represent the fact that the cdf (which we will later plot on the right) represents the integral of all pdf values to the left of the current x-value. To this end, we want to create a filled shape that highlights this area. We can do so by creating another path that follows the pdf from the left border to the currently selected value (initially: `x=0`), then moves back to the subplot origin along the x-axis. The path-information `data_fill` is created the same way as before, but now we add it as a `svg.append("path")` that has the `fill` attribute, which - as the name implies - fills the region inside it with a solid color.
 
-```html
+```
          // Evaluate the normal pdf
          var x = linspace(-3, 3, 201);
          var pdf = standard_Gaussian_pdf(x);
@@ -252,7 +252,7 @@ Next, we concatenate our `x` and `pdf` vectors into a list of dictionaries, whic
 
 The next block essentially repeats the same procedure for the right subplot, but replaces the pdf evaluation with a cdf evaluation. We also add a dashed horizontal line that marks the integral value on the y-axis. Go through the code and see if you recognize parallels to the code above.
 
-```html
+```
          // Define a subplot for the standard normal
          const y_limits_cdf = [0, 1];
          const window_x_cdf = [width * 0.585, width * 0.985];
@@ -367,7 +367,7 @@ One of the nice things about these interactive JavaScript elements is that you c
 
 Finally, we close all open environments, and are done with this simple interactive element!
 
-```html
+```
          // Shift the marker around on mouseover; restrict it to the contour
          var movex, movey, xpos
          
