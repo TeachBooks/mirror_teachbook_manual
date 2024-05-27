@@ -22,7 +22,6 @@ parts:
       - file: workflows/edit_book
       - file: workflows/check_changes_online
       - file: workflows/merge_request
-      - file: workflows/publish
   - caption: Features
     chapters:
     - file: basic-features/overview

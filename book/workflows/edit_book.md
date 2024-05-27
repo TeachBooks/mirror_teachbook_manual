@@ -11,9 +11,9 @@ Suppose we are writing a new chapter, or are updating an existing chapter for ou
 `````{tab-set}
 ````{tab-item} ... GitLab
 
-In GitLab, you can directly make changes in the files on the remote repositery. You can make changes to the files already in the repositery using the text editor but you can also upload new files!
+In GitLab, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
 
-1. Navigate to the repositery you want to work in.
+1. Navigate to the repository you want to work in and make sure you're in the correct branch.
 
 2. Create a new file by clicking on the plus button in the top bar. You can either create an entirely new file by clicking `New File` or if you already have created a file you can upload it by clicking `Upload File`.
 
@@ -21,25 +21,25 @@ In GitLab, you can directly make changes in the files on the remote repositery. 
     <img src="figures/User3_NewFile.PNG" alt="Example Image" width="500">
 </figure>
 
-3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repositery by clicking the blue button `Commit changes`.
+3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the blue button `Commit changes`.
 
 <figure align="center">
     <img src="figures/User3_NewFile2.PNG" alt="Example Image" width="700">
 </figure>
 
-4. In case you want to make changes to an existing file, navigate to the file in your remote repositery. Then click the blue button called `Edit` and select the option `Edit single file`.
+4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the blue button called `Edit` and select the option `Edit single file`.
 
 <figure align="center">
     <img src="figures/User3_EditFile.PNG" alt="Example Image" width="700">
 </figure>
 
-5. Make your changes in the text editor and when you are ready, commit your changes to the remote repositery by clicking on the blue `Commit changes` button.
+5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the blue `Commit changes` button.
 
 <figure align="center">
     <img src="figures/User3_EditFile2.PNG" alt="Example Image" width="700">
 </figure>
 
-6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repositery if you used the teachbooks template.
+6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template.
 
 <figure align="center">
     <img src="figures/User3_toc.PNG" alt="Example Image" width="500">
@@ -49,9 +49,9 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 ````
 ````{tab-item} ... GitHub
 
-In GitHub, you can directly make changes in the files on the remote repositery. You can make changes to the files already in the repositery using the text editor but you can also upload new files!
+In GitHub, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
 
-1. Navigate to the repositery you want to work in.
+1. Navigate to the repository you want to work in and make sure you're in the correct branch.
 
 2. Create a new file by clicking on the button called `Add file` in the top bar. You can either create an entirely new file by clicking `Create new File` or if you already have created a file you can upload it by clicking `Upload files`.
 
@@ -59,25 +59,25 @@ In GitHub, you can directly make changes in the files on the remote repositery. 
     <img src="figures/HubUser3_NewFile.PNG" alt="Example Image" width="500">
 </figure>
 
-3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repositery by clicking the green button `Commit changes`.
+3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the green button `Commit changes`.
 
 <figure align="center">
     <img src="figures/HubUser3_NewFile2.PNG" alt="Example Image" width="700">
 </figure>
 
-4. In case you want to make changes to an existing file, navigate to the file in your remote repositery. Then click the downward pointing arrow on the very left in the top bar. Select the option `Edit in place`.
+4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the downward pointing arrow on the very left in the top bar. Select the option `Edit in place`.
 
 <figure align="center">
     <img src="figures/HubUser3_EditFile.PNG" alt="Example Image" width="700">
 </figure>
 
-5. Make your changes in the text editor and when you are ready, commit your changes to the remote repositery by clicking on the green `Commit changes` button.
+5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the green `Commit changes` button.
 
 <figure align="center">
     <img src="figures/HubUser3_EditFile2.PNG" alt="Example Image" width="700">
 </figure>
 
-6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repositery if you used the teachbooks template.
+6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template.
 
 <figure align="center">
     <img src="figures/HubUser3_toc.PNG" alt="Example Image" width="500">
@@ -92,10 +92,10 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 ```````{tab-set}
 ``````{tab-item} ... for a brand new version (branch)...
 
-**... by (1) making changes on a single or multiple file(s) <br> 
-         (2) selecting changes to be added to the Git-timeline (staging) <br>
-         (3) adding changes to the Git-timeline (committing) and <br>
-         (4) adding changes to GitLab/GitHub (pushing) with ...**
+**... by (a) making changes on a single or multiple file(s) <br> 
+         (b) selecting changes to be added to the Git-timeline (staging) <br>
+         (c) adding changes to the Git-timeline (committing) and <br>
+         (d) adding changes to GitLab/GitHub (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
@@ -140,9 +140,9 @@ After committing, click the 🔄 button to push our changes to the remote reposi
     <img src="figures/Stage_GitHubDekstop.PNG" alt="Example Image" width="400">
 </figure>
 
-3. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to Repositery`.
+3. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-4. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repositery. After committing, the following screen will pop up. Click on `Push Origin`.
+4. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
@@ -159,17 +159,17 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 ``````{tab-item} ... for an existing version (branch)...
 
-**... by (1) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
-         (2) solving potential incompatible changes (merging conflicts), <br>
-         (3) making changes on a single / multiple file(s), <br>
-         (4) selecting changes to be added to the Git-timeline (staging), <br>
-         (5) adding those to the Git-timeline (committing) and <br>
-         (6) adding changes to GitLab/GitHub (pushing) with ...**
+**... by (a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+         (b) solving potential incompatible changes (merging conflicts), <br>
+         (c) making changes on a single / multiple file(s), <br>
+         (d) selecting changes to be added to the Git-timeline (staging), <br>
+         (e) adding those to the Git-timeline (committing) and <br>
+         (f) adding changes to GitLab/GitHub (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
 
-1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repositery with your local repositery on your machine. On the left side-bar click on the icon that looks like a branch. 
+1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. On the left side-bar click on the icon that looks like a branch. 
 
 <figure align="center">
     <img src="figures/VSCode_Pull.PNG" alt="Example Image" width="400">
@@ -177,7 +177,7 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 By clicking on the 🔄 button, you will pull your colleages' changes.
 
-2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repositery, Git in VS Code will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). Open the files that are marked as conflicitng. 
+2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repository, Git in VS Code will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). Open the files that are marked as conflicitng. 
 
 <figure align="center">
     <img src="figures/Conflicts2.PNG" alt="Example Image" width="650">
@@ -222,13 +222,13 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 ````
 ````{tab-item} ... GitHub Desktop
 
-1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repositery with your local repositery on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
+1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
 
 <figure align="center">
     <img src="figures/Fetch.PNG" alt="Example Image" width="650">
 </figure>
 
-2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repositery, GitHub Desktop will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). 
+2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repository, GitHub Desktop will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). 
 
 <figure align="center">
     <img src="figures/Conflicts1.PNG" alt="Example Image" width="650">
@@ -256,9 +256,9 @@ Choose one of the options to resolve the merge conflict. You now have updated yo
     <img src="figures/Stage_GitHubDekstop.PNG" alt="Example Image" width="400">
 </figure>
 
-5. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to Repositery`.
+5. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-6. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repositery. After committing, the following screen will pop up. Click on `Push Origin`.
+6. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
@@ -281,11 +281,11 @@ Alternatively, you can also click on `Push origin` in the top bar.
 ```````{tab-set}
 ``````{tab-item} ... for brand new version (branch)
 
-**... by (1) making changes on a single or multiple file(s) <br> 
-         (2) checking changes locally, <br>
-         (3) selecting changes to be added to the Git-timeline (staging) <br>
-         (4) adding changes to the Git-timeline (committing) and <br>
-         (5) adding changes to GitLab/GitHub (pushing) with ...**
+**... by (a) making changes on a single or multiple file(s) <br> 
+         (b) checking changes locally, <br>
+         (c) selecting changes to be added to the Git-timeline (staging) <br>
+         (d) adding changes to the Git-timeline (committing) and <br>
+         (e) adding changes to GitLab/GitHub (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
@@ -301,7 +301,7 @@ You will firstly need to actiavte the right environment. Type the following comm
 
 (or the environment in which you have installed the TeachBooks package)
 
-Then we can build the book locally. Make sure you are in the right repositery in VS code and type the folloing command:
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the folloing command:
 
 `jupyter-book build book` 
 
@@ -370,7 +370,7 @@ You will firstly need to actiavte the right environment. Type the following comm
 
 (or the environment in which you have installed the TeachBooks package)
 
-Then we can build the book locally. Make sure you are in the right repositery in VS code and type the folloing command:
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the folloing command:
 
 `jupyter-book build book` 
 
@@ -397,9 +397,9 @@ The staging GitHub Desktop assumes you want to stage all files. These files will
     <img src="figures/Stage_GitHubDekstop.PNG" alt="Example Image" width="400">
 </figure>
 
-4. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to Repositery`.
+4. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-5. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repositery. After committing, the following screen will pop up. Click on `Push Origin`.
+5. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
@@ -423,18 +423,18 @@ You can read more about it [here](/book/installation-and-setup/jupyter-book-setu
 
 ``````{tab-item} ... for an existing version (branch)
 
-**... by (1) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
-         (2) solving potential incompatible changes (merging conflicts), <br>
-         (3) making changes on a single / multiple file(s), <br>
-         (4) checking changes locally, <br>
-         (5) selecting changes to be added to the Git-timeline (staging), <br>
-         (6) adding those to the Git-timeline (committing) and <br>
-         (7) adding changes to GitLab/GitHub (pushing) with ...**
+**... by (a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+         (b) solving potential incompatible changes (merging conflicts), <br>
+         (c) making changes on a single / multiple file(s), <br>
+         (d) checking changes locally, <br>
+         (e) selecting changes to be added to the Git-timeline (staging), <br>
+         (f) adding those to the Git-timeline (committing) and <br>
+         (g) adding changes to GitLab/GitHub (pushing) with ...**
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
 
-1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repositery with your local repositery on your machine. On the left side-bar click on the icon that looks like a branch. 
+1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. On the left side-bar click on the icon that looks like a branch. 
 
 <figure align="center">
     <img src="figures/VSCode_Pull.PNG" alt="Example Image" width="400">
@@ -442,7 +442,7 @@ You can read more about it [here](/book/installation-and-setup/jupyter-book-setu
 
 By clicking on the 🔄 button, you will pull your colleages' changes.
 
-2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repositery, Git in VS Code will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). Open the files that are marked as conflicitng. 
+2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repository, Git in VS Code will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). Open the files that are marked as conflicitng. 
 
 <figure align="center">
     <img src="figures/Conflicts2.PNG" alt="Example Image" width="600">
@@ -467,7 +467,7 @@ You will firstly need to actiavte the right environment. Type the following comm
 
 (or the environment in which you have installed the TeachBooks package)
 
-Then we can build the book locally. Make sure you are in the right repositery in VS code and type the folloing command:
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the folloing command:
 
 `jupyter-book build book` 
 
@@ -514,13 +514,13 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 ````
 ````{tab-item} ... GitHub Desktop
 
-1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repositery with your local repositery on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
+1. If you collaborate with colleagues on your branch, you can get the updates from your colleagues as well by pulling from GitLab/GitHub. This synchronizes the remote repository with your local repository on your machine. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
 
 <figure align="center">
     <img src="figures/Fetch.PNG" alt="Example Image" width="650">
 </figure>
 
-2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repositery, GitHub Desktop will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). 
+2. When multiple people work on one chapter, it is possible that conflicts will arise if you and your colleagues have made incompatible changes in the same branch. In that case, when pulling from the remote repository, GitHub Desktop will recognize conflicts and help you to solve potential incompatible changes (merging conflicts). 
 
 <figure align="center">
     <img src="figures/Merge_Conflict_GitHubDesktop2.PNG" alt="Example Image" width="400">
@@ -541,7 +541,7 @@ You will firstly need to actiavte the right environment. Type the following comm
 
 (or the environment in which you have installed the TeachBooks package)
 
-Then we can build the book locally. Make sure you are in the right repositery in VS code and type the folloing command:
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the folloing command:
 
 `jupyter-book build book` 
 
@@ -567,9 +567,9 @@ Sometimes there are problems building the book. It could be that the building re
     <img src="figures/Stage_GitHubDekstop.PNG" alt="Example Image" width="400">
 </figure>
 
-6. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to Repositery`.
+6. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-7. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repositery. After committing, the following screen will pop up. Click on `Push Origin`.
+7. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
 
 <figure align="center">
     <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">

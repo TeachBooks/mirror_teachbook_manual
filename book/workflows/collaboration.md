@@ -131,4 +131,3 @@ The steps involved are as follows:
  4. **Check changes online**
  5. **Repeat steps 3 and 4 until you're satisfied**
  6. **Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book**
- 7. **Publish changes to student version of the book (merge request)**
