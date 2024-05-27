@@ -234,7 +234,7 @@ After committing, click the 🔄 button to push our changes to the remote reposi
     <img src="figures/Conflicts1.PNG" alt="Example Image" width="650">
 </figure>
 
-In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code. Click on `Open in Visual Studio Code`. 
+In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code (in that case have a look at the section treating VS Code). By clicking on the small downwards arrow you can also solve the conflict directly in GitHub Desktop by choosing the branch of the file you want to keep.
 
 <figure align="center">
     <img src="figures/Conflicts2.PNG" alt="Example Image" width="650">
@@ -526,7 +526,7 @@ After committing, click the 🔄 button to push our changes to the remote reposi
     <img src="figures/Merge_Conflict_GitHubDesktop2.PNG" alt="Example Image" width="400">
 </figure>
 
-In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code (in that case have a look at the section treating VS Code). By clicking on the small downwards arrow you can also solve the conlict directly in GitHub Dekstop by choosing the branch of the file you want to keep.
+In this case there are two conflicted files. GitHub Desktop is suggesting to resolve the changes in VS Code (in that case have a look at the section treating VS Code). By clicking on the small downwards arrow you can also solve the conflict directly in GitHub Desktop by choosing the branch of the file you want to keep.
 
 Choose one of the options to resolve the merge conflict. You now have updated your work with work from your colleagues and resolved potential conlicts. You are now ready to continue working on the content.
 
