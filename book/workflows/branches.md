@@ -201,7 +201,7 @@ Have a look at the other section!**
 
 Since you are working in a repositery with multiple colleagues, it is good practice to make sure your local repositery is up to date before you start branching. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repositery. Therefore, you first need to pull all the changes from the remote repositery to your local repositery. Simply click the Icon with the two arrows.
 
-```{figure} ../figures/Pull_VS.png
+```{figure} ../figures/Pull_VS.PNG
 :name: Pull_VS
 
 Location of the branch menu.
