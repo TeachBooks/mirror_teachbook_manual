@@ -26,18 +26,20 @@ The steps involved are as follows:
 ````{tab-item} Open repository for first time...
 
 **... by <br>
-(a) opening the repository locally (cloning) and <br>
-(b) creating your own version (branching) or selecting existing version (checkout branch):**
+(a) creating your own version (branching)
+(b) opening the repository locally (cloning) and selecting correct version (checkout branch):**<br>
 
+ - branching
  - cloning
- - branching / checkout branch
+ - checkout branch
 ````
 ````{tab-item} Work in previously opened repository...
 
 **... by <br>
-(a) updating your repository (pulling) and <br>
-(b) creating your own version (branching) or select existing version (checkout branch):**
-
+(a) creating your own version (branching) <br>
+(b) updating your repository (pulling) and select correct version (checkout branch):**
+ 
+ - branching
  - pulling
  - branching / checkout branch
 ````
@@ -126,7 +128,7 @@ The steps involved are as follows:
 ````
 ``````
 ```````
- 4. **Check candles nline**
+ 4. **Check changes online**
  5. **Repeat steps 3 and 4 until you're satisfied**
  6. **Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book**
  7. **Publish changes to student version of the book (merge request)**
