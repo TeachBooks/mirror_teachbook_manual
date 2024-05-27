@@ -2,7 +2,7 @@
 
 ```{admonition} User types
 :class: tip
-This page is useful for user type 3-5.
+This page is useful for user type 4-5.
 ```
 
 If you want to create a collaborative book for students, there's a few agreements you should make to enhance collaboration and student experience. These are written from our own experience, feel free to deviate or provide your own advice!
@@ -11,8 +11,8 @@ If you want to create a collaborative book for students, there's a few agreement
 
 ## Team
 - Define who's in charge of:
-  - Team organization (administrators)
-  - Combining content (maintainers)
+  - Team organization (administrators), at least user type 4
+  - Combining content (maintainers), at least user type 4
   - Editing and reviewing content (editors)
 - Define how your review process is taking place. We advice at least a maintainer reviewing each bit o content.
 - Make sure people identify themselves as one of the user types. You should have at least one user type 4 or 5. Although this can be a TA, it is advised one of the teachers is comfortable with this user type as well.
@@ -29,6 +29,7 @@ If you want to create a collaborative book for students, there's a few agreement
 - Add people with GitHub/GitLab permission matching their role and the protected branches.
 - Add a readme explaining the way you organized branches and permissions
 - Provide explanation on how you'd like to receive feedback in both the readme as the published book. The use of issues (in the book with the issue button) is advised.
+- Decide on whether or not to publish your book via Open Interactive Textbooks TU Delft. Publishing will give you a copyright check, ISBN and DOI number but heavily limits the amount of changes you can make to your book. We advise publishing an archived version of your book whenever the academic year is over.
 
 ### GitHub vs GitLab
 
