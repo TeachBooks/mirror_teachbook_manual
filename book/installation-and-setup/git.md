@@ -1,4 +1,4 @@
-# Essential for collaboration: Git
+# Collaboration tool: Git
 
 ```{admonition} User types
 :class: tip
@@ -18,6 +18,8 @@ GitLab is a cloud-based version control system built around Git. It provides a l
 ### What is GitHub?
 
 GitHub is the same service as GitLab, but it's part of a commercial company (Microsoft). It's the most well-known cloud-based Git provider and provides a lot of functionalities for free for education. It also allows you to host websites on `github.io` eliminating the need for your own / TU Delft webserver, although you don't have full servercontrol.
+
+For first users, we advise you to use GitHub.
 
 ### Additional lessons
 Software carpentry offers git-lessons if you'd like to learn more than just it's specific use for TeachBooks. The lessons are available [online](https://swcarpentry.github.io/git-novice/) and TU Delft offers these as part of a [Software Carpentry workshop](https://www.tudelft.nl/library/research-data-management/r/training-evenementen/training-voor-onderzoekers/software-carpentry-workshops)

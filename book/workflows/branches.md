@@ -80,19 +80,15 @@ Tip: It makes sense to give the branch a name related to the content you will be
 
 As user type 4 and 5, you make changes to the book locally on your computer rather than online on GitLab/GitHub. This allows you to create more complex and interactive sections to your book. Before you can start, there are a few preparatory steps you need to take. 
 
-**Cloning**
+In order to create your own version, you will first have to open the repository. Then, you will need to clone the repository to your computer. This procedure is called cloning.
 
-In order to create your own version, you will first have to open the repositery. Then, you will need to clone the repositery to your computer. This procedure is called cloning.
-
-**Branching**
-
-If your repositery is already cloned on your computer, you are almost ready to start editing the book. However, remember that you are most likely not the only person making changes to the book. To keep an overview of the changes made by you and your colleages, it is important that changes are first made in a 'copy' of the book and are then merged into the final version. This is done through branching! You can create your version of the book by creating a new version (branch) or you can continue the work in an existing version (checkout branch). 
+If your repository is already cloned on your computer, you are almost ready to start editing the book. However, remember that you are most likely not the only person making changes to the book. To keep an overview of the changes made by you and your colleages, it is important that changes are first made in a 'copy' of the book and are then merged into the final version. This is done through branching! You can create your version of the book by creating a new version (branch) or you can continue the work in an existing version (checkout branch). 
 
 `````````{tab-set}
 
-````````{tab-item} Cloning
+````````{tab-item} ... when opening repository for first time…
 
-**1. Open the repository locally using ...**
+**(a) ... by finding the repository url from ...**
 
 ```````{tab-set}
 
@@ -146,7 +142,7 @@ You have now directly cloned the repository, so you can skip the next step!
 ``````
 ```````
 
-**2. Clone the local repositery with ...**
+**(b) ... and opening (cloning) the local repository with ...**
 
 ```````{tab-set}
 ``````{tab-item} ... VS Code
@@ -166,10 +162,10 @@ The VS Code welcome screen.
 
 ``````{tab-item} ... GitHub Desktop
 
-1. You have previously copied the link of the repositery you would like to clone from GitLab or GitHub. In GitHub Desktop, navigate to the top bar, click on `File` and then on `Clone repositery`.
+1. You have previously copied the link of the repository you would like to clone from GitLab or GitHub. In GitHub Desktop, navigate to the top bar, click on `File` and then on `Clone repository`.
 
 <figure align="center">
-    <img src="figures/CloneRepo_Githubdesk.PNG" alt="Example Image" width="350">
+    <img src="figures/CloneRepo_Githubdesk.png" alt="Example Image" width="350">
 </figure>
 
 2. In the top bar click on `URL`.
@@ -184,38 +180,18 @@ The VS Code welcome screen.
 
 ``````
 ```````
-**You have now cloned the repositery to your computer and you can start branching. <br> 
+**You have now cloned the repository to your computer and you can start branching. <br> 
 Have a look at the other section!**
 ````````
 
-````````{tab-item} Branching
+````````{tab-item} ... when working  in previously opened repository…
 
-**I want to... <br>
-(a) update my repository (pulling) and <br>
-(b) create my own version (branching) or select an existing version (checkout branch) using ...**
+**(a) by creating my own version (branching) or select an existing version (checkout branch) ...**
 
-```````{tab-set}
-``````{tab-item} ... Git in VS Code
-
-**1. Update your repositery**
-
-Since you are working in a repositery with multiple colleagues, it is good practice to make sure your local repositery is up to date before you start branching. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repositery. Therefore, you first need to pull all the changes from the remote repositery to your local repositery. Simply click the Icon with the two arrows.
-
-```{figure} ../figures/Pull_VS.PNG
-:name: Pull_VS
-
-Location of the branch menu.
-```
-Once your local repositery is up to date you can start to work either in a new branch (new version) or in an existing branch (exisiting version). 
-
-**2. Create your own version by creating a new branch**
-
-Although it is possible to create new branches in VS Code directly, creating new branches on the remote repositery (on GitLab or GitHub) is better for collaborating because the new branch becomes immediately visible to everyone working in the repositery as opposed to becoming visible after being pushed to the remote repositery.
-
-Create a new branch in...
+Although it is possible to create new branches in VS Code directly, creating new branches on the remote repository (on GitLab or GitHub) is better for collaborating because the new branch becomes immediately visible to everyone working in the repository as opposed to becoming visible after being pushed to the remote repository.
 
 `````{tab-set}
-````{tab-item} ... GitLab
+````{tab-item} ... in GitLab
 
 1. Navigate to the repository of your project. Under the project description, you should see a menu button with a "+" in it (see {numref}`new-branch-button`). Click this button, then click on "New branch".
 
@@ -240,10 +216,7 @@ We're making a new branch called `chapter-2` from the `main` branch.
 
 The circled menu is the branch selection menu. 
 ```
-
-You have now created a new branch on the remote, make sure to fetch & pull again to see it on the local repositery!
 ````
-
 ````{tab-item} ... GitHub
 
 1. Open the repository in which you want to work in. In the top bar you will see your current branch `main` and next to that there is a tab called `Branches`. 
@@ -271,11 +244,15 @@ Tip: It makes sense to give the branch a name related to the content you will be
     <img src="figures/NewBranch_GitHub4.PNG" alt="Example Image" width="650">
 </figure>
 
-5. jupYou have now created a new branch on the remote, make sure to fetch & pull again to see it on the local repositery!
 ````
 `````
 
-**3. Work in an existing branch**
+**(b) and updating my local repository (checking out and pulling) ...**
+
+```````{tab-set}
+``````{tab-item} ... with Git in VS Code
+
+1. Open own version (checking out)
 
 If you want to work in an existing branch you need to *check out* our new branch in VS Code. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
 
@@ -294,91 +271,25 @@ Location of the branch menu.
 
 The branch selection menu, where our new branch has shown up. From this menu you can also select (checkout in git terms) another existing branch.
 ```
+
+2. Update your local repository
+
+Since you are working in a repository with multiple colleagues, it is good practice to make sure your local repository is up to date. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repository. Therefore, you first need to pull all the changes from the remote repository to your local repository. Simply click the Icon with the two arrows.
+
+```{figure} ../figures/Pull_VS.PNG
+:name: Pull_VS
+
+Location of the branch menu.
+```
+
 ``````
-``````{tab-item} ... GitHub Desktop
+``````{tab-item} ... with GitHub Desktop
 
-**1. Update your repositery**
-
-Since you are working in a repositery with multiple colleagues, it is good practice to make sure your local repositery is up to date before you start branching. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repositery. Therefore, you first need to pull all the changes from the remote repositery to your local repositery.  
-
-This synchronizes the remote repositery with your local repositery on your computer. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
-
-<figure align="center">
-    <img src="figures/Fetch.PNG" alt="Example Image" width="650">
-</figure>
-
-**2. Create your own version by creating a new branch.**
-
-Although it is possible to create new branches in GitHub Desktop directly, creating new branches on the remote repositery (on GitLab or GitHub) is better for collaborating because the new branch becomes immediately visible to everyone working in the repositery as opposed to becoming visible after being pushed to the remote repositery.
-
-Create a new branch in...
-
-`````{tab-set}
-````{tab-item} ... GitLab
-
-1. Navigate to the repository of your project. Under the project description, you should see a menu button with a "+" in it (see {numref}`new-branch-button`). Click this button, then click on "New branch".
-
-```{figure} ../images/gitlab-branch.png
-:name: new-branch-button
-
-Click the highlighted button to make a new branch.
-```
-
-2. A new page opens ({numref}`new-branch-menu`), on which you can specify the name of your branch and the source branch. Try to think of a good name for your branch. For example, `chapter-2` is a suitable name if we're going to be working on Chapter 2 of our book. After you've made sure that the selected source branch is correct, click "Create branch".
-
-```{figure} ../images/gitlab-branch-name.png
-:name: new-branch-menu
-
-We're making a new branch called `chapter-2` from the `main` branch.
-```
-
-3. You should be sent back to an overview page of your repository. In the branch selection menu (see {numref}`new-branch-repo`), it should now say `chapter-2` instead of `main`.
-
-```{figure} ../images/gitlab-new-branch-repo.png
-:name: new-branch-repo
-
-The circled menu is the branch selection menu. 
-```
-
-You have now created a new branch on the remote, make sure to fetch & pull again to see it on the local repositery!
-````
-
-````{tab-item} ... GitHub
-
-1. Open the repository in which you want to work in. In the top bar you will see your current branch `main` and next to that there is a tab called `Branches`. 
-
-<figure align="center">
-    <img src="figures/NewBranch_GitHub.PNG" alt="Example Image" width="650">
-</figure>
-
-2. Clicking on `Branches` will bring you to an overview of all the branches in the repository. Click on the green `Create Branch` button.
-
-<figure align="center">
-    <img src="figures/NewBranch_GitHub2.PNG" alt="Example Image" width="650">
-</figure>
-
-3. Finally, give your branch a name and specifiy the source branch. <br>
-Tip: It makes sense to give the branch a name related to the content you will be creating or altering.
-
-<figure align="center">
-    <img src="figures/NewBranch_GitHub3.PNG" alt="Example Image" width="350">
-</figure>
-
-4. You will find your new branch in the drop down menu as seen on the figure below. You can then select your new branch and start working in it (new version).
-
-<figure align="center">
-    <img src="figures/NewBranch_GitHub4.PNG" alt="Example Image" width="650">
-</figure>
-
-5. You have now created a new branch on the remote, make sure to fetch & pull again to see it on the local repositery!
-````
-`````
-
-**3. Work in an existing branch**
+1. Open own version (checking out)
 
 The next step is to *check out* our new branch in GitHub Desktop. *Checking out* means that we're changing our working branch (i.e., the one to which we will be committing our changes) from one to the other. 
 
-In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking on it you can see all the branches you created on the remote repositery. 
+In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking on it you can see all the branches you created on the remote repository. 
 
 ```{figure} ../figures/CheckOutBranch_GitHubDesktop.PNG
 ```
@@ -389,6 +300,17 @@ In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking o
 Leave your changes (stashed) on your working branch, in this case I was working in the branch called `collaboration git`.
 
 3. Check that the branch is indeed checked out by looking at the branch menu at the the top left again; the current branch should say the name. 
+
+4. Update your repository**
+
+Since you are working in a repository with multiple colleagues, it is good practice to make sure your local repository is up to date. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repository. Therefore, you first need to pull all the changes from the remote repository to your local repository.  
+
+This synchronizes the remote repository with your local repository on your computer. Click on `Fetch` in the top bar. Then on the same place, click on 'Pull'. 
+
+<figure align="center">
+    <img src="figures/Fetch.PNG" alt="Example Image" width="650">
+</figure>
+
 
 ``````
 ```````
