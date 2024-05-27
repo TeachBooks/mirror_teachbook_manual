@@ -11,49 +11,74 @@ We have previously introduced the notions of using Git in the online environment
 
 The steps involved are as follows:
 
- 1. **Assign task to yourself (milestones, issues)**
- 2. **Create your own version of the book by**
+ 1. **Assign a task to yourself (milestones, issues)**
+ 2. **Create your own version of the book as...**
 ```````{tab-set}
-``````{tab-item} ... user type 3
-**... by directly creating your own version (branching) or selecting existing version:**
+``````{tab-item} ... user type 3...
+
+**... by creating your own version of the book (branching) or selecting existing version:**
+
  - branching
 ``````
 ``````{tab-item} ... user type 4 and 5
-**... for ...**
+
 `````{tab-set}
-````{tab-item} ... repository opened for first time
-**... by opening the repository locally (cloning) and creating your own version (branching) or select existing version (checkout branch):**
+````{tab-item} Open repository for first time...
+
+**... by <br>
+(a) opening the repository locally (cloning) and <br>
+(b) creating your own version (branching) or selecting existing version (checkout branch):**
+
  - cloning
  - branching / checkout branch
 ````
-````{tab-item} ... previously opened repository
-**... by updating your repository (pulling) and creating your own version (branching) or select existing version (checkout branch):**
+````{tab-item} Work in previously opened repository...
+
+**... by <br>
+(a) updating your repository (pulling) and <br>
+(b) creating your own version (branching) or select existing version (checkout branch):**
+
  - pulling
  - branching / checkout branch
 ````
-
 `````
 ``````
 ```````
- 3. **Edit the book by ...**
+ 3. **Edit the book as ...**
+
 ```````{tab-set}
-``````{tab-item} ... user type 3
+``````{tab-item} ... user type... 3
+
 **... by directly adding changes on a single file to Git-timeline (committing):**
- - adding or making changes to single file
+
+ - adding file or making changes to single file
  - committing
 ``````
-``````{tab-item} ... user type 4
-... on ...
+``````{tab-item} ... user type 4...
+
 `````{tab-set}
-````{tab-item} ... brand new version (branch)
-**... by making changes on a single / multiple file(s), selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+````{tab-item} ... on a brand new version (branch)...
+
+**... by <br>
+(a) making changes on a single / multiple file(s), <br>
+(b) selecting changes to be added to the Git-timeline (staging), <br>
+(c) adding those to the Git-timeline (committing) and <br>
+(d) adding those changes to GitLab/GitHub (pushing):**
+
 - adding or making changes to file(s)
 - staging
 - committing
 - pushing
 ````
-````{tab-item} ... existing version (branch)
-**... by regularly obtaining updates from colleagues from GitLab/GitHub (pulling), solving potential incompatible changes (merge conflicts), making changes on a single / multiple file(s), selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+````{tab-item} ... on an existing version (branch)...
+
+**... by <br>
+(a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+(b) solving potential incompatible changes (merge conflicts), <br>
+(c) making changes on a single / multiple file(s), <br>
+(d) selecting changes to be added to the Git-timeline (staging), <br>
+(e) adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+
 - pulling
 - solving merge conflicts
 - adding or making changes to file(s)
@@ -63,19 +88,34 @@ The steps involved are as follows:
 ````
 `````
 ``````
-``````{tab-item} ... user type 5
-... on ...
+``````{tab-item} ... user type 5...
 `````{tab-set}
-````{tab-item} ... brand new version (branch)
-**... by making changes on a single / multiple file(s), checking changes locally, selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+````{tab-item} ... on a brand new version (branch)...
+
+**... by <br>
+(a) making changes on a single / multiple file(s), <br>
+(b) checking changes locally, <br>
+(c) selecting changes to be added to the Git-timeline (staging), <br>
+(d) adding those to the Git-timeline (committing) and <br>
+(e) adding those changes to GitLab/GitHub (pushing):**
+
 - adding or making changes to file(s)
 - checking changes locally 
 - staging
 - committing
 - pushing
 ````
-````{tab-item} ... existing version (branch)
-**... by regularly obtaining updates from colleagues from GitLab/GitHub (pulling), solving potential incompatible changes (merge conflicts), making changes on a single / multiple file(s), checking changes locally,  selecting changes to be added to the Git-timeline (staging), adding those to the Git-timeline (committing) and adding those changes to GitLab/GitHub (pushing):**
+````{tab-item} ... on an existing version (branch)...
+
+**... by <br>
+(a) regularly obtaining updates from colleagues from GitLab/GitHub (pulling), <br>
+(b) solving potential incompatible changes (merge conflicts), <br>
+(c) making changes on a single / multiple file(s), <br>
+(d) checking changes locally,  <br>
+(e) selecting changes to be added to the Git-timeline (staging), <br>
+(f) adding those to the Git-timeline (committing) and <br>
+(g) adding those changes to GitLab/GitHub (pushing):**
+
 - pulling
 - solving merge conflicts
 - adding or making changes to file(s)
@@ -84,10 +124,9 @@ The steps involved are as follows:
 - committing
 - pushing
 ````
-
 ``````
 ```````
- 4. **Check changes online**
+ 4. **Check candles nline**
  5. **Repeat steps 3 and 4 until you're satisfied**
  6. **Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book**
  7. **Publish changes to student version of the book (merge request)**

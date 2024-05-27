@@ -31,15 +31,38 @@ This will lead you to this window where you can specify all attributes we mentio
 
 The issues in GitHub can be found in your repositery in the top bar.
 
-<img src="figures/Issue_GitHub.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+
+<figure align="center">
+    <img src="figures/Issue_GitHub.PNG" alt="Example Image" width="650">
+</figure>
 
 Clicking on `Issues` will open up the page with all the issues on this repositery.
 
-<img src="figures/New_Issue_GitHub.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+<figure align="center">
+    <img src="figures/New_Issue_GitHub.PNG" alt="Example Image" width="650">
+</figure>
 
 Finally, by clicking the green `New Issue` button you can create a new issue and specify all the attributes we mentioned before!
 
-<img src="figures/New_Issue_GitHub2.png" alt="New Issue" width="1000" style="display:block; margin-left:auto; margin-right:auto;"> <br>
+<figure align="center">
+    <img src="figures/New_Issue_GitHub2.PNG" alt="Example Image" width="650">
+</figure>
+
+```{Note}
+
+The follwing steps explain how to create a branch from a new issue. By doing this you can create most of the steps described in the section called [branching](branches.md). However, if you are unfamiliar with the term make sure to still read the section to understand the function.
+```
+After creating the issue, the description of the issue will automatically open. On the bottom left there is an option `create a branch` (in yellow) from this issue. This will create a new branch in the repositery which you can use to solve the issue. 
+
+<figure align="center">
+    <img src="figures/New_Issue_GitHub3.PNG" alt="Example Image" width="650">
+</figure>
+
+Clicking on `create a branch` will open the following window in which you can specify the name and the repositery.
+
+<figure align="center">
+    <img src="figures/New_Issue_GitHub4.PNG" alt="Example Image" width="350">
+</figure>
 ````
 `````
 
