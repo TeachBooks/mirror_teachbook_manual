@@ -109,6 +109,27 @@ In case you have cloned the repositery you can also resolve the conflicts locall
 </figure>
 ````
 ````{tab-item} Locally with GitHub Desktop for GitHub repositories
-hi
+
+1. Make sure that you've committed all your new sections and changes, and that they're pushed to the remote repository.
+
+2. In GitHub Desktop, set `current branch` in the top bar to the branch that your changes to be merged into.
+
+<figure align="center">
+    <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
+</figure>
+
+At the bottom of the drop down branch menu you should see the following button. 
+
+<figure align="center">
+    <img src="figures/Merge_GitHub_Desktop.PNG" alt="Example Image" width="400">
+</figure>
+
+Clicking it will pop up to the following window, where you can select which branch you would like to merge into the previoulsy selected branch. In this case we are merging `main` into `CollaborationGit`.
+
+<figure align="center">
+    <img src="figures/Merge_GitHub_Desktop2.PNG" alt="Example Image" width="400">
+</figure>
+
+3. Finally click on `create a merge commit`. Tip: The green check indicates that there are no merge conflicts however if there is a red cross you'll have to deal with those first.
 ````
 `````
