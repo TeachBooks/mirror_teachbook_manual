@@ -1,4 +1,5 @@
 jupyter-book
+teachbooks
 sphinx-inline-tabs
 jupyterlite-sphinx
 

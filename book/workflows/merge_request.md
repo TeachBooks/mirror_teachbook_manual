@@ -51,7 +51,7 @@ In case you have cloned the repositery you can also resolve the conflicts locall
 
 6. On the page of our merge request ({numref}`gitlab-finished-merge-request`), we're greeted with some more information. On top, you can read the description we just provided when creating the merge request. We can also see an "Approve" button, which you may or may not see, depending on your repository rights. Next, we can see a green checkmark, with a "Merge" button. This is good news: our changes do not conflict with existing files on the `main` branch, and we can merge our changes directly by clicking the button (if applicable: only after somebody else approved the request). 
 
-```{figure} ../images/gitlab-finished-merge-request.png
+```{figure} ../../images/gitlab-finished-merge-request.png
 :name: gitlab-finished-merge-request
 
 The finished merge request.
@@ -108,7 +108,7 @@ In case you have cloned the repositery you can also resolve the conflicts locall
     <img src="figures/Pull_Request6.PNG" alt="Example Image" width="650">
 </figure>
 ````
-````{tab-item} Locally with GitHub Desktop
+````{tab-item} Locally with GitHub Desktop for GitHub repositories
 hi
 ````
 `````

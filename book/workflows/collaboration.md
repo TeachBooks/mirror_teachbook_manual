@@ -7,7 +7,7 @@ This page is useful for user type 3, 4 and 5.
 
 A jupyter book is composed out of many files which contain the educational content produced by you. Through the use of branches it is possible to work on the book at the same time as your team-members. Working on content for the book is mainly individual work, the beauty of Git comes in when everybody's changes are merged into the main branch.
 
-We have previously introduced the notions of using Git in the online environment (remote) or locally. All the (text, figures, etc.) files that make up the book are contained on the remote repository on GitLab or GitHub. This could be on an open repository on `gitlab.com` or `github.com`. In the context of creating educational books for students at TU Delft, the repository will most likely be located on `gitlab.tudelft.nl` or `github.com/teachbooks`.
+We have previously introduced the notions of using Git in the online environment (remote) or locally. All the (text, figures, etc.) files that make up the book are contained on the remote repository on GitLab or GitHub. This could be on an open repository on `gitlab.com` or `github.com`. In the context of creating educational books for students at TU Delft, the repository will most likely be located on `gitlab.tudelft.nl` or `github.com/teachbooks`. If this is the first time you interact with books, you're advise to use `github.com`.
 
 The steps involved are as follows:
 
@@ -26,18 +26,20 @@ The steps involved are as follows:
 ````{tab-item} Open repository for first time...
 
 **... by <br>
-(a) opening the repository locally (cloning) and <br>
-(b) creating your own version (branching) or selecting existing version (checkout branch):**
+(a) creating your own version (branching)
+(b) opening the repository locally (cloning) and selecting correct version (checkout branch):**<br>
 
+ - branching
  - cloning
- - branching / checkout branch
+ - checkout branch
 ````
 ````{tab-item} Work in previously opened repository...
 
 **... by <br>
-(a) updating your repository (pulling) and <br>
-(b) creating your own version (branching) or select existing version (checkout branch):**
-
+(a) creating your own version (branching) <br>
+(b) updating your repository (pulling) and select correct version (checkout branch):**
+ 
+ - branching
  - pulling
  - branching / checkout branch
 ````
@@ -126,7 +128,6 @@ The steps involved are as follows:
 ````
 ``````
 ```````
- 4. **Check candles nline**
+ 4. **Check changes online**
  5. **Repeat steps 3 and 4 until you're satisfied**
  6. **Reviewing (merge request), (eventually repeat steps 3 and 4) and combine (merging) your version with main draft version of book**
- 7. **Publish changes to student version of the book (merge request)**

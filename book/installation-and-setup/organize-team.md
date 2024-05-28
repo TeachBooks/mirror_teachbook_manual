@@ -1,11 +1,37 @@
-# GitHub vs GitLab
+# Organize your editing team and tools
 
 ```{admonition} User types
 :class: tip
-This page is useful for user type 3-5.
+This page is useful for user type 4-5.
 ```
 
-Now that you can start, there's a first choice to be made, where to host your book:
+If you want to create a collaborative book for students, there's a few agreements you should make to enhance collaboration and student experience. These are written from our own experience, feel free to deviate or provide your own advice!
+
+**This page is work in progress**
+
+## Team
+- Define who's in charge of:
+  - Team organization (administrators), at least user type 4
+  - Combining content (maintainers), at least user type 4
+  - Editing and reviewing content (editors)
+- Define how your review process is taking place. We advice at least a maintainer reviewing each bit o content.
+- Make sure people identify themselves as one of the user types. You should have at least one user type 4 or 5. Although this can be a TA, it is advised one of the teachers is comfortable with this user type as well.
+
+## Tools
+- Choose between GitHub and GitLab, as explained below
+- If you've chosen for GitHub, start with our [template](../external/template/README.md)
+- Define branches in GitHub/GitLab. We advise the following branches:
+  - A published branch which contains the students' version of this year. This could be called ie. `publish` or `main` or `<current acadamic year>`
+  - A development branch which contains all the new content combined but not yet published to students. This could be called `dev` or `main` (depending on whether you prefer having the most recent published version as main or the development branch).
+  - Branches which will be created during the editing process which contain edits ie. single chapters
+  - Branches for previous study years which contain each year's version of the book. These could be called `<academic year>`
+- Setup protected branches in GitHub/GitLab to prevent accidental changes
+- Add people with GitHub/GitLab permission matching their role and the protected branches.
+- Add a readme explaining the way you organized branches and permissions
+- Provide explanation on how you'd like to receive feedback in both the readme as the published book. The use of issues (in the book with the issue button) is advised.
+- Decide on whether or not to publish your book via Open Interactive Textbooks TU Delft. Publishing will give you a copyright check, ISBN and DOI number but heavily limits the amount of changes you can make to your book. We advise publishing an archived version of your book whenever the academic year is over.
+
+### GitHub vs GitLab
 
 - Github allows you to host your book on the GitHub server using GitHub pages (to be recognized by the `<organization/username>.github.io/<book>` url, for example the [template book](https://teachbooks.github.io/template/)), which takes all the steps of hosting out of your hands. You can also use a custom owned URL, although this requires some additional skills. On TU Delft's GitLab you need a webserver, which is offered by TeachBooks (to be recognized by the url `teachbooks.tudelft.nl/<book>`, for example [this manual](https://teachbooks.tudelft.nl/jupyter-book-manual)) as the TU Delft OIT team (to be recognized by the url `interactivetextbooks.tudelft.nl/<book>`, for example [the TU Delft OIT demo book](https://interactivetextbooks.tudelft.nl/open-textbooks-demonstration/)). For the TU Delft OIT webserver you’re required to publish your book more officially, it cannot be used for viewing your book online in the editing-phase.
 - On GitHub you can start right away with a git environment and online book using our [template](../external/template/README.md). On GitLab you can set up your own git environment, but you need to be given access by [TeachBooks](mailto:teachbooks@tudelft.nl) or [TU Delft OIT](mailto:Interactive-textbooks@tudelft.nl) to view your build book online.
