@@ -26,7 +26,21 @@ To add a figure, just copy the figure to the correct directory. Then, in your ma
     <Figure caption>
     ```
 
+Or you can use the figure form below where you can specify all information and the code is produced for you:
+
+<div id="figuur_formulier">
+
+</div>
+<div id="listContainer">
+  
+</div> 
+
+
 You can find more documentation on including figures [here](https://jupyterbook.org/en/stable/content/figures.html).
+
+
+
+
 
 ## Videos
 
