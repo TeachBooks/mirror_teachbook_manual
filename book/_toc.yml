@@ -26,6 +26,7 @@ parts:
     chapters:
     - file: basic-features/overview
       sections:
+      - file: basic-features/jupyterbook.md
       - file: basic-features/recipes.md
       - file: basic-features/hypothesis
       - file: basic-features/utterances
