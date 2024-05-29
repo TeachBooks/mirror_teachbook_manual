@@ -27,7 +27,12 @@ parts:
     - file: basic-features/overview
       sections:
       - file: basic-features/jupyterbook.md
-      - file: basic-features/recipes.md
+      - file: basic-features/figures.md
+      - file: basic-features/equations.md
+      - file: basic-features/videos.md
+      - file: basic-features/References.md
+      - file: basic-features/code.md
+      - file: basic-features/Code_block_figures
       - file: basic-features/hypothesis
       - file: basic-features/utterances
     - file: features/overview
