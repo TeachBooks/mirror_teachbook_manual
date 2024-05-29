@@ -1,3 +1,17 @@
+---
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.10.3
+kernelspec:
+  display_name: Python 3 (ipykernel)
+  language: python
+  name: python3
+---
+
+
 # Markdown and Notebook recipes for the MUDE Jupyter Book
 
 ## Figures 
@@ -13,21 +27,6 @@ To add a figure, just copy the figure to the correct directory. Then, in your ma
     ```
 
 You can find more documentation on including figures [here](https://jupyterbook.org/en/stable/content/figures.html).
-
-## Videos
-
----
-jupytext:
-  text_representation:
-    extension: .md
-    format_name: myst
-    format_version: 0.13
-    jupytext_version: 1.10.3
-kernelspec:
-  display_name: Python 3 (ipykernel)
-  language: python
-  name: python3
----
 
 ## Videos
 
