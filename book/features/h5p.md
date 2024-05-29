@@ -1,5 +1,10 @@
 # Adding interactive h5p elements
 
+```{admonition} User types
+:class: tip
+This section is useful for user type 3-5.
+```
+
 ## Instruction
 H5p elements are interactive HTML-blocks which can be imbeded in a Jupyter Book using an iframe. H5p element can be created in the [TU Delft portal on the H5p website](https://tudelft.h5p.com/content) (sign in via Brightspace to H5p required first). The iframe code can be copied at Edit - Publish - Public - Embed code. This html code can be directly added to your markdown file:
 

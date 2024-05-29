@@ -1,0 +1,9 @@
+[submodule "book/external/Nested-Books"]
+	path = book/external/Nested-Books
+	url = https://github.com/TeachBooks/Nested-Books.git
+[submodule "book/external/template"]
+	path = book/external/template
+	url = https://github.com/TeachBooks/template.git
+[submodule "book/external/deploy-book-workflow"]
+	path = book/external/deploy-book-workflow
+	url = https://github.com/TeachBooks/deploy-book-workflow.git

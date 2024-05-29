@@ -1,12 +1,18 @@
-title: Intro to Git, VS Code and Jupyter Books
-author: Caspar Jungbacker
-logo: images/TUDelft_logo_rgb.png
+title: TeachBooks Manual
+author: TeachBooks Team from Delft university of Technology, built with <a href="https://teachbooks.tudelft.nl/">TeachBooks</a> and <a href="https://jupyterbook.org/">Jupyter Book</a>, <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer"">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt=""> 
+
+logo: images/Logo_without_background.png
 
 execute:
   execute_notebooks: 'off'
 
-launch_buttons:
-  thebe: true
+html:
+  favicon : "images/favicon.ico"
+  baseurl  : "https://teachbooks.tudelft.nl/jupyter-book-manual/"
+# START DRAFT
+  comments:
+    hypothesis: true
+# END DRAFT
 
 sphinx:
   extra_extensions:
@@ -23,3 +29,10 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
+    html_theme_options:
+      repository_url: "https://gitlab.tudelft.nl/interactivetextbooks-citg/jupyter-book-manual"
+      use_repository_button: true
+      use_issues_button : true
+      launch_buttons:
+          thebe: true
+    html_show_copyright: false

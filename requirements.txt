@@ -1,6 +1,6 @@
 jupyter-book
+teachbooks
 sphinx-inline-tabs
-jupyterlite-xeus-python
 jupyterlite-sphinx
 
 --extra-index-url https://gitlab.tudelft.nl/api/v4/projects/11239/packages/pypi/simple
