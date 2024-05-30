@@ -54,7 +54,7 @@ There are many settings, for instance aligning right:
     ```
 ````
 
-provides the output:
+with the result:
 
 ```{figure} ../images/TUDelft_logo_rgb.png
 ---
