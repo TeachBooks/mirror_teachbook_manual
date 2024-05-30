@@ -23,7 +23,7 @@ For example:
     name: demoexample1
     align: center
     ---
-    example 1: width (50%) as percentage, align center
+    example 1: width (70%) as percentage, align center
     ```
 ````
 
@@ -34,7 +34,7 @@ width: 70%
 name: demoexample1
 align: center
 ---
-example 1: width (50%) as percentage, align center
+example 1: width (70%) as percentage, align center
 ```
 
 Using the name label, you can refer to the figure as done with {numref}`Figure {number} <demoexample1>`.
@@ -65,7 +65,7 @@ align: right
 example 2: width (50%) as percentage, align right
 ```
 
-Aligning right can come with the potential downside (not always wanted) that text is wrapped around the figure. To avoid this one can use `<div>` elements, both before and after the text (make sure to leave an empty line after the <div>!):
+Aligning right can come with the potential downside (not always wanted) that text is wrapped around the figure. To avoid this one can use `<div>` elements, both before and after the text (make sure to leave an empty line after the `<div>`!):
 
 ````
     <div style="clear: both;">
@@ -79,7 +79,7 @@ Aligning right can come with the potential downside (not always wanted) that tex
     name: demoexample3
     align: right
     ---
-    example 3: width (50%) as percentage, align right with div style
+    example 3: width (50%) as percentage, align right with additional div style
     ```
 
     </div>
@@ -97,13 +97,15 @@ width: 50%
 name: demoexample3
 align: right
 ---
-example 3: width (50%) as percentage, align right
+example 3: width (50%) as percentage, align right with additional div style
 ```
 
 </div>
 
 <div style="clear: both;">
+
 including `figclass: margin` sets the figure to the column at the right.
+
 </div>
 
 ````
