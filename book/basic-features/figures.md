@@ -17,7 +17,7 @@ To add a figure, just copy the figure to the correct directory. Then, in your ma
 For example: 
 
 ````
-    ```{figure} ../figures/TUDelft_logo_rgb.png
+    ```{figure} ../images/TUDelft_logo_rgb.png
     ---
     width: 70%
     name: demoexample1
@@ -28,7 +28,7 @@ For example:
 ````
 
 provides this output, which looks nice.
-```{figure} ../figures/TUDelft_logo_rgb.png
+```{figure} ../images/TUDelft_logo_rgb.png
 ---
 width: 70%
 name: demoexample1
@@ -44,7 +44,7 @@ You can find more documentation on including figures [here](https://jupyterbook.
 There are many settings, for instance aligning right: 
 
 ````
-    ```{figure} ../figures/TUDelft_logo_rgb.png
+    ```{figure} ../images/TUDelft_logo_rgb.png
     ---
     width: 50%
     name: demoexample2
@@ -56,7 +56,7 @@ There are many settings, for instance aligning right:
 
 provides the output:
 
-```{figure} ../figures/TUDelft_logo_rgb.png
+```{figure} ../images/TUDelft_logo_rgb.png
 ---
 width: 50%
 name: demoexample2
@@ -73,7 +73,7 @@ Aligning right can come with the potential downside (not always wanted) that tex
     </div>
     <div style="clear: both;">
 
-    ```{figure} ../figures/TUDelft_logo_rgb.png
+    ```{figure} ../images/TUDelft_logo_rgb.png
     ---
     width: 50%
     name: demoexample3
@@ -91,7 +91,7 @@ with the result:
 
 <div style="clear: both;">
 
-```{figure} ../figures/TUDelft_logo_rgb.png
+```{figure} ../images/TUDelft_logo_rgb.png
 ---
 width: 50%
 name: demoexample3
