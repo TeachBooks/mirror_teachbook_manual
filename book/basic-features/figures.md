@@ -120,7 +120,7 @@ including `figclass: margin` sets the figure to the column at the right.
 
 <br>
 
-```{figure} demo97/demo97_figure1.jpg
+```{figure} ../images/TUDelft_logo_rgb.png
 ---
 figclass: margin
 width: 50%
