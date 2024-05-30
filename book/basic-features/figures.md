@@ -124,9 +124,9 @@ including `figclass: margin` sets the figure to the column at the right.
 ---
 figclass: margin
 width: 50%
-name: demoexample2
+name: demoexample4
 ---
-example 2:including figclass: margin
+example 4:including figclass: margin
 ```
 
 One might quickely forget the code for making figures, here is a useful tool to make your figures, just specify all information and the code is produced for you:
