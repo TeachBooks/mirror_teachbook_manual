@@ -20,7 +20,7 @@ You can find more documentation on including figures [here](https://jupyterbook.
     ---
     width: 50%
     name: demoexample1
-    align: right
+    align: center
     ---
     example 1: width (50%) as percentage, align right
     ```
@@ -32,7 +32,7 @@ provides the output:
 ---
 width: 50%
 name: demoexample1
-align: right
+align: center
 ---
 example 1: width (50%) as percentage, align right
 ```
