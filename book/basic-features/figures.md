@@ -27,7 +27,7 @@ You can find more documentation on including figures [here](https://jupyterbook.
 ````
 
 provides the output:
-
+<br>
 ```{figure} ../images/TUDelft_logo_rgb.png
 ---
 width: 50%
@@ -36,6 +36,7 @@ align: right
 ---
 example 1: width (50%) as percentage, align right
 ```
+<br>
 
 including a figclass sets the figure to the column at the right.
 
@@ -61,6 +62,8 @@ name: demoexample2
 ---
 example 2:including figclass: margin
 ```
+
+<br>
 
 We made a useful tool to make your figures, just specify all information and the code is produced for you:
 
