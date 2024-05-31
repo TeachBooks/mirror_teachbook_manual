@@ -48,6 +48,15 @@ The circled menu is the branch selection menu.
 
 ``````{tab-item} ... GitHub
 
+How to branch is demonstrated in the figure below, followed by a step-by-step tutorial.
+
+```{figure} figures/branching-github-ezgif.com-optimize.gif
+---
+name: branching_demo
+---
+Demonstration, video available [here](https://youtu.be/3ceMSLQpD70)
+```
+
 1. Open the repository in which you want to work in. In the top bar you will see your current branch `main` and next to that there is a tab called `Branches`. 
 
 <figure align="center">
@@ -218,6 +227,15 @@ The circled menu is the branch selection menu.
 ```
 ````
 ````{tab-item} ... GitHub
+
+How to branch is demonstrated in the figure below, followed by a step-by-step tutorial.
+
+```{figure} figures/branching-github-ezgif.com-optimize.gif
+---
+name: branching_demo
+---
+Demonstration, video available [here](https://youtu.be/3ceMSLQpD70)
+```
 
 1. Open the repository in which you want to work in. In the top bar you will see your current branch `main` and next to that there is a tab called `Branches`. 
 
