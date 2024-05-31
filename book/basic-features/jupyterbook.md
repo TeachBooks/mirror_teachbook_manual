@@ -13,6 +13,7 @@ The configuration file of Jupyter Books is named `_config.yml`. It mainly contai
 title: Jupyter Book Manual
 author: Interactive Textbooks CiTG
 logo: images/TUDelft_logo_rgb.png
+copyright: CC BY-NC
 
 execute:
   execute_notebooks: auto
@@ -27,6 +28,7 @@ Technically speaking, a `_config.yml` file is not required to build a Jupyter Bo
 - `title`: the title of your book, which appears on the top-left of every page, under the logo.
 - `author`: authors of the book, which appears in the bottom margin of every page.
 - `logo`: (relative) path to the logo of your book (optional).
+- `copyright`: the [licences](https://creativecommons.org/share-your-work/cclicenses/) attached to your book.
 
 In addition, the following option can also be useful:
 
@@ -39,7 +41,7 @@ The coniguration and table of contents files are in YAML format (short for YAML 
 
 ## The table of contents
 
-The table of contents (`_toc.yml`) file is where you define the structure of your book. You can organize content in *parts*, *chapters*, and *sections*. This is what a table of contents could look like:
+The table of contents (`_toc.yml`) file is where you define the structure of your book. You can organize content in *parts*, *chapters*, and *sections* (and subsections, each new section creating a dropdown menu in the ToC). This is what a table of contents could look like:
 
 ```yml
 - format: jb-book
@@ -48,9 +50,11 @@ The table of contents (`_toc.yml`) file is where you define the structure of you
 chapters:
 - file: chapter_1
   sections:
-  - file: subsection_1
-  - file: subsection_2
+  - file: section_1_1
+  - file: section_1_2
 - file: chapter_2
+  sections:
+  - file: section_2_1
 
 et cetera...
 ```
@@ -66,12 +70,17 @@ parts:
   chapters:
   - file: chapter_1
     sections:
-    - file: subsection_1
-    - file: subsection_2
+    - file: section_1_1
+    - file: section_1_2
+      sections:
+      - file: subsection_1_2_1
+      - file: subsection_1_2_2
   - file: chapter_2
 - caption: Part 2
   chapters:
   - file: chapter_3
+    sections:
+    - file: section_3_1
 
 et cetera...
 ```
