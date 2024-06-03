@@ -49,6 +49,15 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 ````
 ````{tab-item} ... GitHub
 
+How to make an edit and make a commit is demonstrated in the figure below, followed by a step-by-step tutorial.
+ 
+```{figure} figures/user3-collaboration.gif
+---
+name: user3_edit_demo
+---
+
+```
+
 In GitHub, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
 
 1. Navigate to the repository you want to work in and make sure you're in the correct branch.
