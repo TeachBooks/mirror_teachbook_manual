@@ -49,7 +49,7 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 ````
 ````{tab-item} ... GitHub
 
-How to make an edit and make a commit is demonstrated in the figure below, all steps are elaborated on in the following step by step tutorial.
+How to make an edit and make a commit is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
  
 ```{figure} figures/user3-collaboration.gif
 ---
