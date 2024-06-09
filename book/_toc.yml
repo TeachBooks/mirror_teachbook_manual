@@ -65,6 +65,7 @@ parts:
   - caption: Examples
     chapters:
     - file: examples/overview
+    - file: examples/book_overview.md
     - file: examples/h5p_examples.md
     - file: examples/theory_questions.md
     - file: examples/interactive_templates.md

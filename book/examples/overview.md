@@ -1,6 +1,11 @@
 # Overview
 
-This chapter includes examples for jupyter book pages with features. Here is an overview of the different examples:
+This chapter will be all showcase some TeachBooks making great use of Jupyter Book and TeachBooks features. They can serve as an inspiring strting point for structuring your own TeachBook or just to get an idea of how other teachers are using it. 
+
+extra:
+
+
+includes examples for jupyter book pages with features. Here is an overview of the different examples:
 
 - H5p: examples of H5p questions
 - Combining theory with interactive questions
