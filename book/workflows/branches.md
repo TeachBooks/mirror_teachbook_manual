@@ -48,7 +48,7 @@ The circled menu is the branch selection menu.
 
 ``````{tab-item} ... GitHub
 
-How to branch is demonstrated in the figure below, followed by a step-by-step tutorial.
+How to branch is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
 
 ```{figure} figures/branching-github-ezgif.com-optimize.gif
 ---
