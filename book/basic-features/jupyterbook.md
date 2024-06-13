@@ -86,7 +86,7 @@ et cetera...
 ```
 
 ## The structure of a chapter
-The 'nested' structure in the TOC is one way to organize your book. Another way to do so is in the file itself. The structure is define by the number of `#`:
+The 'nested' structure in the TOC is one way to organize your book. Another way to do so is in the file itself. The structure is defined by the number of `#`:
 
 ```
 # Chapter 1 title
@@ -98,4 +98,17 @@ The 'nested' structure in the TOC is one way to organize your book. Another way 
 ## Section 1.2 
 
 ### Subsection 1.2.1
+```
+
+The depth for numbered subsection can be set in the TOC file: 
+
+```
+parts:
+- caption: Part 1
+  numbered: 2
+  chapters:
+  - file: chapter_1
+    sections:
+    - file: section_1_1
+    - file: section_1_2
 ```
