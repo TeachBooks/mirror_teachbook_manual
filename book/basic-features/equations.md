@@ -14,6 +14,12 @@ $$
     F = m \cdot a
 $$
 
+```{tip}
+The scientific rules dictate that quantities ($F$, $m$, $a$ etc.) should be printed in italics. Units, however, should not! One can use `\text{m}` in an equation to comply to this rule:
+
+$$ F = m \cdot a = 10 \cdot 9.81 = 98 \text{N}
+```
+
 > **Warning**
 > 
 > Make sure there is a blank line *before* the display mode equations, otherwise it will render as inline and display the outer set of $$$ symbols. Also, the Euro symbol is not included in MathJax (see note below) and must be specified using `\unicode{0x20AC}` (note that it displays incorrectly in some Markdown renderers like VS Code).
