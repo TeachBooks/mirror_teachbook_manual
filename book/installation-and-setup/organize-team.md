@@ -21,10 +21,10 @@ If you want to create a collaborative book for students, there's a few agreement
 - Choose between GitHub and GitLab, as explained below
 - If you've chosen for GitHub, start with our [template](../external/template/README.md)
 - Define branches in GitHub/GitLab. We advise the following branches:
-  - A published branch which contains the students' version of this year. This could be called ie. `publish` or `main` or `<current acadamic year>`
+  - A published branch which contains the students' version of this year. This could be called ie. `publish` or `main` or `<current acadamic year>`. Add this branch as the `PRIMARY BRANCH` when making use of the [github workflow](gh-workflow-settings), this will make sure students are redirected to this URL which doesn't move when adding new versions of the book later on. If you plan on keeping only one version, it's adviser to set `BEHAVIOR_PRIMARY` to `copy` to copy the primary branch to root so that the URL is compact.
   - A development branch which contains all the new content combined but not yet published to students. This could be called `dev` or `main` (depending on whether you prefer having the most recent published version as main or the development branch).
   - Branches which will be created during the editing process which contain edits ie. single chapters
-  - Branches for previous study years which contain each year's version of the book. These could be called `<academic year>`
+  - Branches for previous study years which contain each year's version of the book. These could be called `<academic year>`. Add these branches to the list of `BRANCHES_ARCHIVED` when making use of the [github workflow](gh-workflow-settings).
 - Setup protected branches in GitHub/GitLab to prevent accidental changes
 - Add people with GitHub/GitLab permission matching their role and the protected branches.
 - Add a readme explaining the way you organized branches and permissions
