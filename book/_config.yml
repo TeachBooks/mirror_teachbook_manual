@@ -6,6 +6,8 @@ logo: images/Logo_without_background.png
 execute:
   execute_notebooks: 'off'
 
+only_build_toc_files: true
+
 html:
   favicon : "images/favicon.ico"
   baseurl  : "https://teachbooks.tudelft.nl/jupyter-book-manual/"
