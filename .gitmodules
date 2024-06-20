@@ -7,3 +7,6 @@
 [submodule "book/external/deploy-book-workflow"]
 	path = book/external/deploy-book-workflow
 	url = https://github.com/TeachBooks/deploy-book-workflow.git
+[submodule "book/external/latex-to-markdown-conversion"]
+	path = book/external/latex-to-markdown-conversion
+	url = https://gitlab.tudelft.nl/opentextbooks/latex-to-markdown-conversion.git
