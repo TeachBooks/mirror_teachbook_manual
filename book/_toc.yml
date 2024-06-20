@@ -60,6 +60,9 @@ parts:
           sections:
           - file: features/jupyterlite/configuration
           - file: features/jupyterlite/including-jupyterlite
+      - file: helper_code/intro.md
+        sections:
+        - file: external/latex-to-markdown-conversion/README.md
        
 
   - caption: Examples
