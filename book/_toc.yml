@@ -73,7 +73,7 @@ parts:
       - file: examples/coding_theory_widgets.ipynb
       - file: examples/parametric_questions.ipynb
 
-  - caption: Editing scripts
+  - caption: Editing tools
     chapters:
     - file: tools/figmaker
     - file: helper_code/intro.md
