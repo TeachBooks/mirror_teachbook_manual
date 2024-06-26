@@ -61,17 +61,6 @@ parts:
           - file: features/jupyterlite/configuration
           - file: features/jupyterlite/including-jupyterlite
 
-  - caption: Tools
-    chapters:
-    - file: tools/figmaker
-    - file: helper_code/intro.md
-      sections:
-      - file: external/latex-to-markdown-conversion/README.md
-      - file: external/Useful_python_code/snippit.ipynb
-      - file: external/Useful_python_code/extensionfildownloadreturn.ipynb
-      - file: external/Useful_python_code/figshrinker.ipynb
-       
-
   - caption: Examples
     chapters:
     - file: examples/overview
@@ -83,3 +72,14 @@ parts:
       - file: examples/example_quiz_interactive.ipynb
       - file: examples/coding_theory_widgets.ipynb
       - file: examples/parametric_questions.ipynb
+
+  - caption: Tools
+    chapters:
+    - file: tools/figmaker
+    - file: helper_code/intro.md
+      sections:
+      - file: external/latex-to-markdown-conversion/README.md
+      - file: external/Useful_python_code/snippit.ipynb
+      - file: external/Useful_python_code/extensionfildownloadreturn.ipynb
+      - file: external/Useful_python_code/figshrinker.ipynb
+       
