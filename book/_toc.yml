@@ -62,6 +62,7 @@ parts:
           - file: features/jupyterlite/including-jupyterlite
 
   - caption: Tools
+    chapters:
     - file: tools/figmaker
     - file: helper_code/intro.md
       sections:
