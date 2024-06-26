@@ -10,3 +10,6 @@
 [submodule "book/external/latex-to-markdown-conversion"]
 	path = book/external/latex-to-markdown-conversion
 	url = https://gitlab.tudelft.nl/opentextbooks/latex-to-markdown-conversion.git
+[submodule "book/external/Useful_python_code"]
+	path = book/external/Useful_python_code
+	url = https://github.com/TeachBooks/Useful_python_code.git
