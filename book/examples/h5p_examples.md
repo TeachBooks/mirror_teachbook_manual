@@ -13,7 +13,7 @@ Some best-practices on the use of H5p:
 
 Dialog cards can be used to ask open questions about the content students are reading or, more intrestingly, to check the conclusion the students draw from the interactive exercises built into the book.
 
-#### Engineering Systems Optimization
+**Engineering Systems Optimization**
 
 A great example of this can be found in the book: Engineering Systems Optimization. [Chapter 4](https://teachbooks.github.io/engineering-systems-optimization/2023/pages/moo_example.html) called Mulit-objective optimization has an in depth sub-chapter which is used to compare the relation between engine power and emissions and how to optimize for both.
 
@@ -45,7 +45,7 @@ align: center
 Dialoge Card
 ```
 
-#### Try it out!
+**Try it out!**
 
 <iframe src="https://tudelft.h5p.com/content/1292050206829217497/embed" aria-label="PA1 File Contents" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -53,7 +53,7 @@ Dialoge Card
 
 Question sets consist of a question and one or more possible answers to that question.
 
-#### MUDE - Observation Theory
+**MUDE - Observation Theory**
 
 The following question sets are taken from chapter 3.3. Weighted least-squares estimation of the MUDE 23/24 book. The chapter builds on the previous chapter on simple least-squares estimation and dwelves into the importance and properties of the weight matrix. The student is primarily quizzed using multiple choice questions to check their understanding. The answers can be provided in the shape of text, figures, equations, matrices and probably much more.
 
@@ -91,7 +91,7 @@ align: center
 ---
 Tips
 ```
-#### Try it out!
+**Try it out!**
 
 Have a look at the following 7 questions.
 
@@ -101,7 +101,7 @@ Have a look at the following 7 questions.
 
 The complex fill in the blanks can be used to evaluate numerical answers. 
 
-#### MUDE - Observation Theory
+**MUDE - Observation Theory**
 
 Chapter 3.7. Non-linear least-squares estimation from the MUDE 23/24 book makes use of the complex fill in the blanks quiz in order to check that the students understood the composition of the Jacobian Matrix specifically used in deriving the linearized functional model. This model is essential for accurately estimating values and assessing system behavior of complex processes that arent linear. 
 
@@ -122,7 +122,7 @@ align: center
 Wrong Answer + Feedback
 ```
 
-#### MUDE - Optimization
+**MUDE - Optimization**
 
 Since the cells can be used to evaluate numerical answers, they are an easy way to quiz the student on matrices and evaluate the result of each position indidependently. The optimization team of MUDE took this a step further and used this set-up to quiz the students on the SIMPLEX method. This method automates the solving of the augmented form of a linear programing problem with continuous variables. It makes use of tables and the manipulation of equations to find the optimal vaues. Unfortunately, with a large number of variables this tables tend to get quite big and filling in the cells becomes laborous.
 
@@ -133,7 +133,7 @@ align: center
 ---
 SIMPLEX Method
 ```
-#### Try it out!
+**Try it out!**
 
 <iframe src="https://tudelft.h5p.com/content/1292010272694757307/embed" aria-label="Example MUDE" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -141,7 +141,7 @@ SIMPLEX Method
 
 This next type of quiz is fairly self explainatory :)
 
-#### MUDE - Optimization
+**MUDE - Optimization**
 
 Once again the chapter on [optimization](https://mude.citg.tudelft.nl/book/optimization/sand_and_clay.html#lp-formulation-of-the-problem) in the MUDE book integrated many true and false questions to test the students on the problem statement which, like in many engineering problems, is just as important if not more important than the solution procedure. This is especially when the case when small tweaks to the equations, such as seen in the figure below, can change the result of the optimization drastically. 
 
@@ -162,7 +162,7 @@ True or False
 ```
 The small circles below the question indicates that there are more questions in this series which can be viewed by clicking on the blue arrow pointing towards the left or right.
 
-#### Try it out!
+**Try it out!**
 
 <iframe src="https://tudelft.h5p.com/content/1292061623388939257/embed" aria-label="quiz_blue_vs_LS" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
 
@@ -170,7 +170,7 @@ The small circles below the question indicates that there are more questions in 
 
 Drag and Drop questions are useful to make the distinction between different concepts that might often cause confusion.
 
-#### MUDE - Optimization
+**MUDE - Optimization**
 
 In this chapter, it was important that the students made the distinction between the terminology and mathematical meaning between different elements of the graphical solution method. A drag and drop question was used to link the term to its definition. The answer boxes can be dragged to the correct title in a playful manner.jup
 
