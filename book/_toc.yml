@@ -22,6 +22,7 @@ parts:
       - file: workflows/check_changes_online
       - file: workflows/merge_request
     - file: installation-and-setup/organize-team
+    - file: installation-and-setup/creating_content.md
   - caption: Features
     chapters:
     - file: basic-features/overview
