@@ -109,6 +109,14 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
 
+How to make an edit and make a commit using VS Code is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+ 
+```{figure} figures/user4_clone_edit.gif
+---
+name: user4_clone_edit_demo
+---
+Demonstration, video available [here](https://youtu.be/Etr1jEbiZ4g)
+
 1. Make some changes to a file in for example VS Code and save them.
 
 2.  Select the files ready to be added to Git-timeline (staging) 
@@ -298,6 +306,14 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
+
+How to use the terminal to view local changes made to the book is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+ 
+```{figure} figures/User5_viewingchanges.gif
+---
+name: user5_view_changes_demo
+---
+Demonstration, video available [here](https://youtu.be/6gTWYhiSN4Q)
 
 1. Make some changes to a file in for example VS Code and save them.
 
