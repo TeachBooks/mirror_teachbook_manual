@@ -1,10 +1,35 @@
+
+```{Notes Robert}
+
+- the creating content page can be more like an overview/jumping off point (for example, it can point out that a book is 3 things: toc+config+content), then link to existing JB manual, example books, etc, but have a really big colorful box that warns about copyright
+- on this main page it would be important to have a checklist for "what to do when starting a book" that includes choosing a license and how to avoid copyright issues, with links to supbages
+- creating content subpages:
+open source licenses: a short overview of types, pointing out that some are oriented on creative work, others on software. mostly pointing out we don't know the right answer but listing examples of what others have done so far
+copyright page (this is where paschalis' bullet points should go)
+
+```
+
 # Creating Content
 
 The previous sections have familiarized you with the necessary software for your user type, the basics of Git, and how to collaborate with your team using Git. TeachBooks provides a [template](https://teachbooks.tudelft.nl/jupyter-book-manual/external/template/README.html) you can use to create your book on GitHub, ensuring that your repository contains all the files you may need. Now it's time to create your own content. This section will provide an overview of these components and help you get started on your content.
 
+# Building Blocks
+
+Creating content for your Jupyter Book involves assembling several key components: the table of contents (`_toc.yml`), the configuration settings (`_config.yml`) and the actual content. 
+
+## Table of Contents
+
+## Configuration
+
+## Content
+
 ```{Important}
 Please ensure you respect copy right laws when creating and including content! Don't forget to go through our checklist.
 ```
+
+Markdown Files: Write your content in Markdown (.md) files. Markdown is a lightweight markup language with plain text formatting syntax.
+Chapters and Sections: Organize your content into chapters and sections, with each chapter being a separate Markdown file.
+
 
 # Checklist - Copy Right
 
