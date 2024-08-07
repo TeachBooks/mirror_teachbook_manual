@@ -1,4 +1,4 @@
-# Combining theory and interactive questions
+# Combining theory & interactive quizzes
 
 This page shows you how to combine theory with questions so there is no coding involved.
 
