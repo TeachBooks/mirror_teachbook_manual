@@ -1,6 +1,6 @@
-# Combining theory with interactive questions
+# Combining theory & interactive quizzes
 
-This page shows you how to combine theory with questions, so there's no coding involved.
+This page shows you how to combine theory with questions so there is no coding involved.
 
 ```{index} Truss structures
 ```
