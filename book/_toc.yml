@@ -22,6 +22,7 @@ parts:
       - file: workflows/check_changes_online
       - file: workflows/merge_request
     - file: installation-and-setup/organize-team
+    - file: installation-and-setup/creating_content.md
   - caption: Features
     chapters:
     - file: basic-features/overview
@@ -64,14 +65,14 @@ parts:
   - caption: Examples
     chapters:
     - file: examples/overview
+    - file: examples/book_structure.md
     - file: examples/h5p_examples.md
+    - file: examples/live_code.md
+    - file: examples/example_gumbel.ipynb
     - file: examples/theory_questions.md
-    - file: examples/interactive_templates.md
-      sections:
-      - file: examples/example_gumbel.ipynb
-      - file: examples/example_quiz_interactive.ipynb
-      - file: examples/coding_theory_widgets.ipynb
-      - file: examples/parametric_questions.ipynb
+    - file: examples/example_quiz_interactive.ipynb
+    - file: examples/coding_theory_widgets.ipynb
+    - file: examples/parametric_questions.ipynb
 
   - caption: Editing tools
     chapters:

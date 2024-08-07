@@ -1,0 +1,65 @@
+
+```{Notes Robert}
+
+- the creating content page can be more like an overview/jumping off point (for example, it can point out that a book is 3 things: toc+config+content), then link to existing JB manual, example books, etc, but have a really big colorful box that warns about copyright
+- on this main page it would be important to have a checklist for "what to do when starting a book" that includes choosing a license and how to avoid copyright issues, with links to supbages
+- creating content subpages:
+open source licenses: a short overview of types, pointing out that some are oriented on creative work, others on software. mostly pointing out we don't know the right answer but listing examples of what others have done so far
+copyright page (this is where paschalis' bullet points should go)
+
+```
+
+# Creating Content
+
+The previous sections have familiarized you with the necessary software for your user type, the basics of Git, and how to collaborate with your team using Git. TeachBooks provides a [template](https://teachbooks.tudelft.nl/jupyter-book-manual/external/template/README.html) you can use to create your book on GitHub, ensuring that your repository contains all the files you may need. Now it's time to create your own content. This section will provide an overview of these components and help you get started on your content.
+
+# Building Blocks
+
+Creating content for your Jupyter Book involves assembling several key components: the table of contents (`_toc.yml`), the configuration settings (`_config.yml`) and the actual content. 
+
+## Table of Contents
+
+## Configuration
+
+## Content
+
+```{Important}
+Please ensure you respect copy right laws when creating and including content! Don't forget to go through our checklist.
+```
+
+Markdown Files: Write your content in Markdown (.md) files. Markdown is a lightweight markup language with plain text formatting syntax.
+Chapters and Sections: Organize your content into chapters and sections, with each chapter being a separate Markdown file.
+
+
+# Checklist - Copy Right
+
+Although the focus of TeachBooks is mostly to help the teaching staff create interactive textbooks for their students, it can be attractive to spread ones wings a bit and reach a wider audience. The following section will be all about what you have to keep in mind in terms of copy right and what you should know to avoid major legal issues and make your life easier later on when/if you decide to publish your book with an open license, especially via TU Delft Open. For more information you can find everything on the [TU Delft website](https://www.tudelft.nl/library/support/copyright)
+
+
+1) Your own new content
+    
+    If you have created the content yourself, you are allowed to use it if there are no other agreements in place
+
+2) Somebody else's content
+
+    If you want to re-use someone else’s work, you need to ask for permission. When you ask for permission please do it in a written format and let the copyright holders know that you are going to use their work in an open licensed work. If they give you permission, exclude the work from the open licensed conditions applicability, by stating that in the attribution/footnote/caption. Exclude it as well in the colophon of the work. If you have asked for permission and you received no answer back, please consider it as a negative response and abstain using the work you were intended to.
+
+    If you really need to re-use someone else’s work, please alsio check whether the copyright exception right to quote is applicable to you.
+    
+    More info: [Citations](https://www.tudelft.nl/library/support/copyright/researcher-copyright-answers#c1131017) , [Use copyrighted multimedia](https://www.tudelft.nl/library/support/copyright/researcher-copyright-answers#c1131031) , [Use copyrighted text](https://www.tudelft.nl/library/support/copyright/researcher-copyright-answers#c1131032)
+
+
+3) Your own old content
+
+    Always attribute the works that are not created by you. Even if created by you, you need to attribute yourself in order to avoid self-plagiarism. Read how to [here](https://www.tudelft.nl/library/support/copyright/researcher-copyright-answers#c1131032)
+
+    Even if you have created the work yourself but years ago, please check whether you have the right to re-use it. If you have created it while you were under the employment of your previous employer, then you will need to ask permission from them. 
+
+4) Open licensed work
+
+    If you want to re-use someone else’s work, please check whether you can find an open licensed work, which can replace the work you wanted to re-use in the first place. More info: [Open licensed work platforms](https://www.tudelft.nl/library/collecties/open-educational-resources)
+
+    If you use open licensed work, you need to attribute the license under which the work is licensed and you need to check the compatibility of the licenses. This means you need to check the license that the work you want to reuse has and the license that your TeachBook will be licensed with. More info [here](https://wiki.creativecommons.org/wiki/Wiki/cc_license_compatibility)
+
+    When you want to adapt previously published work you need to ask permission for it. Otherwise please check whether you can find an open licensed work that you can adapt if their license it permits it.
+
