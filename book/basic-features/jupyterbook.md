@@ -7,7 +7,7 @@ To build a Jupyter Book, you need three things:
 3. Content
 
 ## The configuration file
-The configuration file of Jupyter Books is named `_config.yml`. It mainly contains settings that apply when building the book.  Here is a basic example of a configuration file, taken from this book:
+The configuration file of Jupyter Books is named `_config.yml`. It mainly contains settings that apply when building the book. Here is a basic example of a configuration file, taken from this book:
 
 ```yml
 title: Jupyter Book Manual
@@ -83,4 +83,32 @@ parts:
     - file: section_3_1
 
 et cetera...
+```
+
+## The structure of a chapter
+The 'nested' structure in the TOC is one way to organize your book. Another way to do so is in the file itself. The structure is defined by the number of `#`:
+
+```
+# Chapter 1 title
+
+## Section 1.1 
+
+### Subsection 1.1.1 
+
+## Section 1.2 
+
+### Subsection 1.2.1
+```
+
+The depth for numbered subsection can be set in the TOC file: 
+
+```
+parts:
+- caption: Part 1
+  numbered: 2
+  chapters:
+  - file: chapter_1
+    sections:
+    - file: section_1_1
+    - file: section_1_2
 ```

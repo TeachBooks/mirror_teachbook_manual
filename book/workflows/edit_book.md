@@ -49,6 +49,15 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 ````
 ````{tab-item} ... GitHub
 
+How to make an edit and make a commit is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+ 
+```{figure} figures/user3-collaboration.gif
+---
+name: user3_edit_demo
+---
+Demonstration, video available [here](https://youtu.be/LG1vzrOLQHA)
+```
+
 In GitHub, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
 
 1. Navigate to the repository you want to work in and make sure you're in the correct branch.
@@ -99,6 +108,14 @@ You can edit it and commit the changes in the same manner as with markdown (.md)
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
+
+How to make an edit and make a commit using VS Code is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+ 
+```{figure} figures/User4_updated-ezgif.com-optimize.gif
+---
+name: user4_clone_edit_demo
+---
+Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
 
 1. Make some changes to a file in for example VS Code and save them.
 
@@ -289,6 +306,14 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 `````{tab-set}
 ````{tab-item} ... Git in VS Code
+
+The steps above are demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
+ 
+```{figure} figures/User5_wholeshabang-ezgif.com-optimize.gif
+---
+name: user5_demo
+---
+Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 
 1. Make some changes to a file in for example VS Code and save them.
 

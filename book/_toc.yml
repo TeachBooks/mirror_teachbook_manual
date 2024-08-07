@@ -60,7 +60,6 @@ parts:
           sections:
           - file: features/jupyterlite/configuration
           - file: features/jupyterlite/including-jupyterlite
-       
 
   - caption: Examples
     chapters:
@@ -70,6 +69,20 @@ parts:
     - file: examples/live_code.md
     - file: examples/example_gumbel.ipynb
     - file: examples/theory_questions.md
-    - file: examples/example_quiz_interactive.ipynb
-    - file: examples/coding_theory_widgets.ipynb
-    - file: examples/parametric_questions.ipynb
+    - file: examples/interactive_templates.md
+      sections:
+      - file: examples/example_gumbel.ipynb
+      - file: examples/example_quiz_interactive.ipynb
+      - file: examples/coding_theory_widgets.ipynb
+      - file: examples/parametric_questions.ipynb
+
+  - caption: Editing tools
+    chapters:
+    - file: tools/figmaker
+    - file: helper_code/intro.md
+      sections:
+      - file: external/latex-to-markdown-conversion/README.md
+      - file: external/Useful_python_code/snippit.ipynb
+      - file: external/Useful_python_code/extensionfildownloadreturn.ipynb
+      - file: external/Useful_python_code/figshrinker.ipynb
+       
