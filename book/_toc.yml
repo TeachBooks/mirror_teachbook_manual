@@ -53,7 +53,7 @@ parts:
           - file: features/creating_basic_HTML_elements.md
       - file: features/python_interactivity.md
         sections:
-        - file: features/live_code.md
+        - file: features/live_code
           sections:
           - file: features/widgets.ipynb
           - file: features/exercise_checking.ipynb
