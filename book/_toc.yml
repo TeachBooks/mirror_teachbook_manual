@@ -34,6 +34,8 @@ parts:
       - file: basic-features/References.md
       - file: basic-features/code.md
       - file: basic-features/Code_block_figures
+      - file: basic-features/banner
+        title: Banner or Announcement
       - file: basic-features/hypothesis
       - file: basic-features/utterances
     - file: features/overview
