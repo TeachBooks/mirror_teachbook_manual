@@ -23,14 +23,14 @@ sphinx:
 ```
 
 ```{tip} 
-Note that you should always enclose your announcement in quotes to make it a complete string. Use a different type of quote if your announcement itself contains them (for example, "like 'this'"`). If you are using HTML elements, it is best to make your announcement a complete HTML tag, not Markdown with HTML inside.
+Note that you should always enclose your announcement in quotes to make it a complete string. Use a different type of quote if your announcement itself contains them (for example, `"like 'this'"`). If you are using HTML elements, it is best to make your announcement a complete HTML tag, not Markdown with HTML inside.
 
 Markdown links do not work in the announcement, in which case you must use HTML!
 ```
 
 ## Known Issue
 
-Note that there seems to be a bug if you only use the `announcement` and `launch_buttons: thebe: true` option; including additional buttons seems to fix this issue (see [Issue 65](https://gitlab.tudelft.nl/mude/book/-/issues/65) in the MUDE book), for example:
+Note that there seems to be a bug if you only use the `announcement` and `launch_buttons:thebe:true` option; including additional buttons seems to fix this issue (see [Issue 65](https://gitlab.tudelft.nl/mude/book/-/issues/65) in the MUDE book), for example:
 
 ```
 sphinx:
