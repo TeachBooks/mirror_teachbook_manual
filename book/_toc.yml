@@ -38,6 +38,8 @@ parts:
       - file: basic-features/utterances
     - file: features/overview
       sections:
+      - file: features/teachbooks
+        title: TeachBooks Package
       - file: external/deploy-book-workflow/README.md
       - file: features/remove_from_publish
       - file: features/custom_toc.md
