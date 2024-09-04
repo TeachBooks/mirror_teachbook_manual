@@ -116,15 +116,13 @@ parts:
 ## Including a chapter twice
 In some cases you want to include the same chapter in two different places in your book (for instance parts). However, you do not want to make the same adjustments in different files, the content should only 'live' in one place. The solution is to use `include`:
 
-``` {code-cell}
+````
+  ```{include} Argument
+  ```
+````
 
-```{include} Argument
-```
-
-```
-
-The *argument* in this case is the location of the file you want to include (for instance: /book/1 mechanics/1H newton 3/demo1.md). We provide an example of the use of include below.
+The *argument* in this case is the location of the file you want to include (for instance: `/basic-features/equations.md`). We provide an example of the use of `include` below: We included the chapter [equations](./equations.md) in this page.
 
 
-```{include} /book/basic-features/equations.md
+```{include} /basic-features/equations.md
 ```
