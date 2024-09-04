@@ -123,15 +123,8 @@ In some cases you want to include the same chapter in two different places in yo
 
 ```
 
-The *argument* in this case is the location of the file you want to include (for instance: /book/1 mechanics/1H newton 3/demo1.md).
+The *argument* in this case is the location of the file you want to include (for instance: /book/1 mechanics/1H newton 3/demo1.md). We provide an example of the use of include below.
 
-```{Note}
-Make sure to adjust your config file:
-sphinx:
-  config:
-    myst_enable_extensions:
-      - include 
-```
 
 ```{include} /book/basic-features/equations.md
 ```
