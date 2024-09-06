@@ -34,7 +34,7 @@ Once the build process is completed successfully, you will see the file location
 :class: tip, dropdown
 Bookmark the (local) file location for easy access!
 ```
-
+(setup-local-server)=
 ## View the book using a local webserver
 
 ```{admonition} Note
