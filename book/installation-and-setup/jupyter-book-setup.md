@@ -5,14 +5,14 @@
 This page is useful for user type 5.
 ```
 
-<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository. At TeachBooks we developed a Python package called `teachbooks` which takes over the jupyter-book features and adds [additional features](/book/features/overview.md). One of those additional features is the workflow to GitHub Pages. 
+<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository. At TeachBooks we developed a Python package called `teachbooks` which takes over the these features and adds [additional features](/book/features/overview.md). One of those additional features, for example, is the workflow to GitHub Pages. 
+
+Concretely, this means that the teachbooks package can be used to replace the <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> package when calling these features. You could think of it as `jupyter-book` being a dependency of `teachbooks`.
 
 ```{admonition} Note
 :class: tip
-Note that you should specify the package `teachbooks` in the `requirements.txt` files in your book repository.
+Don't forget to add the package `teachbooks` in the `requirements.txt` files in your book repository and to have it installed in your working environment (`pip install teachbooks`).
 ```
-
-Concretely, this means that the teachbooks package can be used to replace the jupyter-book package when calling jupyter-book features. You could think of it as `jupyter-book` being a dependency of `teachbooks`.
 
 ## Build a book
 
@@ -21,14 +21,23 @@ As soon as you've installed your book environment with jupyter-book you can buil
 ```
 teachbooks build <path-to-book> --all
 ```
-Or alternatively:
+Alternatively:
 ```
 jupyter-book build <path-to-book> --all
 ```
 
 ## View the book locally
 
-Once the build process is completed successfully, you will see the file location in your terminal output. Simply open this in the browser (you may have to copy/paste).
+Once the build process is completed successfully, you will see the file location in your terminal output. Your terminal will look something like this. Simply open this in the browser (you may have to copy/paste).
+
+```{figure} ../figures/Terminal.PNG
+---
+width: 80%
+name: terminal
+align: center
+---
+Terminal
+```
 
 ```{admonition} Tip
 :class: tip, dropdown
