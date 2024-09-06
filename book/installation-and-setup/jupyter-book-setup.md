@@ -5,12 +5,23 @@
 This page is useful for user type 5.
 ```
 
-<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository.
+<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository. At TeachBooks we developed a Python package called `teachbooks` which takes over the jupyter-book features and adds [additional features](/book/features/overview.md). One of those additional features is the workflow to GitHub Pages. 
+
+```{admonition} Note
+:class: tip
+Note that you should specify the package `teachbooks` in the `requirements.txt` files in your book repository.
+```
+
+Concretely, this means that the teachbooks package can be used to replace the jupyter-book package when calling jupyter-book features. You could think of it as `jupyter-book` being a dependency of `teachbooks`.
 
 ## Build a book
 
 As soon as you've installed your book environment with jupyter-book you can build your book locally. The official <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> documentation is quite extensive. Only two notes: first navigate to the directory where your book is to leave out the `path-to-book` and use `--all` whenever building a book to make sure the table of contents fully updates:
 
+```
+teachbooks build <path-to-book> --all
+```
+Or alternatively:
 ```
 jupyter-book build <path-to-book> --all
 ```
@@ -24,8 +35,12 @@ Once the build process is completed successfully, you will see the file location
 Bookmark the (local) file location for easy access!
 ```
 
-(setup-local-server)=
 ## View the book using a local webserver
+
+```{admonition} Note
+:class: tip
+If your book consists only of markdown files the local python server is not necessary and you can just view the book locally.
+```
 
 Some features like JupyterLite and Grasple only work when a webserver serves the HTML content for a book. Rather than building the book in your repository and updating the website on the internet, you can use a local webserver to view the book:
 1. Make sure you have the TeachBooks Python package installed (e.g., `pip install teachbooks`)
