@@ -21,5 +21,5 @@ Overview of features covered:
     - [Configuration](/book/features/jupyterlite/configuration.md)
     - [Adding `JupyterLite` to a page](/book/features/jupyterlite/including-jupyterlite.md)
 
-To see examples for these features, go to the [Example chapter](/book/examples/overview.md).
+To see examples for these features, go to the [Examples chapter](/book/examples/overview.md).
 

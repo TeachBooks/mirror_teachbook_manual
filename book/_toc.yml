@@ -36,11 +36,11 @@ parts:
       - file: basic-features/Code_block_figures
       - file: basic-features/banner
         title: Banner or Announcement
-      - file: basic-features/hypothesis
-      - file: basic-features/utterances
+      - file: basic-features/hypothesis.md
+      - file: basic-features/utterances.md
     - file: features/overview
       sections:
-      - file: features/teachbooks
+      - file: external/TeachBooks/README.md
         title: TeachBooks Package
       - file: external/deploy-book-workflow/README.md
       - file: features/remove_from_publish
@@ -68,7 +68,7 @@ parts:
 
   - caption: Examples
     chapters:
-    - file: examples/overview
+    - file: examples/overview.md
     - file: examples/book_structure.md
     - file: examples/h5p_examples.md
     - file: examples/live_code.md
