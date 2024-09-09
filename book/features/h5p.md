@@ -6,7 +6,7 @@ This section is useful for user type 3-5.
 ```
 
 ## Instruction
-H5p elements are interactive HTML-blocks which can be imbeded in a Jupyter Book using an iframe. H5p element can be created in the [TU Delft portal on the H5p website](https://tudelft.h5p.com/content) (sign in via Brightspace to H5p required first). The iframe code can be copied at Edit - Publish - Public - Embed code. This html code can be directly added to your markdown file:
+H5p elements are interactive HTML-blocks which can be embedded in a Jupyter Book using an iframe. An H5p element can be created in the [TU Delft portal on the H5p website](https://tudelft.h5p.com/content) (sign in via Brightspace to H5p required first). The iframe code can be copied at Edit - Publish - Public - Embed code. This html code can be directly added to your markdown file:
 
 ```html
 <iframe src="https://tudelft.h5p.com/content/.../embed" aria-label="..." width="1088" height="200" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe><script src="https://tudelft.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
