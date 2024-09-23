@@ -14,3 +14,5 @@ This could be for example interactive 3d figures:
 Or other interactive graphs:
 
 <iframe src="../_static/element_pdf_and_cdf.html" width="600" height="300" frameborder="0"></iframe>
+
+<iframe src="https://openla.ewi.tudelft.nl/applet/lines_and_planes/normal_equation_plane_origin?iframe=true" allow="fullscreen" loading="lazy" frameborder="0"></iframe>
