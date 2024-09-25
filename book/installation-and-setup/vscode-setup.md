@@ -15,10 +15,10 @@ VS Code can be downloaded from [here](https://code.visualstudio.com). The instal
 
 When working with Jupyter Book (or Notebooks in general), these extensions are highly recommended:
 
-- User type 4-6:
+- User type 4-5:
     - [MyST-Markdown](https://marketplace.visualstudio.com/items?itemName=ExecutableBookProject.myst-highlight) - adds support for MyST markdown, including previews.
     - [Spell checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker) - Spelling checker for source code and text
-- User type 5-6
+- User type 5
     - [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml) - enables validation of `.yml` files (the format of the Jupyter Book configuration files).
     - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) - for obvious reasons. Also includes Jupyter Notebook rendering.
     - [GitHub Copilot](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot) - Your AI pair progammer
