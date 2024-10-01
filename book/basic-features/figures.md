@@ -131,3 +131,10 @@ name: demoexample4
 example 4:including figclass: margin
 ```
 
+## Figures in Tables - Markdown
+
+| Column 1        | Column 2          |
+|-----------------|-------------------|
+| ![Image 1](image1.png) | ![Image 2](image2.png) |
+
+## Figures in Tables - Sphinx
