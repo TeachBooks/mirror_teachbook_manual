@@ -137,4 +137,22 @@ example 4:including figclass: margin
 |-----------------|-------------------|
 | ![Image 1](image1.png) | ![Image 2](image2.png) |
 
+## Figures in Tables 2 - Markdown
+
+| Column 1        | Column 2          |
+|-----------------|-------------------|
+| ![Image 1](figures/image1.png) | ![Image 2](figures/image2.png) |
+
 ## Figures in Tables - Sphinx
+
+.. list-table:: Table with Images
+   :header-rows: 1
+
+   * - Column 1
+     - Column 2
+   * - Text in column 1
+     - .. image:: image1.png
+        :width: 200px
+   * - Another row text
+     - .. image:: image2.png
+        :width: 200px
