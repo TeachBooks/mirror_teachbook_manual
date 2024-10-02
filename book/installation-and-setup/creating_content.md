@@ -4,8 +4,6 @@ The previous sections have familiarized you with the necessary software for your
 
 # Checklist 
 
-test text
-
 Although the focus of TeachBooks is mostly to help the teaching staff create interactive textbooks for their students, it can be attractive to spread ones wings a bit and reach a wider audience. The following section will be all about what you have to keep in mind in terms of copy right and what you should know to avoid major legal issues and make your life easier later on when/if you decide to publish your book with an open license, especially via TU Delft Open. For more information you can find everything on the [TU Delft website](https://www.tudelft.nl/library/support/copyright)
 
 
