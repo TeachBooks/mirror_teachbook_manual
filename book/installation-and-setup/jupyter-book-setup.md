@@ -16,7 +16,7 @@ Don't forget to add the package `teachbooks` in the `requirements.txt` files in 
 
 ## Build a book
 
-As soon as you've installed your book environment with jupyter-book you can build your book locally. The official <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> documentation is quite extensive. Only two notes: first navigate to the directory where your book is to leave out the `path-to-book` and use `--all` whenever building a book to make sure the table of contents fully updates:
+As soon as you've installed your book environment with jupyter-book you can build your book locally. The official <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> documentation is quite extensive. You can navigate to the directory where your book is to leave out the `path-to-book`.
 
 ```
 teachbooks build <path-to-book> --all
@@ -25,6 +25,8 @@ Alternatively:
 ```
 jupyter-book build <path-to-book> --all
 ```
+
+Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
 ## View the book locally
 
