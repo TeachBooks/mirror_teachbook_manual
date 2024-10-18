@@ -36,11 +36,11 @@ parts:
       - file: basic-features/Code_block_figures
       - file: basic-features/banner
         title: Banner or Announcement
-      - file: basic-features/hypothesis
-      - file: basic-features/utterances
+      - file: basic-features/hypothesis.md
+      - file: basic-features/utterances.md
     - file: features/overview
       sections:
-      - file: features/teachbooks
+      - file: external/TeachBooks/README.md
         title: TeachBooks Package
       - file: external/deploy-book-workflow/README.md
       - file: features/remove_from_publish
@@ -55,20 +55,14 @@ parts:
           sections:
           - file: features/adding_HTML_elements.md
           - file: features/creating_basic_HTML_elements.md
-      - file: features/python_interactivity.md
+      - file: features/live_code
         sections:
-        - file: features/live_code
-          sections:
-          - file: features/widgets.ipynb
-          - file: features/exercise_checking.ipynb
-        - file: features/jupyterlite/jupyterlite
-          sections:
-          - file: features/jupyterlite/configuration
-          - file: features/jupyterlite/including-jupyterlite
+        - file: features/widgets.ipynb
+        - file: features/exercise_checking.ipynb
 
   - caption: Examples
     chapters:
-    - file: examples/overview
+    - file: examples/overview.md
     - file: examples/book_structure.md
     - file: examples/h5p_examples.md
     - file: examples/live_code.md
