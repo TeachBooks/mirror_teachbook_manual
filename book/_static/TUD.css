@@ -20,3 +20,14 @@ body {
 /* body {
     background-color: white !important;
 } */
+
+/* Coloring of admonitions */
+/* .admonition.warning {
+    background-color: hsl(0, 98%, 50%); /* Light red background */
+    border-left: 4px solid greenyellow; /* Dark red border */
+    color: rgb(9, 9, 9); /* Dark red text */ !important;
+}
+
+.admonition.warning .admonition-title {
+    color: #010001; !important;
+} */

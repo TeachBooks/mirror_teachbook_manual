@@ -17,7 +17,7 @@ name: fig-gitpush
 Some caption here
 ```
 
-Or, the derivation results in equation {eq}`<eq:Newton>`.
+Or, the derivation results in equation {eq}`eq:Newton`.
 
 $$ F = m\cdot a $$(eq:Newton)
 
