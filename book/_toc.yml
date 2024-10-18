@@ -59,6 +59,7 @@ parts:
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
+      - file: features/css.md
 
   - caption: Examples
     chapters:
