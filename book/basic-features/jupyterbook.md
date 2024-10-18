@@ -23,20 +23,20 @@ sphinx:
   - sphinx_inline_tabs
 ```
 
-Technically speaking, a `_config.yml` file is not required to build a Jupyter Book. If you don't make one, `jupyter book` will just use all default values. However, you should make a configuration file with at least the following settings:
+Technically speaking, a `_config.yml` file is not required to build a Jupyter Book. If you don't make one, `jupyter book` will just use all default values. However, you should make a configuration file which includes at least the following settings:
 
 - `title`: the title of your book, which appears on the top-left of every page, under the logo.
 - `author`: authors of the book, which appears in the bottom margin of every page.
 - `logo`: (relative) path to the logo of your book (optional).
-- `copyright`: the [licences](https://creativecommons.org/share-your-work/cclicenses/) attached to your book.
+- `copyright`: the [licenses](https://creativecommons.org/share-your-work/cclicenses/) attached to your book.
 
 In addition, the following option can also be useful:
 
-- `execute_notebooks`: turn on/off the execution of Jupyter Notebooks during the build process. On by default. If you perform heavy computations in your notebook (machine learning, FEM models, et cetera), you might be better off running the notebooks on a more powerful machine as opposed to the CI/CD server. To turn it off, specify the value `'off'`. You can also exclude specific notebooks by creating exclude patterns in the filenames. For more info, see the [Jupyter Book documentation](https://jupyterbook.org/en/stable/content/execute.html#exclude-files-from-execution).
+- `execute_notebooks`: *turn on/off* the execution of Jupyter Notebooks during the build process. *On* by default. If you perform heavy computations in your notebook (machine learning, FEM models, et cetera), you might be better off running the notebooks on a more powerful machine as opposed to the CI/CD server. To turn it off, specify the value `'off'`. You can also exclude specific notebooks by creating exclude patterns in the filenames. For more info, see the [Jupyter Book documentation](https://jupyterbook.org/en/stable/content/execute.html#exclude-files-from-execution).
 
 
 ```{warning}
-The coniguration and table of contents files are in YAML format (short for YAML Ain't Markup Language). YAML has a specific syntax, which can cause some errors if you don't adhere to it. Just like Python, indentation is very important. You can find an overview of the syntax [here](https://en.wikipedia.org/wiki/YAML#Syntax).
+The configuration and table of contents files are in YAML format (short for YAML Ain't Markup Language). YAML has a specific syntax, which can cause some errors if you don't adhere to it. Just like Python, indentation is very important. You can find an overview of the syntax [here](https://en.wikipedia.org/wiki/YAML#Syntax).
 ```
 
 ## The table of contents
@@ -85,7 +85,10 @@ parts:
 et cetera...
 ```
 
-## The structure of a chapter
+## Content
+The main thing people are interested in, is the content of the book. To help the reader, you can structure the book into chapters, each which sections and subsections as explained below.
+
+### The structure of a chapter
 The 'nested' structure in the TOC is one way to organize your book. Another way to do so is in the file itself. The structure is defined by the number of `#`:
 
 ```
@@ -113,7 +116,7 @@ parts:
     - file: section_1_2
 ```
 
-## Including a chapter twice
+### Including a chapter twice
 In some cases you want to include the same chapter in two different places in your book (for instance parts). However, you do not want to make the same adjustments in different files, the content should only 'live' in one place. The solution is to use `include`:
 
 ````
@@ -121,7 +124,9 @@ In some cases you want to include the same chapter in two different places in yo
   ```
 ````
 
-The *argument* in this case is the location of the file you want to include (for instance: `/basic-features/equations.md`). We provide an example of the use of `include` below: We included the chapter [equations](./equations.md) in this page.
+The *argument* in this case is the location of the file you want to include (for instance: `/basic-features/equations.md`). Note that when building the book locally, you get some warnings for duplicate labels..
+
+We provide an example of the use of `include` below: We included the chapter [equations](./equations.md) in this page.
 
 
 ```{include} /basic-features/equations.md
