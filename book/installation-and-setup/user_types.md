@@ -11,6 +11,15 @@ Different types of users will interact with the website or the Jupyter Books dif
 3. **Colleague making adjustments to single files in GitLab/GitHub using single text editor**. <br>
     This type of user requires only very basic knowledge in GitLab/GitHub in order to make changes to the website themselves without needing to install any software! Making adjustments using single text editor only requires the user to be able to login into GitLab/GitHub and edit .md or .ipynb files. The changes can be done directly in the main or publish branch and if a new branch is needed for the changes then the set-up and merging can be taken care of by someone more familiar in GitLab/GitHub.
 
+```{Note}
+
+At this point, you might already be trying to see which user type fits you the best. We are aware that the lines between user types can be a bit blurry, especially between type 3, 4 and 5. For this reason, we would like to introduce a cool feature that we discovered.
+
+So in case you are (1) a user type 3 and want to dabble in git or (2) a user type 4/5 and want to make some quick edits with only a few clicks, then [this is a cool feature](/book/workflows/edit_book.md) that might come in handy later.
+
+For now, just carry on with getting started.
+```
+
 4. **Colleague making text adjustments to multiple files at the same time locally**. <br>
     User 4 is a hybrid between type 3 and 5. Basically this user is making changes by editing the .md files locally using, for example, VS Code. Therefore, this user requires a little bit more knowledge on git (think of pulling and pushing changes) but their main focus remains to make adjustments to the content of the book by editing .md files whereas user type 5 has more knowledge to make changes to python files the book as well. This user can build the book online.
 
