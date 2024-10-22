@@ -18,6 +18,7 @@ $$
 The scientific rules dictate that quantities ($F$, $m$, $a$ etc.) should be printed in italics. Units, however, should not! One can use `\text{m}` in an equation to comply to this rule:
 
 $$ F = m \cdot a = 10 \cdot 9.81 = 98 \text{N}$$
+
 ```
 
 > **Warning**
@@ -35,6 +36,8 @@ Resulting in:
 $$
     F = m \cdot a
 $$ (newtons_second_law)
+
+Equation {eq}`newtons_second_law` can now be referred to.
 
 > **Note**
 > 

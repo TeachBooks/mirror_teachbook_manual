@@ -21,5 +21,3 @@ Or, the derivation results in equation {eq}`<eq:Newton>`.
 
 $$ F = m\cdot a $$(eq:Newton)
 
-
-
