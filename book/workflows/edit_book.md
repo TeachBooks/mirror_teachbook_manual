@@ -8,8 +8,8 @@ Suppose we are writing a new chapter, or are updating an existing chapter for ou
 
 **... by directly adding changes on a single file to the Git-timeline (committing) in ...**
 
-`````{tab-set}
-````{tab-item} ... GitLab
+```````{tab-set}
+``````{tab-item} ... GitLab
 
 In GitLab, you can directly make changes in the files on the remote repository. You can make changes to the files already in the repository using the text editor but you can also upload new files!
 
@@ -46,8 +46,8 @@ In GitLab, you can directly make changes in the files on the remote repository. 
 </figure>
 
 You can edit it and commit the changes in the same manner as with markdown (.md) files.
-````
-````{tab-item} ... GitHub
+``````
+``````{tab-item} ... GitHub
 
 How to make an edit and make a commit is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
  
@@ -74,6 +74,9 @@ In GitHub, you can directly make changes in the files on the remote repository. 
     <img src="figures/HubUser3_NewFile2.PNG" alt="Example Image" width="700">
 </figure>
 
+`````{tab-set}
+````{tab-item} ... using 'Edit in place'
+
 4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the downward pointing arrow on the very left in the top bar. Select the option `Edit in place`.
 
 <figure align="center">
@@ -93,8 +96,48 @@ In GitHub, you can directly make changes in the files on the remote repository. 
 </figure>
 
 You can edit it and commit the changes in the same manner as with markdown (.md) files.
+
 ````
-`````
+````{tab-item} ... using 'VS Code in your browser'
+
+Using this feature, you can open VS Code in your browser and edit the files in your repository. By doing this, you completely by-pass the need to open (and install) VS Code and GitHub Desktop on your laptop making it the optimal way to quickly fix something.
+
+1. Navigate to your main page (`code`) of your repository in GitHub
+2. Press the dot key on your keyboard `.` This will open VS Code
+3. Navigate to a file and make some changes
+
+```{figure} ./figures/Online_VS1.PNG
+:name: VS Code in Browser
+:width: 70%
+:align: center
+
+VS Code in Browser
+```
+In the bottom left you can see the branch you are working in.
+
+4. This feature requires you to use git in VS Code. You can do that in the Source Control tab in the activity bar on the left side of the window (it looks like a branching icon). Write your commit message and click on commit & push.
+5. Now let's see the result. Go back to your GitHub repo. In the top bar, go to actions.
+
+```{figure} ./figures/Online_VS2.PNG
+:name: GitHub Actions
+:width: 70%
+:align: center
+
+GitHub Actions
+```
+You will see the latest commit you just did (in this case text). After the pipeline has run, the yellow icon will turn green. Click on the commit and scroll until you see the title Deployed Branches.
+
+```{figure} ./figures/Online_VS3.PNG
+:name: Deployed Branches
+:width: 60%
+:align: center
+
+Deployed Branches
+```
+Click on the link and admire your changes:)
+
+``````
+```````
 ````````
 ````````{tab-item} ... user type 4 ...
 
@@ -611,43 +654,3 @@ Alternatively, you can also click on `Push origin` in the top bar.
 ```````
 ````````
 `````````
-
-## Additional Info - Quick Fixes - use VS Code in your Browser
-
-You might remember that when we introduced the [user types](/book/installation-and-setup/user_types.md), we quickly mentioned a cool feature for user type 3 wanting to get to know git and for user types 4 & 5 wanting to make a quick edit in the book with only a few clicks.
-
-Using this feature, you can open VS Code in your browser and edit the files in your repository. By doing this, you completely by-pass the need to open (and install) VS Code and GitHub Desktop on your laptop making it the optimal way to quickly fix something.
-
-1. Navigate to your repository in GitHub
-2. Press the dot key on your keyboard `.` This will open VS Code
-3. Navigate to a file and make some changes
-
-```{figure} ./figures/Online_VS1.PNG
-:name: VS Code in Browser
-:width: 70%
-:align: center
-
-VS Code in Browser
-```
-In the bottom left you can see the branch you are working in.
-
-4. This feature requires you to use git in VS Code. You can do that in the Source Control tab in the activity bar on the left side of the window (it looks like a branching icon). Write your commit message and click on commit & push.
-5. Now let's see the result. Go back to your GitHub repo. In the top bar, go to actions.
-
-```{figure} ./figures/Online_VS2.PNG
-:name: GitHub Actions
-:width: 70%
-:align: center
-
-GitHub Actions
-```
-You will see the latest commit you just did (in this case text). After the pipeline has run, the yellow icon will turn green. Click on the commit and scroll until you see the title Deployed Branches.
-
-```{figure} ./figures/Online_VS3.PNG
-:name: Deployed Branches
-:width: 60%
-:align: center
-
-Deployed Branches
-```
-Click on the link and admire your changes:)
