@@ -48,6 +48,7 @@ parts:
       - file: features/custom_download.md
       - file: external/Nested-Books/README.md
       - file: features/interactive_element.ipynb
+      - file: external/Sphinx-Image-Inverter/README.md
         sections:
         - file: features/grasple.md
         - file: features/h5p.md
@@ -59,7 +60,6 @@ parts:
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
-      - file: external/Sphinx-Image-Inverter/README.md
 
   - caption: Examples
     chapters:
