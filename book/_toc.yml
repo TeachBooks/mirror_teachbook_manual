@@ -60,7 +60,6 @@ parts:
         sections:
         - file: features/widgets.ipynb
         - file: features/exercise_checking.ipynb
-      - file: external/Sphinx-Image-Inverter/README.md
 
   - caption: Examples
     chapters:
