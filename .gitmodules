@@ -16,3 +16,6 @@
 [submodule "book/external/TeachBooks"]
 	path = book/external/TeachBooks
 	url = https://github.com/TeachBooks/TeachBooks.git
+[submodule "book/external/Sphinx-Image-Inverter"]
+	path = book/external/Sphinx-Image-Inverter
+	url = https://github.com/TeachBooks/Sphinx-Image-Inverter.git
