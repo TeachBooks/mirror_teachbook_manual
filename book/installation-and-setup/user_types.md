@@ -15,7 +15,7 @@ Different types of users will interact with the website or the Jupyter Books dif
 
 At this point, you might already be trying to see which user type fits you the best. We are aware that the lines between user types can be a bit blurry, especially between type 3, 4 and 5. For this reason, we would like to introduce a cool feature that we discovered.
 
-So in case you are (1) a user type 3 and want to dabble in git or (2) a user type 4/5 and want to make some quick edits with only a few clicks, then [this is a cool feature](/book/workflows/edit_book.md) that might come in handy later.
+So in case you are (1) a user type 3 and want to dabble in git or (2) a user type 4/5 and want to make some quick edits with only a few clicks, then [this is a cool feature](../workflows/edit_book.md) that might come in handy later.
 
 For now, just carry on with getting started.
 ```
