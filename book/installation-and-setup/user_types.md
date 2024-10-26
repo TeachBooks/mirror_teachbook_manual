@@ -17,8 +17,9 @@ Different types of users will interact with the website or the Jupyter Books dif
 5. **Colleague making text and code (especially Python) adjustments to multiple files at the same time locally**. <br>
     <img src="figures/type 5.jpg" alt="Example Image" align="right" width="120" style="margin: 20px;"><br>This user has more knowledge in GitLab/GitHub than the previous user and can basically take care of branching and merging by themselves. They know how to work with software for editing .md and .ipynb files. They can use the draft book online to view their changed in the book, or build the book locally.
 
+<br style="clear:both;">
 
 ```{Note}
 
-At this point, you might already be trying to see which user type fits you the best. We are aware that the lines between user types can be a bit blurry, especially between type 3, 4 and 5. If case you're (1) a user type 3 and want to dabble in git or (2) a user type 4/5 and want to make some quick edits with only a few clicks, then you might consider using a more advanced online editor in GitHub (GitHub Dev) as explained [further on in Collaborative book-editing - Edit - User type 3 - GitHub](../workflows/edit_book.md).
+At this point, you might already be trying to see which user type fits you the best. We are aware that the lines between user types can be a bit blurry, especially between type 3, 4 and 5. In case you're (1) a user type 3 and want to dabble in git or (2) a user type 4/5 and want to make some quick edits with only a few clicks, then you might consider using a more advanced online editor in GitHub (GitHub Dev) as explained further on in [Collaborative book-editing > Edit](../workflows/edit_book.md) > User type 3 > GitHub > Using VS Code in your browser.
 ```
