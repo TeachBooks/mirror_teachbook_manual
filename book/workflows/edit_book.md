@@ -47,7 +47,7 @@ In GitLab, you can directly make changes in the files on the remote repository. 
 
 You can edit it and commit the changes in the same manner as with markdown (.md) files.
 ``````
-``````{tab-item} ... GitHub 
+``````{tab-item} ... GitHub... 
 
 `````{tab-set}
 ````{tab-item} ... using 'Edit in place'
@@ -110,7 +110,7 @@ Using this feature, you can open VS Code in your browser and edit the files in y
 
 ```{figure} ./figures/Online_VS0.PNG
 :name: New File
-:width: 60%
+:width: 50%
 :align: center
 
 New File
