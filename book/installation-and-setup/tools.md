@@ -1,5 +1,5 @@
 # Tools
-The setup of tools is dependent on agreements you've made.
+The setup of tools is dependent on agreements you've made on collaboration.
 
 ## Collaboration in readme
 Provide explanation on how you organize the book-editing and how you'd like to receive feedback in both the readme as the published book. The use of the [issue button](https://jupyterbook.org/en/stable/basics/repository.html#add-a-button-to-open-issues) is advised for the published book.
