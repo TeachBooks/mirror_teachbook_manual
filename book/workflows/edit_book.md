@@ -366,21 +366,30 @@ Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 2. Once all the changes are made, it can be useful to check the changes locally on your device in order to see how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy! 
 
 Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+
 You will firstly need to actiavte the right environment. Type the following command:
 
 `conda activate jupyter-book-env`
 
 (or the environment in which you have installed the TeachBooks package)
 
-Then we can build the book locally. Make sure you are in the right repository in VS code and type the folloing command:
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
 
-`jupyter-book build book` 
+```
+teachbooks build <path-to-book>
+```
+Alternatively:
+```
+jupyter-book build <path-to-book> --all
+```
 
-Where book is the name of the folder containing all the files that make up your book. After `jupyter-book` is done running you will get the following:
+Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+
+Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} ../figures/buildbook.PNG
 
-Output.
+Output
 ```
 Paste the last line into your browser to see the updated changes. 
 
@@ -391,6 +400,9 @@ Sometimes there are problems building the book. It could be that the building re
 `pip install -r requirements.txt --upgrade`
 
 ```
+
+If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
+
 3. If you are satisfied with your changes, you can select the files ready to be added to Git-timeline (staging) 
 
 For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
@@ -419,13 +431,6 @@ In the bottom left corner, next to the branch name, click the "Synchronize Chang
 ```{figure} ../images/git-push.png
 
 After committing, click the 🔄 button to push our changes to the remote repository.
-
-```{Note}
-
-Missing from this chapter: startup python server.
-
-You can read more about it [here](/book/installation-and-setup/jupyter-book-setup.md)
-```
 ````
 
 ````{tab-item} ... GitHub Desktop
