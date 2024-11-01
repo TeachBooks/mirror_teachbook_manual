@@ -19,12 +19,10 @@ html:
 sphinx:
   extra_extensions:
   - sphinx_inline_tabs
-  - jupyterlite_sphinx
   - sphinx.ext.imgconverter
   - download_link_replacer
   - jupyterbook_patches
   config:
-    jupyterlite_config:  jupyterlite-config.json
     html_js_files:
     - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     thebe_config:
@@ -37,3 +35,4 @@ sphinx:
       launch_buttons:
           thebe: true
     html_show_copyright: false
+    html_last_updated_fmt: '%B %-d, %Y'
