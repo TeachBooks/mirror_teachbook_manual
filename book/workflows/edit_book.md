@@ -154,22 +154,20 @@ How to make an edit and make a commit using VS Code is demonstrated in the figur
 name: user4_clone_edit_demo
 ---
 Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
+```
 
 1. Make some changes to a file in for example VS Code and save them.
 
-2. Select the files ready to be added to Git-timeline (staging) 
-
+2. Select the files ready to be added to Git-timeline (staging) <br>
 For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
 ```{figure} ../images/git-new-file.png
 
 The new file appears in the Source Control menu.
 ```
-
 Notice that there is a green letter U placed besides the file, meaning that our file is untracked. To add a file to the *staging area*, click on the + that appears when you hover over the file. 
 
-3. Adding changes to the Git-timeline (committing)
-
+3. Adding changes to the Git-timeline (committing) <br>
 Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
 
 ```{figure} ../images/git-file-added.png
@@ -183,7 +181,7 @@ Now, we are ready to add the changes to the repository. This is done by *committ
 ```{figure} ../images/git-push.png
 
 After committing, click the 🔄 button to push our changes to the remote repository.
-
+```
 ````
 ````{tab-item} ... GitHub Desktop
 
@@ -248,7 +246,7 @@ Choose one of the options to resolve the merge conflict. You now have updated yo
 
 3. Make some further changes to a file in for example VS Code and save them.
 
-4.  Select the files ready to be added to Git-timeline (staging) 
+4. Select the files ready to be added to Git-timeline (staging) 
 
 For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
@@ -330,50 +328,8 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 Using this feature, you can open VS Code in your browser and edit the files in your repository. This can be really useful for **quick fixes** when you dont want to launch GitHub Dekstop or VS Code. However, we would recommend to limit the use of this feature to quick changes as the other workflows allow for more complex tasks.
 
-1. Navigate to the repository you want to work in and make sure you're in the correct branch.
-2. Navigate to your main page (`code`) of your repository in GitHub.
-3. Press the dot key on your keyboard `.` This will open VS Code.
-4. In case you want to add a new file, navigate to the explorer file (the page icon) and click on the `New File` icon. This will create a new file in the folder that you are in. Give it the right extension!
-
-```{figure} ./figures/Online_VS0.PNG
-:name: New File
-:width: 50%
-:align: center
-
-New File
+```{include} githu_dev.md
 ```
-
-5. In case you want to make changes to an existing file, navigate to a file and make some changes.
-
-```{figure} ./figures/Online_VS1.PNG
-:name: VS Code in Browser
-:width: 70%
-:align: center
-
-VS Code in Browser
-```
-In the bottom left you can see the branch you are working in.
-
-6. Once all the changes are made it's time to commit and push. GitHub Dev requires you to use git in VS Code. You can do that in the Source Control tab in the activity bar on the left side of the window (it looks like a branching icon). Write your commit message and click on commit & push.
-7. Now let's see the result. Go back to your GitHub repo. In the top bar, go to actions.
-
-```{figure} ./figures/Online_VS2.PNG
-:name: GitHub Actions
-:width: 70%
-:align: center
-
-GitHub Actions
-```
-You will see the latest commit you just did (in this case text). After the pipeline has run, the yellow icon will turn green. Click on the commit and scroll until you see the title Deployed Branches.
-
-```{figure} ./figures/Online_VS3.PNG
-:name: Deployed Branches
-:width: 60%
-:align: center
-
-Deployed Branches
-```
-Click on the link and admire your changes:)
 
 ````
 `````
@@ -387,7 +343,7 @@ Click on the link and admire your changes:)
 ``````{tab-item} ... for brand new version (branch)
 
 **... by (a) making changes on a single or multiple file(s) <br> 
-         (b) checking changes locally, <br>
+         (b) checking changes locally <br>
          (c) selecting changes to be added to the Git-timeline (staging) <br>
          (d) adding changes to the Git-timeline (committing) and <br>
          (e) adding changes to GitLab/GitHub (pushing) with ...**
@@ -406,37 +362,40 @@ Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 
 1. Make some changes to a file in for example VS Code and save them.
 
-2. Once all the changes are made, it can be useful to check the changes locally on your device in order to see how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy! 
+2. Once all the changes are made, it can be useful to check the changes locally on your device.<br />
+     
+    By doing that you can preview how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy. 
 
-Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+    Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+    You will firstly need to activate the right environment. Type the following command:
 
-You will firstly need to activate the right environment. Type the following command:
+```
+conda activate jupyter-book-env
+```
 
-`conda activate jupyter-book-env`
-
-(or the environment in which you have installed the TeachBooks package)
-
-Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
+    (or the environment in which you have installed the `teachbooks` package!)
+    
+    Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
 
 ```
 teachbooks build <path-to-book>
 ```
 
-Alternatively:
+    Alternatively:
 
 ```
 jupyter-book build <path-to-book> --all
 ```
 
-Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+    Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
-Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
+    Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} ../figures/buildbook.PNG
 
 Output
 ```
-Paste the last line into your browser to see the updated changes. 
+    Paste the last line into your browser to see the updated changes. 
 
 ```{Note} 
 
@@ -446,32 +405,32 @@ Sometimes there are problems building the book. It could be that the building re
 
 ```
 
-If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
+    If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
 
 3. If you are satisfied with your changes, you can select the files ready to be added to Git-timeline (staging) 
 
-For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
+    For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
 ```{figure} ../images/git-new-file.png
 
 The new file appears in the Source Control menu.
 ```
 
-Notice that there is a green letter U placed besides the file, meaning that our file is untracked. To add a file to the *staging area*, click on the + that appears when you hover over the file. 
+    Notice that there is a green letter U placed besides the file, meaning that our file is untracked. To add a file to the *staging area*, click on the + that appears when you hover over the file. 
 
 4. Adding changes to the Git-timeline (committing)
 
-Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
+    Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
 
 ```{figure} ../images/git-file-added.png
 
 The new file has been staged, and we've written a Commit Message.
 ```
-Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
+    Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
 
 5. Adding changes to GitLab/GitHub (pushing)
 
-In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab/GitHub.
+    In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab/GitHub.
 
 ```{figure} ../images/git-push.png
 
@@ -480,39 +439,42 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 
 ````{tab-item} ... GitHub Desktop
 
-1.. Make some changes to a file in for example VS Code and save them.
+1. Make some changes to a file in for example VS Code and save them.
 
-2. Once all the changes are made, it can be useful to check the changes locally on your device in order to see how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy! 
+2. Once all the changes are made, it can be useful to check the changes locally on your device.<br />
+     
+    By doing that you can preview how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy. 
 
-Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+    Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+    You will firstly need to activate the right environment. Type the following command:
 
-You will firstly need to activate the right environment. Type the following command:
+```
+conda activate jupyter-book-env
+```
 
-`conda activate jupyter-book-env`
-
-(or the environment in which you have installed the TeachBooks package)
-
-Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
+    (or the environment in which you have installed the `teachbooks` package!)
+    
+    Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
 
 ```
 teachbooks build <path-to-book>
 ```
 
-Alternatively:
+    Alternatively:
 
 ```
 jupyter-book build <path-to-book> --all
 ```
 
-Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+    Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
-Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
+    Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} ../figures/buildbook.PNG
 
 Output
 ```
-Paste the last line into your browser to see the updated changes. 
+    Paste the last line into your browser to see the updated changes. 
 
 ```{Note} 
 
@@ -522,29 +484,28 @@ Sometimes there are problems building the book. It could be that the building re
 
 ```
 
-If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
+    If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
 
 3. If you are satisfied with your changes, you can select the files ready to be added to Git-timeline (staging) 
 
-The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
+    The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
 
-<figure align="center">
-    <img src="figures/Stage_GitHubDekstop.PNG" alt="Example Image" width="400">
-</figure>
+```{figure} figures/Stage_GitHubDekstop.PNG
+width: 50%
 
-4. Add changes to Git-timeline locally (committing). In the field that says `Summary(Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
+Staging
+```
 
-5. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, the following screen will pop up. Click on `Push Origin`.
+4. Add changes to Git-timeline locally (committing). In the field that says `Summary (Required)`, write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, click the blue button `Commit to repository`.
 
-<figure align="center">
-    <img src="figures/Push_GitHubDesktop.PNG" alt="Example Image" width="650">
-</figure>
+5. Now we need to add changes to GitHub/GitLab. This is called pushing to the local repository. After committing, click on `Push Origin` in the top bar.
 
-Alternatively, you can also click on `Push origin` in the top bar. 
+```{figure} figures/Push_GitHubDekstop.PNG
+width: 100%
 
-<figure align="center">
-    <img src="figures/Push_GitHubDesktop2.PNG" alt="Example Image" width="650">
-</figure>
+Push origin
+```
+
 
 ````
 `````
