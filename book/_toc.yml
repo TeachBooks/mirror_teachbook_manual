@@ -44,7 +44,7 @@ parts:
       - file: external/TeachBooks/README.md
       - file: external/deploy-book-workflow/README.md
       - file: external/Nested-Books/README.md
-      - file: features/custom_download.md
+      - file: external/Download-Link-Replacer/README.md
       - file: external/Sphinx-Image-Inverter/README.md
       - file: external/JupyterBook-Patches/README.md
       - file: features/interactive_element.ipynb
