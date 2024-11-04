@@ -21,7 +21,7 @@ parts:
       - file: workflows/edit_book
       - file: workflows/check_changes_online
       - file: workflows/merge_request
-    - -file: installation-and-setup/collab
+    - file: installation-and-setup/collab
     - file: installation-and-setup/tools
     - file: installation-and-setup/creating_content.md
   - caption: Features
