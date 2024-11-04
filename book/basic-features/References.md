@@ -8,7 +8,8 @@ To make references to figures, equations et cetera, use the following syntax:
 
 **Examples**
 
-Using ``{numref}`Figure {number} <fig-gitpush>` `` produces the output: {numref}`Figure {number} <fig-gitpush>`. 
+- Using ``{numref}`Figure {number} <fig-gitpush>` `` produces the output: {numref}`Figure {number} <fig-gitpush>`. 
+
 ```{figure} ../images/git-push.png
 ---
 width: 50%
@@ -17,7 +18,7 @@ name: fig-gitpush
 Some caption here
 ```
 
-Or, the derivation results in equation {eq}`<eq:Newton>`.
+- Using ``{eq}`<eq:Newton>` `` to refer to Newton's second law {eq}`eq:Newton`.
 
 $$ F = m\cdot a $$(eq:Newton)
 

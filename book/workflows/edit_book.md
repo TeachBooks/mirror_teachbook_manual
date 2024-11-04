@@ -702,7 +702,7 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 Using this feature, you can open VS Code in your browser and edit the files in your repository. This can be really useful for **quick fixes** when you dont want to launch GitHub Dekstop or VS Code. However, we would recommend to limit the use of this feature to quick changes as the other workflows allow for more complex tasks.
 
-```{include} githu_dev.md
+```{include} github_dev.md
 ```
 
 ````
