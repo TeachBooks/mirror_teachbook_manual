@@ -1,4 +1,4 @@
-# Organize your editing team and tools
+# Organize your editing team, tools and URL
 
 ```{admonition} User types
 :class: tip
