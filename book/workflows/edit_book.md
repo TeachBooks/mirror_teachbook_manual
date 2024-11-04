@@ -17,42 +17,52 @@ In GitLab, you can directly make changes in the files on the remote repository. 
 
 2. Create a new file by clicking on the plus button in the top bar. You can either create an entirely new file by clicking `New File` or if you already have created a file you can upload it by clicking `Upload File`.
 
-<figure align="center">
-    <img src="figures/User3_NewFile.PNG" alt="Example Image" width="500">
-</figure>
+```{figure} figures/User3_NewFile.PNG
+width: 60%
+align: center
+
+Create new file
+```
 
 3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the blue button `Commit changes`.
 
-<figure align="center">
-    <img src="figures/User3_NewFile2.PNG" alt="Example Image" width="700">
-</figure>
+```{figure} figures/User3_NewFile2.PNG
+align: center
+
+Edit new file
+```
 
 4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the blue button called `Edit` and select the option `Edit single file`.
 
-<figure align="center">
-    <img src="figures/User3_EditFile.PNG" alt="Example Image" width="700">
-</figure>
+```{figure} figures/User3_EditFile.PNG
+align: center
+
+Web Editor
+```
 
 5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the blue `Commit changes` button.
 
-<figure align="center">
-    <img src="figures/User3_EditFile2.PNG" alt="Example Image" width="700">
-</figure>
+```{figure} figures/User3_NewFile2.PNG
+align: center
 
-6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template.
+Commit changes
+```
 
-<figure align="center">
-    <img src="figures/User3_toc.PNG" alt="Example Image" width="500">
-</figure>
+6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template. You can edit it and commit the changes in the same manner as you did with markdown `file.md` files.
 
-You can edit it and commit the changes in the same manner as with markdown (.md) files.
+```{figure} figures/User3_toc.PNG
+align: center
+
+Table of contents (TOC)
+```
 ``````
+
 ``````{tab-item} ... GitHub... 
 
 `````{tab-set}
 ````{tab-item} ... using 'Edit in place'
 
-How to make an edit and make a commit is demonstrated in the gif below. Don't worry if the steps are too fast, all steps are elaborated on in the following step-by-step tutorial.
+How to make an edit and make a commit is demonstrated in the gif below. <br> Don't worry if the steps are too fast, all steps are elaborated on in the following step-by-step tutorial.
  
 ```{figure} figures/user3-collaboration.gif
 ---
@@ -67,92 +77,63 @@ In GitHub, you can directly make changes in the files on the remote repository. 
 
 2. Create a new file by clicking on the button called `Add file` in the top bar. You can either create an entirely new file by clicking `Create new File` or if you already have created a file you can upload it by clicking `Upload files`.
 
-<figure align="center">
-    <img src="figures/HubUser3_NewFile.PNG" alt="Example Image" width="500">
-</figure>
+```{figure} figures/HubUser3_NewFile.PNG
+width: 80%
+align: center
 
-3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `Chapter1.md`. Once you are done, commit the new file to the repository by clicking the green button `Commit changes`.
+Create new file
+```
 
-<figure align="center">
-    <img src="figures/HubUser3_NewFile2.PNG" alt="Example Image" width="700">
-</figure>
+3. In the new window, you can start typing your content. Give your file a name and make sure to use the markdown extension: `file_name.md`. Once you are done, commit the new file to the repository by clicking the green button `Commit changes`.
+
+```{figure} figures/HubUser3_NewFile2.PNG
+width: 80%
+align: center
+
+Edit new file
+```
 
 4. In case you want to make changes to an existing file, navigate to the file in your remote repository. Then click the downward pointing arrow on the very left in the top bar. Select the option `Edit in place`.
 
-<figure align="center">
-    <img src="figures/HubUser3_EditFile.PNG" alt="Example Image" width="700">
-</figure>
+```{figure} figures/HubUser3_EditFile.PNG
+width: 80%
+align: center
+
+Edit in place
+```
 
 5. Make your changes in the text editor and when you are ready, commit your changes to the remote repository by clicking on the green `Commit changes` button.
 
-<figure align="center">
-    <img src="figures/HubUser3_EditFile2.PNG" alt="Example Image" width="700">
-</figure>
+```{figure} figures/HubUser3_EditFile2.PNG
+width: 80%
+align: center
 
-6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template.
+Commit changes
+```
 
-<figure align="center">
-    <img src="figures/HubUser3_toc.PNG" alt="Example Image" width="500">
-</figure>
+6. In case you added a new file, you also need to include it table of contents of your book! The table of contents is specified in a file called `toc.yml` and it is already included in your repository if you used the teachbooks template. You can edit it and commit the changes in the same manner as with markdown `(file.md)` files.
 
-You can edit it and commit the changes in the same manner as with markdown (.md) files.
+```{figure} figures/HubUser3_toc.PNG
+width: 80%
+align: center
 
+Table of contents
+```
 ````
+
 ````{tab-item} ... using 'VS Code in your browser'
 
 Using this feature, you can open VS Code in your browser and edit the files in your repository. By doing this, you completely by-pass the need to open (and install) VS Code and GitHub Desktop on your laptop making it the optimal way to quickly fix something. You can make changes to the files already in the repository but you can also upload new files!
 
-1. Navigate to the repository you want to work in and make sure you're in the correct branch
-2. Navigate to your main page (`code`) of your repository in GitHub
-3. Press the dot key on your keyboard `.` This will open VS Code
-
-4. In case you want to add a new file, navigate to the explorer file (the page icon) and click on the `New File` icon. This will create a new file in the folder that you are in. give it the right extension!
-
-```{figure} ./figures/Online_VS0.PNG
-:name: New File
-:width: 50%
-:align: center
-
-New File
+```{include} github_dev.md
 ```
-
-5. In case you want to make changes to an existing file, navigate to a file and make some changes
-
-```{figure} ./figures/Online_VS1.PNG
-:name: VS Code in Browser
-:width: 70%
-:align: center
-
-VS Code in Browser
-```
-In the bottom left you can see the branch you are working in.
-
-6. Once all the changes are made it's time to commit and push. GitHub Dev requires you to use git in VS Code. You can do that in the Source Control tab in the activity bar on the left side of the window (it looks like a branching icon). Write your commit message and click on commit & push.
-7. Now let's see the result. Go back to your GitHub repo. In the top bar, go to actions.
-
-```{figure} ./figures/Online_VS2.PNG
-:name: GitHub Actions
-:width: 70%
-:align: center
-
-GitHub Actions
-```
-You will see the latest commit you just did (in this case text). After the pipeline has run, the yellow icon will turn green. Click on the commit and scroll until you see the title Deployed Branches.
-
-```{figure} ./figures/Online_VS3.PNG
-:name: Deployed Branches
-:width: 60%
-:align: center
-
-Deployed Branches
-```
-Click on the link and admire your changes:)
 
 ````
 `````
 ``````
 ```````
 ````````
+
 ````````{tab-item} ... user type 4 ...
 
 ```````{tab-set}
@@ -176,7 +157,7 @@ Demonstration, video available [here](https://youtu.be/bThimdDRXTc)
 
 1. Make some changes to a file in for example VS Code and save them.
 
-2.  Select the files ready to be added to Git-timeline (staging) 
+2. Select the files ready to be added to Git-timeline (staging) 
 
 For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
@@ -760,51 +741,8 @@ Alternatively, you can also click on `Push origin` in the top bar.
 
 Using this feature, you can open VS Code in your browser and edit the files in your repository. This can be really useful for **quick fixes** when you dont want to launch GitHub Dekstop or VS Code. However, we would recommend to limit the use of this feature to quick changes as the other workflows allow for more complex tasks.
 
-1. Navigate to the repository you want to work in and make sure you're in the correct branch.
-2. Navigate to your main page (`code`) of your repository in GitHub.
-3. Press the dot key on your keyboard `.` This will open VS Code.
-4. In case you want to add a new file, navigate to the explorer file (the page icon) and click on the `New File` icon. This will create a new file in the folder that you are in. Give it the right extension!
-
-```{figure} ./figures/Online_VS0.PNG
-:name: New File
-:width: 50%
-:align: center
-
-New File
+```{include} githu_dev.md
 ```
-
-5. In case you want to make changes to an existing file, navigate to a file and make some changes.
-
-```{figure} ./figures/Online_VS1.PNG
-:name: VS Code in Browser
-:width: 70%
-:align: center
-
-VS Code in Browser
-```
-In the bottom left you can see the branch you are working in.
-
-6. Once all the changes are made it's time to commit and push. GitHub Dev requires you to use git in VS Code. You can do that in the Source Control tab in the activity bar on the left side of the window (it looks like a branching icon). Write your commit message and click on commit & push.
-7. Now let's see the result. Go back to your GitHub repo. In the top bar, go to actions.
-
-```{figure} ./figures/Online_VS2.PNG
-:name: GitHub Actions
-:width: 70%
-:align: center
-
-GitHub Actions
-```
-You will see the latest commit you just did (in this case text). After the pipeline has run, the yellow icon will turn green. Click on the commit and scroll until you see the title Deployed Branches.
-
-```{figure} ./figures/Online_VS3.PNG
-:name: Deployed Branches
-:width: 60%
-:align: center
-
-Deployed Branches
-```
-Click on the link and admire your changes:)
-
 
 ````
 `````
