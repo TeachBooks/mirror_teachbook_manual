@@ -1,4 +1,4 @@
-# Content & Copyright
+# Before doing any content: copyright
 
 The previous sections have familiarized you with the necessary software for your user type, the basics of Git, and how to collaborate with your team using Git.  Now it's time to create your own content. This section will provide an overview of the copy right laws which need to be taking into account when creating and including content at TU Delft!
 
