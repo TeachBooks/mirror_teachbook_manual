@@ -1,4 +1,9 @@
-# Team and collaboration
+# Organize editing team, collaboration and visibility
+
+```{admonition} User types
+:class: tip
+This page is useful for user type 4-5.
+```
 
 ## Roles and responsibilities
 To ensure smooth collaboration, it is essential to define the roles and responsibilities within your team. Firstly, designate who will be in charge of team organization ('administrators') who should be at least user type 4. Additionally, assign 'maintainers' responsible for combining content, also requiring at least user type 4. 'Editors' should be identified for editing and reviewing content, requiring at least user type 3.

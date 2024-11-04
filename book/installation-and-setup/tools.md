@@ -1,5 +1,11 @@
-# URLs and tools
-The setup of tools is dependent on agreements you've made on collaboration.
+# Choose URLs and tools
+
+```{admonition} User types
+:class: tip
+This page is useful for user type 4-5.
+```
+
+The setup of tools and URLs is dependent on agreements you've made on [collaboration](./collab.md).
 
 ## Collaboration in readme
 Provide explanation on how you organize the book-editing and how you'd like to receive feedback in both the readme as the published book. The use of the [issue button](https://jupyterbook.org/en/stable/basics/repository.html#add-a-button-to-open-issues) is advised for the published book.
@@ -64,7 +70,7 @@ GitHub has a nice integration with the [GitHub Desktop application](git-setup_lo
 
 ### Summary
 Here's a table summarizing the information:
-|  | GitHub   | GitLab      |
+|  | GitHub   | TU Delft GitLab      |
 |--|----------|-------------|
 | Book url  | GitHub pages (`<organization/username>.github.io/<book>`), for TU Delft GitHub Enterprise with SSO a random URL (`<random>.github.io/<book>`), or custom url `<anything>.<anything>/<book>`> 🌐         | TeachBooks (`teachbooks.tudelft.nl/<book>`) or TU Delft OIT (`interactivetextbooks.tudelft.nl/<book>`) 🎓 |
 | Real-time book editing | Automated and flexible (multiple version of the book, building error insights, fast, custom urls)  🚀   | Automated but simplistic (not easily adaptable, no caching environments, no visual summaries, no parallel processes) 🛵 For TU Delft OIT: restricted adaptations because of copyright checks 🚫   |
