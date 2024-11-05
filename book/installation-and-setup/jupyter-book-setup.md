@@ -32,7 +32,7 @@ Note: use `--all` for the jupyter-book whenever building a book to make sure the
 
 Once the build process is completed successfully, you will see the file location in your terminal output. Your terminal will look something like this. Simply open this in the browser (you may have to copy/paste).
 
-```{figure} ./figures/Terminal.PNG
+```{figure} figures/Terminal.PNG
 ---
 width: 80%
 name: terminal

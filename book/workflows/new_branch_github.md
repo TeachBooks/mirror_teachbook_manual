@@ -1,9 +1,7 @@
 How to branch is demonstrated in the figure below, all steps are elaborated on in the following step-by-step tutorial.
 
 ```{figure} figures/branching-github-ezgif.com-optimize.gif
----
-name: branching_demo
----
+
 Demonstration, video available [here](https://youtu.be/3ceMSLQpD70)
 ```
 

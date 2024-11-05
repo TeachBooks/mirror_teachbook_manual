@@ -37,9 +37,9 @@ Resulting in:
 
 $$
     F = m \cdot a
-$$ (newtons_second_law_2)
+$$ (show_newtons_second_law)
 
-Equation {eq}`newtons_second_law_2` can now be referred to.
+Equation {eq}`show_newtons_second_law` can now be referred to.
 
 > **Note**
 > 

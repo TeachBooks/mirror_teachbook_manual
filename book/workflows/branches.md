@@ -211,8 +211,8 @@ The branch selection menu, where our new branch has shown up. From this menu you
 
 Since you are working in a repository with multiple colleagues, it is good practice to make sure your local repository is up to date. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repository. Therefore, you first need to pull all the changes from the remote repository to your local repository. Simply click the Icon with the two arrows.
 
-```{figure} ../figures/Pull_VS.PNG
-:name: Pull_VS
+```{figure} figures/Pull_VS.PNG
+name: Pull_VS
 
 Location of the branch menu.
 ```
@@ -226,17 +226,21 @@ The next step is to *check out* our new branch in GitHub Desktop. *Checking out*
 
 In GitHub Desktop, the top bar has a menu called `Current Branch`. By clicking on it you can see all the branches you created on the remote repository. 
 
-```{figure} ../figures/CheckOutBranch_GitHubDesktop.PNG
+```{figure} figures/CheckOutBranch_GitHubDesktop.PNG
+
+Branches overview
 ```
 2. Check out the branch by simply clicking on it. The following window will pop up.
 
-```{figure} ../figures/CheckOutBranch_GitHubDesktop2.PNG
+```{figure} figures/CheckOutBranch_GitHubDesktop2.PNG
+
+Leave changes
 ```
 Leave your changes (stashed) on your working branch, in this case I was working in the branch called `collaboration git`.
 
 3. Check that the branch is indeed checked out by looking at the branch menu at the the top left again; the current branch should say the name. 
 
-4. Update your repository**
+4. Update your repository
 
 Since you are working in a repository with multiple colleagues, it is good practice to make sure your local repository is up to date. This is especially important when you want to work in an existing branch. In that case you want to make sure that the existing branch shows in your local repository. Therefore, you first need to pull all the changes from the remote repository to your local repository.  
 
@@ -249,7 +253,7 @@ This synchronizes the remote repository with your local repository on your compu
 
 ``````
 ```````
-**Now that you have created and checked out your new branch, you can start {ref}`making and committing changes <stage-commit-push>`.**
+**Now that you have created and checked out your new branch, you can start [making and committing changes](edit_book.md).**
 
 ````````
 `````````
