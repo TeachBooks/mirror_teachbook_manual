@@ -16,7 +16,7 @@ DSAIE Overview Page
 ```
 While the left menu shows the first two chapters in the table of contents (Home & Logistics), the right hand side menu shows the sections of the current chapter where an introduction is given on the different units of the course, the responsible lecturers as well as the schedule of lectures and practicals. Additionally, the book layout is explained to the students which can help clarify how to use the interactive sections! 
 
-The anatomy  of a jupyter book is explained more in detail in [this](/jupyter-book-manual/book/basic-features/jupyterbook.md) page. In short, you can create structure in your book by having chapters and subschapters defined in the `.toc` file. In each chapter you can organize the content in sections using the `#` syntax which is visible in the menu on the right.
+The anatomy  of a jupyter book is explained more in detail on [this page](../basic-features/jupyterbook.md). In short, you can create structure in your book by having chapters and subschapters defined in the `.toc` file. In each chapter you can organize the content in sections using the `#` syntax which is visible in the menu on the right.
 
 ## Tagged content
 

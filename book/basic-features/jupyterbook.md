@@ -9,7 +9,7 @@ To build a Jupyter Book, you need three things:
 ## The configuration file
 The configuration file of Jupyter Books is named `_config.yml`. It mainly contains settings that apply when building the book. Here is a basic example of a configuration file, taken from this book:
 
-```yml
+```yaml
 title: Jupyter Book Manual
 author: Interactive Textbooks CiTG
 logo: images/TUDelft_logo_rgb.png
@@ -43,7 +43,7 @@ The configuration and table of contents files are in YAML format (short for YAML
 
 The table of contents (`_toc.yml`) file is where you define the structure of your book. You can organize content in *parts*, *chapters*, and *sections* (and subsections, each new section creating a dropdown menu in the ToC). This is what a table of contents could look like:
 
-```yml
+```yaml
 - format: jb-book
 - root: intro
 
@@ -61,7 +61,7 @@ et cetera...
 
 `root` is the landing page of your book. It will be the first page that people see when they visit the book. You can include files by providing their *relative* path (so the location with respect to `_toc.yml`). These files can be a combination of Markdown, Jupyter Notebooks, and Restructured Text. The example above does not have parts, so the menu on the left will consist of just a list of the chapters. You can also group chapters in parts like this:
 
-```yml
+```yaml
 - format: jb-book
 - root: <homepage>
 

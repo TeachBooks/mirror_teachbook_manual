@@ -5,7 +5,7 @@
 This page is useful for user type 5.
 ```
 
-<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository. At TeachBooks we developed a Python package called `teachbooks` which takes over the these features and adds [additional features](/book/features/overview.md). One of those additional features, for example, is the workflow to GitHub Pages. 
+<a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> is a regular Python package which converts our content into a website. It's part of all of the `requirements.txt` files for a book repository. At TeachBooks we developed a Python package called `teachbooks` which takes over the these features and adds [additional features](../features/overview.md). One of those additional features, for example, is the workflow to GitHub Pages. 
 
 Concretely, this means that the teachbooks package can be used to replace the <a href="https://jupyterbook.org/"><img  style="display:inline-block; height:1.5em; width:auto; transform:translate(0, -0.15em)" src="../images/logo-wide.svg" alt="Jupyter book"></a> package when calling these features. You could think of it as `jupyter-book` being a dependency of `teachbooks`.
 

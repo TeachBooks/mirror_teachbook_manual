@@ -8,5 +8,5 @@ This chapter provides a list of commonly used book features together with sub-pa
 - how to use them
 - where to find the source code
 
-To see examples for these features, go to the [Examples chapter](/book/examples/overview.md).
+To see examples for these features, go to the [Examples chapter](../examples/overview.md).
 
