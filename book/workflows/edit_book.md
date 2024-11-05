@@ -366,38 +366,38 @@ Demonstration, video available [here](https://youtu.be/2ttjBevkEP8)
 
 2. Once all the changes are made, it can be useful to check the changes locally on your device.<br />
      
-    By doing that you can preview how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy. 
+By doing that you can preview how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy. 
 
-    Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
-    You will firstly need to activate the right environment. Type the following command:
+Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+You will firstly need to activate the right environment. Type the following command:
 
 ```
 conda activate jupyter-book-env
 ```
 
-    (or the environment in which you have installed the `teachbooks` package!)
-    
-    Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
+(or the environment in which you have installed the `teachbooks` package!)
+
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
 
 ```
 teachbooks build <path-to-book>
 ```
 
-    Alternatively:
+Alternatively:
 
 ```
 jupyter-book build <path-to-book> --all
 ```
 
-    Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
-    Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
+Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} figures/buildbook.PNG
 
 Output
 ```
-    Paste the last line into your browser to see the updated changes. 
+Paste the last line into your browser to see the updated changes. 
 
 ```{Note} 
 
@@ -407,32 +407,32 @@ Sometimes there are problems building the book. It could be that the building re
 
 ```
 
-    If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
+If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
 
 3. If you are satisfied with your changes, you can select the files ready to be added to Git-timeline (staging) 
 
-    For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
+For demonstration purposes, we have created a new Markdown file called `new-chapter.md`, which we want to add to the book. Since this is a new file, Git has no knowledge about its existence yet. I.e., the file is *untracked*. To add new files to our repository, we need to *stage* and *commit* them. To do this, open the Source Control menu in the left side bar. Our new file should appear in this menu:
 
 ```{figure} ../images/git-new-file.png
 
 The new file appears in the Source Control menu.
 ```
 
-    Notice that there is a green letter U placed besides the file, meaning that our file is untracked. To add a file to the *staging area*, click on the + that appears when you hover over the file. 
+Notice that there is a green letter U placed besides the file, meaning that our file is untracked. To add a file to the *staging area*, click on the + that appears when you hover over the file. 
 
 4. Adding changes to the Git-timeline (committing)
 
-    Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
+Next, in the field that says "Message", write a short description of the changes you have made. This message is what is called the *Commit Message*. After we've done this, the menu should now look something like this:
 
 ```{figure} ../images/git-file-added.png
 
 The new file has been staged, and we've written a Commit Message.
 ```
-    Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
+Now, we are ready to add the changes to the repository. This is done by *committing* the staged changes. To do this, simply press the big, blue "Commit" button in the Source Control menu. 
 
 5. Adding changes to GitLab/GitHub (pushing)
 
-    In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab/GitHub.
+In the bottom left corner, next to the branch name, click the "Synchronize Changes" button (the one that looks like this: 🔄, highlighted in the image below) to push the changes to GitLab/GitHub.
 
 ```{figure} ../images/git-push.png
 
@@ -445,38 +445,38 @@ After committing, click the 🔄 button to push our changes to the remote reposi
 
 2. Once all the changes are made, it can be useful to check the changes locally on your device.<br />
      
-    By doing that you can preview how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy. 
+By doing that you can preview how it will look on the website. If all the required environments and packages are downloaded, checking changes locally is fairly easy. 
 
-    Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
-    You will firstly need to activate the right environment. Type the following command:
+Navigate to the terminal in VS code, located at the bottom of the window or by clicking on `Terminal` in the top bar.
+You will firstly need to activate the right environment. Type the following command:
 
 ```
 conda activate jupyter-book-env
 ```
 
-    (or the environment in which you have installed the `teachbooks` package!)
-    
-    Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
+(or the environment in which you have installed the `teachbooks` package!)
+
+Then we can build the book locally. Make sure you are in the right repository in VS code and type the following command:
 
 ```
 teachbooks build <path-to-book>
 ```
 
-    Alternatively:
+Alternatively:
 
 ```
 jupyter-book build <path-to-book> --all
 ```
 
-    Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
+Note: use `--all` for the jupyter-book whenever building a book to make sure the table of contents fully updates. Or alternatively, delete the old `_build` folder before building the new book.
 
-    Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
+Where book is the name of the folder containing all the files that make up your book. After `teachbooks` is done running you will get the following:
 
 ```{figure} figures/buildbook.PNG
 
 Output
 ```
-    Paste the last line into your browser to see the updated changes. 
+Paste the last line into your browser to see the updated changes. 
 
 ```{Note} 
 
@@ -486,11 +486,11 @@ Sometimes there are problems building the book. It could be that the building re
 
 ```
 
-    If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
+If your book includes interactive element a webserver is required to host the book. If you want to do this locally, you can make use of (the teachbooks package to start up a local webserver)[setup-local-server]
 
 3. If you are satisfied with your changes, you can select the files ready to be added to Git-timeline (staging) 
 
-    The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
+The staging GitHub Desktop assumes you want to stage all files. These files will show up on the left side bar when you open GitHub Desktop. You can unselect some of them (unstaging them) by clicking on the *check*. 
 
 ```{figure} figures/Stage_GitHubDekstop.PNG
 width: 50%

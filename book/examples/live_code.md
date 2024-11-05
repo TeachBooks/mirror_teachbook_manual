@@ -17,9 +17,9 @@ align: center
 ---
 Rocket Button
 ```
-To activate the live coding, the rocket button has to be activated like in the figure above. It's always useful to point this out in the beginning of the chapter because it might not be obvious to new users. Here's a not eused in the MUDE book
+To activate the live coding, the rocket button has to be activated like in the figure above. It's always useful to point this out in the beginning of the chapter because it might not be obvious to new users. Here's a note used in the MUDE book.
 
-```{Interactive Pages—Use Python in your Browser!}
+```{Note} Interactive Pages — Use Python in your Browser!
 This online textbook has a number of pages that are set up to be used interactively. You can use the “Live Code” button under the Rocket Ship icon in the top right to activate the interactive features and use Python interactively!
 
 Sometimes the interactivity will involve completing an exercise, wheras on other pages it might simply provide the opportunity to edit the contents of code cells and execute it to explore the page contents interactively. Other pages may provide interactive figures (e.g., widgets).
