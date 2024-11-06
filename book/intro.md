@@ -14,6 +14,6 @@ This book will continue to develop, so feel free to contribute https://gitlab.tu
 
 The released book can be found on on https://teachbooks.tudelft.nl/jupyter-book-manual. This page shows the built book of the `release` branch. The `main` branch is meant for reviewing and is visible here: https://teachbooks.tudelft.nl/jupyter-book-manual/draft. All branches will also be visible on the mirrored repository on GitHub Pages: https://github.com/TeachBooks/mirror_teachbook_manual/actions
 
-Some parts of this book are taken from other sources in the form of submodules (linked in the folder [book/external](book/external)). To contribute to those pages, contribute to the source repository directly with a fork and merge/pull request. If you intent to clone this boko including its submodules, clone using: `git clone --recurse-submodules git@gitlab.tudelft.nl:interactivetextbooks-citg/jupyter-book-manual.git`
+Some parts of this book are taken from other sources in the form of submodules (linked in the folder [book/external](https://gitlab.tudelft.nl/interactivetextbooks-citg/jupyter-book-manual/-/tree/main/book/external)). To contribute to those pages, contribute to the source repository directly with a fork and merge/pull request. If you intent to clone this boko including its submodules, clone using: `git clone --recurse-submodules git@gitlab.tudelft.nl:interactivetextbooks-citg/jupyter-book-manual.git`
 
 Happy book building!
