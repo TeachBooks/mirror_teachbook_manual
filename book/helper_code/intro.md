@@ -4,7 +4,7 @@ This chapter contains a few scripts which can be useful in the book-editing proc
  - [LaTeX to markdown conversion](../external/latex-to-markdown-conversion/README.md) to convert a LaTeX file into jupyter-book compatible markdown.
  - [Snippitall](Snippitall) to insert the same code snippet at a certain point in each md file in a specific folder and all subfolder. 
  - [Snippitonce](Snippitonce) to insert the same code snippet at a certain point in each md file only in a specific folder. 
- - [Extensionchecker](extensionchecker) to identify the kind of files present in subfolder
- - [Filedownloader](filedownloader) to return the downloadlink for markdown for all files with a specified extension
+ - [Extensionchecker](Extensionchecker) to identify the kind of files present in subfolder
+ - [Filedownloader](Filedownloader) to return the downloadlink for markdown for all files with a specified extension
  - [Figreturner](figreturner) to return the markdown code for a figure in a specific extension
  - [Figshrinker](../external/Useful_python_code/figshrinker.ipynb) to compress JPEG images.

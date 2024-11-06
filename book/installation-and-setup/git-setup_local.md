@@ -127,6 +127,6 @@ This is a (non-exhaustive) list of terminology that will be used in Git for loca
 - Tracked (files): files that Git knows about and keeps track of their history.
 - Untracked (files): files that Git does not yet know about.
 
-## More on GitLab
+## More on GitLab/GitHub
 
-To get to know more about working in GitLab and getting familiar with its features, click [here](/jupyter-book-manual/book/workflows/overview.md) or watch this [video](https://www.youtube.com/watch?v=1SBtM3znviU&t=1s)!
+To get to know more about working in GitLab/GitHub and getting familiar with its features, click [here](../workflows/collaboration.md) or watch this [video](https://www.youtube.com/watch?v=1SBtM3znviU&t=1s)!

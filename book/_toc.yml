@@ -4,23 +4,23 @@ root: intro
 parts:
   - caption: Getting started!
     chapters:
-    - file: installation-and-setup/user_types
-    - file: installation-and-setup/git
-    - file: installation-and-setup/overview
+    - file: installation-and-setup/user_types.md
+    - file: installation-and-setup/git.md
+    - file: installation-and-setup/overview.md
       sections:
-      - file: installation-and-setup/vscode-setup
-      - file: installation-and-setup/git-setup_local
-      - file: installation-and-setup/anaconda
+      - file: installation-and-setup/vscode-setup.md
+      - file: installation-and-setup/git-setup_local.md
+      - file: installation-and-setup/anaconda.md
       - file: installation-and-setup/git_bash_conda_vs-code.md
-      - file: installation-and-setup/jupyter-book-setup
+      - file: installation-and-setup/jupyter-book-setup.md
     - file: external/template/README.md
-    - file: workflows/collaboration
+    - file: workflows/collaboration.md
       sections:
-      - file: workflows/milestones_issues
-      - file: workflows/branches
-      - file: workflows/edit_book
-      - file: workflows/check_changes_online
-      - file: workflows/merge_request
+      - file: workflows/milestones_issues.md
+      - file: workflows/branches.md
+      - file: workflows/edit_book.md
+      - file: workflows/check_changes_online.md
+      - file: workflows/merge_request.md
     - file: installation-and-setup/collab
     - file: installation-and-setup/tools
     - file: installation-and-setup/creating_content.md
@@ -39,7 +39,7 @@ parts:
         title: Banner or Announcement
       - file: basic-features/hypothesis.md
       - file: basic-features/utterances.md
-    - file: features/overview
+    - file: features/overview.md
       sections:
       - file: external/TeachBooks/README.md
       - file: external/deploy-book-workflow/README.md

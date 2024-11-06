@@ -14,13 +14,13 @@ The steps involved are as follows:
  1. **Assign a task to yourself (milestones, issues)**
  2. **Create your own version of the book as...**
 ```````{tab-set}
-``````{tab-item} ... user type 3...
+``````{tab-item} ... user type 3 ...
 
 **... by creating your own version of the book (branching) or selecting existing version:**
 
  - branching
 ``````
-``````{tab-item} ... user type 4 and 5
+``````{tab-item} ... user type 4 and 5.
 
 `````{tab-set}
 ````{tab-item} Open repository for first time...
@@ -49,14 +49,14 @@ The steps involved are as follows:
  3. **Edit the book as ...**
 
 ```````{tab-set}
-``````{tab-item} ... user type... 3
+``````{tab-item} ... user type 3 ... 
 
 **... by directly adding changes on a single file to Git-timeline (committing):**
 
  - adding file or making changes to single file
  - committing
 ``````
-``````{tab-item} ... user type 4...
+``````{tab-item} ... user type 4 ...
 
 `````{tab-set}
 ````{tab-item} ... on a brand new version (branch)...
@@ -90,7 +90,7 @@ The steps involved are as follows:
 ````
 `````
 ``````
-``````{tab-item} ... user type 5...
+``````{tab-item} ... user type 5 ...
 `````{tab-set}
 ````{tab-item} ... on a brand new version (branch)...
 

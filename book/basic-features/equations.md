@@ -1,6 +1,8 @@
 # Equations
 
-Equations can be included in two ways: inline or display mode. To make an inline equation, just put the LaTeX equation between \$-signs. For example, `$F = m \cdot a$` produces: $F = m \cdot a$. 
+Equations can be included in two ways: inline or display mode. 
+
+To make an inline equation, just put the LaTeX equation between \$-signs. For example, `$F = m \cdot a$` produces: $F = m \cdot a$. 
 
 Display mode equations (the ones that take up a whole line), can be inserted using double \$-signs, like this:
 
@@ -35,9 +37,9 @@ Resulting in:
 
 $$
     F = m \cdot a
-$$ (newtons_second_law)
+$$ (show_newtons_second_law)
 
-Equation {eq}`newtons_second_law` can now be referred to.
+Equation {eq}`show_newtons_second_law` can now be referred to.
 
 > **Note**
 > 
