@@ -11,10 +11,10 @@ only_build_toc_files: true
 html:
   favicon : "images/favicon.ico"
   baseurl  : "https://teachbooks.tudelft.nl/jupyter-book-manual/"
-# START DRAFT
+# START REMOVE-FROM-PUBLISH
   comments:
     hypothesis: true
-# END DRAFT
+# END REMOVE-FROM-PUBLISH
 
 sphinx:
   extra_extensions:
