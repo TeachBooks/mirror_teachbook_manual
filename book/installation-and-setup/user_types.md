@@ -21,5 +21,11 @@ Different types of users will interact with the website or the Jupyter Books dif
 
 ```{Note}
 
-At this point, you might already be trying to see which user type fits you the best. We are aware that the lines between user types can be a bit blurry, especially between type 3, 4 and 5. In case you're (1) a user type 3 and want to dabble in git or (2) a user type 4/5 and want to make some quick edits with only a few clicks, then you might consider using a more advanced online editor in GitHub (GitHub Dev) as explained further on in [Collaborative book-editing > Edit](../workflows/edit_book.md) > User type 3 > GitHub > Using VS Code in your browser.
+At this point, you might already be trying to see which user type fits you the best. We are aware that the lines between user types can be a bit blurry, especially between type 3, 4 and 5. In case you're <br />(1) a user type 3 and want to dabble in git or <br />(2) a user type 4/5 and want to make some quick edits with only a few clicks,<br> then you might consider using a more advanced online editor in GitHub (GitHub Dev) as explained further on in [Collaborative book-editing > Edit](../workflows/edit_book.md) > User type 3 > GitHub > Using VS Code in your browser.
+
+[user 3](githib_dev_user3)
+
+[user 4](githib_dev_user4)
+
+[user 5](githib_dev_user5)
 ```

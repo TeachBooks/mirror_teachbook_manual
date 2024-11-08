@@ -123,6 +123,8 @@ Table of contents
 
 ````{tab-item} ... using 'VS Code in your browser'
 
+(githib_dev_user3)=
+
 Using this feature, you can open VS Code in your browser and edit the files in your repository. By doing this, you completely by-pass the need to open (and install) VS Code and GitHub Desktop on your laptop making it the optimal way to quickly fix something. You can make changes to the files already in the repository but you can also upload new files!
 
 ```{include} github_dev.md
@@ -328,7 +330,10 @@ Alternatively, you can also click on `Push origin` in the top bar.
 ````
 ````{tab-item} ... using 'VS Code in your browser'
 
+(githib_dev_user4)=
+
 Using this feature, you can open VS Code in your browser and edit the files in your repository. This can be really useful for **quick fixes** when you dont want to launch GitHub Dekstop or VS Code. However, we would recommend to limit the use of this feature to quick changes as the other workflows allow for more complex tasks.
+
 
 ```{include} github_dev.md
 ```
@@ -699,6 +704,8 @@ Alternatively, you can also click on `Push origin` in the top bar.
 </figure>   
 ````
 ````{tab-item} ... using 'VS Code in your browser'
+
+(githib_dev_user5)=
 
 Using this feature, you can open VS Code in your browser and edit the files in your repository. This can be really useful for **quick fixes** when you dont want to launch GitHub Dekstop or VS Code. However, we would recommend to limit the use of this feature to quick changes as the other workflows allow for more complex tasks.
 
