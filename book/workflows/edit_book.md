@@ -1,5 +1,6 @@
 # Edit (merge conflicts, staging, committing, pushing)
 
+
 Suppose we are writing a new chapter, or are updating an existing chapter for our Jupyter Book. We've created a new branch on which we are going to make the changes.
 
 **Edit files as ...**
